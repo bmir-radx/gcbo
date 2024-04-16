@@ -1,0 +1,24 @@
+id: gcbo
+title: "Global Code Book Ontology"
+github_org: ckindermann
+repo: gbco
+git_main_branch: main
+use_context: true
+uribase: "https://github.com/bmir-radx/gcbo"
+release_artefacts: 
+  - base
+  - full
+  - simple
+primary_release: full
+export_formats:
+  - owl
+  - obo
+  - json
+import_group:
+  products: 
+    - id: symp
+robot_java_args: '-Xmx64G'
+
+
+documentation:
+  documentation_system: mkdocs
