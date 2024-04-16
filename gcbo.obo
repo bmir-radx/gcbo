@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: https://github.com/bmir-radx/gcbo/gcbo/releases/2024-04-16/gcbo.owl
+ontology: https://github.com/bmir-radx/gcbo/gcbo.owl
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "Global Code Book Ontology" xsd:string
+property_value: owl:versionInfo "2024-04-16" xsd:string
+
+[Term]
+id: GCBO:0000000
+name: root node
+

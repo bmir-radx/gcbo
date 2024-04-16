@@ -1,0 +1,38 @@
+{
+  "graphs" : [ {
+    "id" : "https://github.com/bmir-radx/gcbo/gcbo/gcbo-full.json",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "None"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/unspecified"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Global Code Book Ontology"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2024-04-16"
+      } ],
+      "version" : "https://github.com/bmir-radx/gcbo/gcbo/releases/2024-04-16/gcbo-full.json"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.org/dc/terms/description",
+      "lbl" : "description",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "lbl" : "license",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
+      "lbl" : "title",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/GCBO_0000000",
+      "lbl" : "root node",
+      "type" : "CLASS"
+    } ]
+  } ]
+}
