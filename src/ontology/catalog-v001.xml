@@ -5,6 +5,8 @@
   
   
   <uri name="https://github.com/bmir-radx/gcbo/gcbo/imports/symp_import.owl" uri="imports/symp_import.owl"/>
+  <uri name="https://github.com/bmir-radx/gcbo/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+
   
   
 

@@ -13,6 +13,8 @@ Ontology(<https://github.com/bmir-radx/gcbo/gcbo.owl>
 
 
 Import(<https://github.com/bmir-radx/gcbo/gcbo/imports/symp_import.owl>)
+Import(<https://github.com/bmir-radx/gcbo/patterns/definitions.owl>)
+
 
 
 
@@ -44,4 +46,3 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/GCBO_0000000> 
 
 
 )
-
