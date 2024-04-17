@@ -1,0 +1,21 @@
+pattern_name: data_element_mapping
+
+pattern_iri: https://bmir-radx.github.io/patterns/data_element.yaml
+
+description: 'Pattern mapping data elements to related terms from external ontologies'
+
+classes:
+  thing: owl:Thing
+
+annotationProperties:
+  see_also: rdfs:seeAlso
+
+vars:
+  mapping: thing
+
+annotations:
+- annotationProperty: see_also
+  var: mapping
+
+
+  

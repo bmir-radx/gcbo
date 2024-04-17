@@ -16,6 +16,11 @@ These are the current imports in GCBO
 
 | Import | URL | Type |
 | ------ | --- | ---- |
+| hp | http://purl.obolibrary.org/obo/hp.owl | None |
+| mondo | http://purl.obolibrary.org/obo/mondo.owl | None |
+| nbo | http://purl.obolibrary.org/obo/nbo.owl | None |
+| ncit | http://purl.obolibrary.org/obo/ncit.owl | None |
+| pato | http://purl.obolibrary.org/obo/pato.owl | None |
 | symp | http://purl.obolibrary.org/obo/symp.owl | None |
 
 ## Components

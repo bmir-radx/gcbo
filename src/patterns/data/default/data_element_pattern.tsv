@@ -1,0 +1,134 @@
+defined_class	data_element_name	data_element_text
+BMIR:nih_record_id	record_id	User ID
+BMIR:nih_race	race	What is your race?
+BMIR:nih_ethnicity	ethnicity	Are you of Hispanic or Latino origin? May include Spanish origin.
+BMIR:nih_age	age	What is your age?
+BMIR:nih_sex	sex	What is your biological sex assigned at birth?
+BMIR:nih_education	education	What is the highest level of education you have achieved outside or in the United States?
+BMIR:nih_education_yrs	education_yrs	How many years of education have you completed?
+BMIR:nih_zip	zip	What is your zip code?
+BMIR:nih_employment	employment	Please specify your employment status.
+BMIR:nih_insurance	insurance	What kind of health insurance do you have?
+BMIR:nih_disability	disability	Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?
+BMIR:nih_deaf	deaf	Are you deaf or do you have serious difficulty hearing?
+BMIR:nih_blind	blind	Are you blind or do you have serious difficulty seeing, even when wearing glasses?
+BMIR:nih_memory	memory	Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?
+BMIR:nih_walk_climb	walk_climb	Do you have serious difficulty walking or climbing stairs?
+BMIR:nih_dress_bathe	dress_bathe	Do you have difficulty dressing or bathing?
+BMIR:nih_errand	errand	Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?
+BMIR:nih_vaping_yn	vaping_yn	Vaping use (Yes or No)
+BMIR:nih_nicotine_yn	nicotine_yn	Nicotine use (Yes or No)
+BMIR:nih_vape_freq	vape_freq	Vaping Frequency: Do you now use electronic cigarettes every day, some days, rarely, or not at all?
+BMIR:nih_cig_smoke_freq	cig_smoke_freq	Nicotine Frequency: Do you now smoke cigarettes?
+BMIR:nih_smoking_yn	smoking_yn	Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?
+BMIR:nih_history_smoking	history_smoking	History of Smoking
+BMIR:nih_tobacco	tobacco	Tobacco Use
+BMIR:nih_alcohol_yn	alcohol_yn	Alcohol use (Yes or No)
+BMIR:nih_lifetime_use_alcohol	lifetime_use_alcohol	In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)
+BMIR:nih_alcohol_yrs	alcohol_yrs	How often did you have a drink containing alcohol in the past year?
+BMIR:nih_alcohol_frequency	alcohol_frequency	How often did you have a drink containing alcohol ?
+BMIR:nih_asthma	asthma	Asthma
+BMIR:nih_cancer	cancer	Cancer
+BMIR:nih_cancer_active_treatment	cancer_active_treatment	Cancer (including leukemia or lymphoma) undergoing active treatment?
+BMIR:nih_cancer_past_yr	cancer_past_yr	Cancer diagnosis and/or treatment within the past 12 months
+BMIR:nih_cardiovascular_disease	cardiovascular_disease	Cardiovascular disease
+BMIR:nih_chronic_kidney_disease	chronic_kidney_disease	Chronic kidney disease
+BMIR:nih_chronic_kidney_disease_treatment	chronic_kidney_disease_treatment	Chronic kidney disease treatment
+BMIR:nih_chronic_lung_disease	chronic_lung_disease	Chronic lung disease
+BMIR:nih_diabetes	diabetes	Diabetes
+BMIR:nih_hypertension	hypertension	Hypertension
+BMIR:nih_immunosuppressive_condition	immunosuppressive_condition	Immunosuppressive condition
+BMIR:nih_serious_mental_illness	serious_mental_illness	Serious mental illness
+BMIR:nih_mental_health_disorder	mental_health_disorder	Mental health disorder
+BMIR:nih_sickle_cell_disease	sickle_cell_disease	Sickle cell disease
+BMIR:nih_pregnancy	pregnancy	Pregnancy status
+BMIR:nih_immunocompromised	immunocompromised	Immunocompromised condition
+BMIR:nih_autoimm	autoimm	Autoimmune disease
+BMIR:nih_copd	copd	Chronic obstructive pulmonary disease (COPD)
+BMIR:nih_chronic_lung	chronic_lung	Other chronic lung disease
+BMIR:nih_depression	depression	Depression
+BMIR:nih_alc_sub_abuse	alc_sub_abuse	Alcohol or substance use disorder
+BMIR:nih_iv_drug_use	iv_drug_use	Intravenous drug use
+BMIR:nih_othermh	othermh	Other mental health disorder
+BMIR:nih_other_chronic_cond	other_chronic_cond	Other chronic condition
+BMIR:nih_coronary_artery_disease	coronary_artery_disease	Coronary artery disease
+BMIR:nih_coronary_artery_disease_angina	coronary_artery_disease_angina	Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?
+BMIR:nih_heart_attack	heart_attack	A heart attack (myocardial infarction)?
+BMIR:nih_chf	chf	Congestive Heart failure (CHF, Heart Failure)?
+BMIR:nih_stroke	stroke	Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?
+BMIR:nih_immunodeficiency	immunodeficiency	Immunodeficiency (NOT including HIV)?
+BMIR:nih_hiv	hiv	Chronic HIV infection?
+BMIR:nih_anemia	anemia	Anemia or other blood disorder (do not include leukemia or lymphoma)?
+BMIR:nih_premature_birth	premature_birth	History of premature birth (being born before 37 weeks of pregnancy)
+BMIR:nih_chd	chd	Chronic Heart Disease
+BMIR:nih_cf	cf	Cystic Fibrosis
+BMIR:nih_cld_bpd	cld_bpd	CLD BPD (Chronic Lung Disease Bronchopulmonary Dysplasia)
+BMIR:nih_copd_plus	copd_plus	Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?
+BMIR:nih_alz	alz	Alzheimers
+BMIR:nih_anxiety	anxiety	Anxiety
+BMIR:nih_arrhythmia	arrhythmia	Arrhythmia
+BMIR:nih_arthritis	arthritis	Arthritis
+BMIR:nih_af	af	Atrial Fibrillation
+BMIR:nih_chronic_pain	chronic_pain	Chronic Pain
+BMIR:nih_fibromyalgia	fibromyalgia	Fibromyalgia
+BMIR:nih_gerd	gerd	Gastroesophageal reflux disease
+BMIR:nih_gestational_diabetes	gestational_diabetes	Gestational Diabetes
+BMIR:nih_cholesterol	cholesterol	High Cholesterol
+BMIR:nih_thyroid	thyroid	Hypo/Hyper Thyroidism
+BMIR:nih_immuno_compromised_solid_organ	immuno_compromised_solid_organ	immunocompromised from solid organ transplant
+BMIR:nih_ibd	ibd	Inflammatory Bowel Disease
+BMIR:nih_insomnia	insomnia	Insomnia
+BMIR:nih_ibs	ibs	Irritable bowel syndrome
+BMIR:nih_liver_disease	liver_disease	Liver disease (cirrhosis, hepB, hepC)
+BMIR:nih_lupus	lupus	Lupus
+BMIR:nih_migraines	migraines	Migraines
+BMIR:nih_ms	ms	Multiple Sclerosis
+BMIR:nih_neurodegenerative	neurodegenerative	Neurodegenerative disease
+BMIR:nih_neurological_condition	neurological_condition	Neurological Condition
+BMIR:nih_no_chronic_condition	no_chronic_condition	No chronic condition
+BMIR:nih_obesity	obesity	Obesity (BMI >= 30)
+BMIR:nih_osteoporosis	osteoporosis	Osteoporosis
+BMIR:nih_pcos	pcos	Polycystic ovary syndrome
+BMIR:nih_psoriasis	psoriasis	Psoriasis
+BMIR:nih_renal	renal	Renal disease
+BMIR:nih_rls	rls	Restless leg
+BMIR:nih_ra	ra	Rheumatoid Arthritis
+BMIR:nih_seasonal_allergies	seasonal_allergies	Seasonal Allergies
+BMIR:nih_heart_condition	heart_condition	Serious heart condition (heart failure, CAD, cardiomyopathies)
+BMIR:nih_sleep_apnea	sleep_apnea	Sleep Apnea
+BMIR:nih_substance_use	substance_use	Substance use
+BMIR:nih_thalassemia	thalassemia	Thalassemia
+BMIR:nih_t1d	t1d	Type 1 Diabetes
+BMIR:nih_t2dm	t2dm	Type 2 Diabetes
+BMIR:nih_cough	cough	Cough
+BMIR:nih_fever_chills	fever_chills	Fever or Chills
+BMIR:nih_diff_breath	diff_breath	Shortness of breath or difficulty breathing
+BMIR:nih_headache	headache	Headache
+BMIR:nih_muscle_ache	muscle_ache	Muscle ache
+BMIR:nih_olfactory	olfactory	New loss of taste or smell
+BMIR:nih_fatigue	fatigue	Excessive fatigue
+BMIR:nih_nausea_vomiting_diarrhea	nausea_vomiting_diarrhea	Nausea, vomiting, or diarrhea
+BMIR:nih_abdom_pain	abdom_pain	Abdominal pain
+BMIR:nih_skin_rash	skin_rash	Skin rash
+BMIR:nih_conjunctivitis	conjunctivitis	Conjunctivitis
+BMIR:nih_throat_congestion_nose	throat_congestion_nose	Sore throat, congestion or runny nose
+BMIR:nih_red_eyes	red_eyes	Red or painful eyes
+BMIR:nih_high_temp	high_temp	A temperature greater than 100.4 °F
+BMIR:nih_other_symp	other_symp	Other
+BMIR:nih_no_sympt	no_sympt	None of the above
+BMIR:nih_wheezing	wheezing	Wheezing
+BMIR:nih_blue_lips	blue_lips	Bluish lips or face
+BMIR:nih_balance	balance	Loss of balance
+BMIR:nih_slurred_peech	slurred_peech	Slurred speech
+BMIR:nih_confusion	confusion	New confusion
+BMIR:nih_neuro_shakes	neuro_shakes	Unusual shivering or shaking
+BMIR:nih_numb_extremities	numb_extremities	Tingling or numbness or swelling of hands and feet
+BMIR:nih_sweating	sweating	Excessive sweating
+BMIR:nih_seizures	seizures	Seizures
+BMIR:nih_rash_toes	rash_toes	Red or purple rash or lesions on toes
+BMIR:nih_appetite	appetite	Change in or loss of appetite
+BMIR:nih_health_status	health_status	Would you say that (your) health in general is excellent, very good, good, fair, or poor?
+BMIR:nih_height	height	What is your height in inches?
+BMIR:nih_weight	weight	What is your weight in pounds?
+BMIR:nih_height_category	height_category	Approximately what is your height?
+BMIR:nih_weight_category	weight_category	Approximately what is your weight?
