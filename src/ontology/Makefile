@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                aab9cd01f6203c477ccf45b85b8d1d7e50985f2fac81dc46fbc65238ee145e65
+CONFIG_HASH=                f9839a3f36bbe3dabe5f047933ec6472ab1aca7aa95d4dd660ed95f7c2bec321
 
 
 # ----------------------------------------
@@ -19,9 +19,9 @@ CONFIG_HASH=                aab9cd01f6203c477ccf45b85b8d1d7e50985f2fac81dc46fbc6
 # these can be overwritten on the command line
 
 OBOBASE=                    http://purl.obolibrary.org/obo
-URIBASE=                    https://github.com/bmir-radx/gcbo/
+URIBASE=                    https://github.com/bmir-radx/gbco
 ONT=                        gcbo
-ONTBASE=                    https://github.com/bmir-radx/gcbo//gcbo
+ONTBASE=                    https://github.com/bmir-radx/gbco/gcbo
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
 MAKE_FAST=                  $(MAKE) IMP=false PAT=false COMP=false MIR=false
