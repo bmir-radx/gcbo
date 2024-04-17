@@ -2,9 +2,11 @@ id: gcbo
 title: "Global Code Book Ontology"
 github_org: ckindermann
 repo: gbco
+use_dosdps: true
+dosdp_tools_options: "--obo-prefixes=true --prefixes=config/prefixes.yaml"
 git_main_branch: main
 use_context: true
-uribase: "https://github.com/bmir-radx/gcbo"
+uribase: "https://github.com/bmir-radx/gcbo/"
 release_artefacts: 
   - base
   - full
@@ -16,6 +18,11 @@ export_formats:
   - json
 import_group:
   products: 
+    - id: hp
+    - id: mondo
+    - id: nbo
+    - id: ncit
+    - id: pato
     - id: symp
 robot_java_args: '-Xmx64G'
 
