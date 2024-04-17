@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "https://github.com/bmir-radx/gcbo/gcbo.json",
+    "id" : "https://github.com/bmir-radx/gbco/gcbo.json",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
@@ -13,11 +13,1124 @@
         "val" : "Global Code Book Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-04-16"
+        "val" : "2024-04-17"
       } ],
-      "version" : "https://github.com/bmir-radx/gcbo/gcbo/releases/2024-04-16/gcbo.json"
+      "version" : "https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-17/gcbo.json"
     },
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000016",
+      "lbl" : "confusion",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000019",
+      "lbl" : "deafness",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000099",
+      "lbl" : "pain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.",
+          "xrefs" : [ "url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000124",
+      "lbl" : "seizure",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000146",
+      "lbl" : "feces and droppings symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "fecal"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000233",
+      "lbl" : "inability to think clearly",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "clouded sensorium"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "decreased sensorium"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000237",
+      "lbl" : "congestion",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "blocked nose"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nasal blockage"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nasal obstruction"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "stuffed up nose"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "stuffy nose"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000244",
+      "lbl" : "alteration of appetite",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000245",
+      "lbl" : "decreased appetite",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An alteration of appetite that is characterized by a reduced desire to eat.",
+          "xrefs" : [ "url:https://www.healthline.com/health/appetite-decreased" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "poor appetite"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000280",
+      "lbl" : "extreme fatigue",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A fatigue that is characterized by exceeding the ordinary, usual, or expected.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/extreme" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000287",
+      "lbl" : "arrhythmia",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arrhythmia" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal heart beat"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "abnormal heart rhythm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dysrhythmia"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "heart rhythm symptom"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "irregular heartbeat"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "fluctuation of heart rate"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "SYMP:0000288"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "SYMP:0000667"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "SYMP:0000668"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000309",
+      "lbl" : "loss of appetite",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat.",
+          "xrefs" : [ "url:https://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "inappetence"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "lack of appetite"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000318",
+      "lbl" : "loss of balance",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems.",
+          "xrefs" : [ "url:https://medlineplus.gov/balanceproblems.html", "url:https://www.nidcd.nih.gov/health/balance-disorders" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000342",
+      "lbl" : "slurred speech",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000372",
+      "lbl" : "rhinorrhea",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nose symptom that is characterized by an excessive secretion of mucous through the nose.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Rhinorrhea" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "runny nose"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000386",
+      "lbl" : "mouth symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000387",
+      "lbl" : "head symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000388",
+      "lbl" : "nose symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000392",
+      "lbl" : "ear symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000410",
+      "lbl" : "neurological and physiological symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000446",
+      "lbl" : "bloodshot eye",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "red eye"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "redness of eye"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000457",
+      "lbl" : "abdominal pain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003120.htm" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:789.0"
+        }, {
+          "val" : "ICD9CM_2005:789.00"
+        }, {
+          "val" : "UMLS_CUI:C0000737"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0387333"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0637138"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000458",
+      "lbl" : "nausea",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit.",
+          "xrefs" : [ "url:http://www.nlm.nih.gov/medlineplus/nauseaandvomiting.html" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:787.02"
+        }, {
+          "val" : "UMLS_CUI:C0375548"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0750850"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000459",
+      "lbl" : "digestive system symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:787"
+        }, {
+          "val" : "UMLS_CUI:C0159058"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284224"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000462",
+      "lbl" : "symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.",
+          "xrefs" : [ "url:https://link.springer.com/chapter/10.1007/978-1-4615-4789-1_5", "url:https://www.merriam-webster.com/dictionary/symptom", "url:https://www.nature.com/subjects/signs-and-symptoms" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000473",
+      "lbl" : "nutrition, metabolism, and development symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:783"
+        }, {
+          "val" : "UMLS_CUI:C0159041"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284163"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000480",
+      "lbl" : "nervous system symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:781"
+        }, {
+          "val" : "UMLS_CUI:C0159033"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284131"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000482",
+      "lbl" : "alteration of consciousness",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Altered_state_of_consciousness" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:780.0"
+        }, {
+          "val" : "UMLS_CUI:C0234428"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0389211"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000487",
+      "lbl" : "rash",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "erythema"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "rubor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "skin eruption"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "skin rash"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "skin redness"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:782.1"
+        }, {
+          "val" : "UMLS_CUI:C0015230"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0243780"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000488",
+      "lbl" : "skin and integumentary tissue symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury.",
+          "xrefs" : [ "url:https://www.medicinenet.com/peeling_skin/symptoms.htm", "url:https://www.webmd.com/skin-problems-and-treatments/what-know-about-peeling-skin-desquamation" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:782"
+        }, {
+          "val" : "ICD9CM_2005:782.9"
+        }, {
+          "val" : "UMLS_CUI:C0159037"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284146"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284161"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000504",
+      "lbl" : "headache",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a pain in the head.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cephalalgia"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:784.0"
+        }, {
+          "val" : "UMLS_CUI:C0018681"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0065994"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000505",
+      "lbl" : "throat pain",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "sore throat"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:784.1"
+        }, {
+          "val" : "UMLS_CUI:C0242429"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284175"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000514",
+      "lbl" : "respiratory system and chest symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:786"
+        }, {
+          "val" : "UMLS_CUI:C0476271"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284200"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000528",
+      "lbl" : "cardiovascular system symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:785"
+        }, {
+          "val" : "UMLS_CUI:C0159049"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284192"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000537",
+      "lbl" : "cyanosis",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:782.5"
+        }, {
+          "val" : "UMLS_CUI:C0010520"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0044296"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000543",
+      "lbl" : "memory loss",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time.",
+          "xrefs" : [ "url:https://medlineplus.gov/ency/article/003257.htm", "url:https://www.merckmanuals.com/professional/neurologic-disorders/symptoms-of-neurologic-disorders/memory-loss" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:780.93"
+        }, {
+          "val" : "UMLS_CUI:C0751295"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A2797424"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000551",
+      "lbl" : "disturbances of sensation of smell and taste",
+      "type" : "CLASS",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "taste alteration"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:781.1"
+        }, {
+          "val" : "UMLS_CUI:C0495689"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0243765"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000567",
+      "lbl" : "general symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:780"
+        }, {
+          "val" : "UMLS_CUI:C0159028"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284119"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000570",
+      "lbl" : "diarrhea",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea" ]
+        },
+        "comments" : [ "doid/symp duplicate - reviewed 10/2022, both DO & SYMP" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "bacterial gastroenteritis"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "diarrhoea"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "fecal incontinence"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "incontinence of feces"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "loose bowel"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "loose bowels"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "the runs"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:787.91"
+        }, {
+          "val" : "UMLS_CUI:C0011991"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0048148"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000587",
+      "lbl" : "abnormal chest sound",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway).",
+          "xrefs" : [ "url:https://www.healthline.com/health/breath-sounds#types" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:786.7"
+        }, {
+          "val" : "UMLS_CUI:C0159056"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284219"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000597",
+      "lbl" : "head and neck symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:784"
+        }, {
+          "val" : "UMLS_CUI:C0476247"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284173"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000598",
+      "lbl" : "respiratory abnormality",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK470309/" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:786.0"
+        }, {
+          "val" : "UMLS_CUI:C0159053"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0284202"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000604",
+      "lbl" : "wheezing",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:786.07"
+        }, {
+          "val" : "UMLS_CUI:C0043144"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0133941"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000613",
+      "lbl" : "fever",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "pyrexia"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:780.6"
+        }, {
+          "val" : "UMLS_CUI:C0015967"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0058972"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000614",
+      "lbl" : "cough",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough" ]
+        },
+        "xrefs" : [ {
+          "val" : "ICD9CM_2005:786.2"
+        }, {
+          "val" : "UMLS_CUI:C0010200"
+        }, {
+          "val" : "UMLS_ICD9CM_2005_AUI:A0043303"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000626",
+      "lbl" : "obsolete myalgia",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0019161"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ],
+        "deprecated" : true
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000662",
+      "lbl" : "shakes",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Shakes is a general symptom characterized by a condition of trembling.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=shakes" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "trembling"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000719",
+      "lbl" : "memory impairment",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/impairment" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000817",
+      "lbl" : "inability to concentrate",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000828",
+      "lbl" : "sore eyes",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious.",
+          "xrefs" : [ "url:http://www.doh.gov.ph/faqs/sore_eyes" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000834",
+      "lbl" : "hypoesthesia",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli.",
+          "xrefs" : [ "url:https://en.wikipedia.org/wiki/Hypoesthesia" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "numbness"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0000892",
+      "lbl" : "sensation perception",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors.",
+          "xrefs" : [ "url:http://www.audiblox2000.com/sensation-perception.htm" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2010-10-15T11:54:30Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0019145",
+      "lbl" : "vomiting",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "Vomiting is a digestive system symptom characterized by throwing up the stomach contents.",
+          "xrefs" : [ "url:http://www.merriam-webster.com/dictionary/vomiting" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "emesis"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0019152",
+      "lbl" : "diaphoresis",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Diaphoresis" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "profuse perspiration"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0019153",
+      "lbl" : "dyspnea",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory abnormality that is characterized by difficult or labored respiration.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "breathing difficulty"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "breathlessness"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "difficulty breathing"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "labored respiration"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "shortness of breath"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0019163",
+      "lbl" : "eye symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0019175",
+      "lbl" : "sweaty",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "perspire"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0019177",
+      "lbl" : "fatigue",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress.",
+          "xrefs" : [ "url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020004",
+      "lbl" : "ageusia",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK549775/" ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "loss of taste"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020029",
+      "lbl" : "concentration difficulty",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An alteration of consciousness that is characterized by a decreased ability to focus one's thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs.",
+          "xrefs" : [ "url:https://www.healthgrades.com/right-care/symptoms-and-conditions/concentration-difficulty" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/SYMP_0020045",
+      "lbl" : "balance symptom",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation.",
+          "xrefs" : [ "url:https://www.nidcd.nih.gov/health/balance-disorders" ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "symptoms"
+        } ]
+      }
+    }, {
       "id" : "http://purl.org/dc/terms/description",
       "lbl" : "description",
       "type" : "PROPERTY"
@@ -30,9 +1143,1943 @@
       "lbl" : "title",
       "type" : "PROPERTY"
     }, {
-      "id" : "https://github.com/bmir-radx/gcbo/GCBO_0000000",
-      "lbl" : "root node",
-      "type" : "CLASS"
+      "id" : "https://github.com/bmir-radx/gcbo/nih_abdom_pain",
+      "lbl" : "abdom_pain",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000457"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Abdominal pain"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_af",
+      "lbl" : "af",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004981"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Atrial Fibrillation"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_age",
+      "lbl" : "age",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000011"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What is your age?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse",
+      "lbl" : "alc_sub_abuse",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0002494"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0021698"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Alcohol or substance use disorder"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_frequency",
+      "lbl" : "alcohol_frequency",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0000131"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "How often did you have a drink containing alcohol ?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yn",
+      "lbl" : "alcohol_yn",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0000131"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Alcohol use (Yes or No)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yrs",
+      "lbl" : "alcohol_yrs",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0000131"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "How often did you have a drink containing alcohol in the past year?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_alz",
+      "lbl" : "alz",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004975"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Alzheimers"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_anemia",
+      "lbl" : "anemia",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0002280"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Anemia or other blood disorder (do not include leukemia or lymphoma)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_anxiety",
+      "lbl" : "anxiety",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0011918"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Anxiety"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_appetite",
+      "lbl" : "appetite",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000245"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000309"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Change in or loss of appetite"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_arrhythmia",
+      "lbl" : "arrhythmia",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000287"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Arrhythmia"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_arthritis",
+      "lbl" : "arthritis",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0008383"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Arthritis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_asthma",
+      "lbl" : "asthma",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004979"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Asthma"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_autoimm",
+      "lbl" : "autoimm",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0007179"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Autoimmune disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_balance",
+      "lbl" : "balance",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000318"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Loss of balance"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_blind",
+      "lbl" : "blind",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0001941"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Are you blind or do you have serious difficulty seeing, even when wearing glasses?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_blue_lips",
+      "lbl" : "blue_lips",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000537"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Bluish lips or face"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cancer",
+      "lbl" : "cancer",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C9305"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Cancer"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment",
+      "lbl" : "cancer_active_treatment",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C19700"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C9305"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Cancer (including leukemia or lymphoma) undergoing active treatment?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cancer_past_yr",
+      "lbl" : "cancer_past_yr",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Cancer diagnosis and/or treatment within the past 12 months"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease",
+      "lbl" : "cardiovascular_disease",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004995"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Cardiovascular disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cf",
+      "lbl" : "cf",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0009061"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Cystic Fibrosis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chd",
+      "lbl" : "chd",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0001493"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic Heart Disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chf",
+      "lbl" : "chf",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005009"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Congestive Heart failure (CHF, Heart Failure)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cholesterol",
+      "lbl" : "cholesterol",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C37967"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "High Cholesterol"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease",
+      "lbl" : "chronic_kidney_disease",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005300"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic kidney disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment",
+      "lbl" : "chronic_kidney_disease_treatment",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005300"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic kidney disease treatment"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung",
+      "lbl" : "chronic_lung",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005275"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Other chronic lung disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease",
+      "lbl" : "chronic_lung_disease",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005275"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic lung disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_pain",
+      "lbl" : "chronic_pain",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C26940"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic Pain"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq",
+      "lbl" : "cig_smoke_freq",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C173060"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C19796"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cld_bpd",
+      "lbl" : "cld_bpd",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0019091"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "CLD BPD (Chronic Lung Disease Bronchopulmonary Dysplasia)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_confusion",
+      "lbl" : "confusion",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000016"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "New confusion"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_conjunctivitis",
+      "lbl" : "conjunctivitis",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0003799"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Conjunctivitis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_copd",
+      "lbl" : "copd",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005002"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic obstructive pulmonary disease (COPD)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_copd_plus",
+      "lbl" : "copd_plus",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005002"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease",
+      "lbl" : "coronary_artery_disease",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005010"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Coronary artery disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina",
+      "lbl" : "coronary_artery_disease_angina",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005010"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_cough",
+      "lbl" : "cough",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000614"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Cough"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_deaf",
+      "lbl" : "deaf",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/HP_0000364"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000019"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Are you deaf or do you have serious difficulty hearing?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_depression",
+      "lbl" : "depression",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0002050"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Depression"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_diabetes",
+      "lbl" : "diabetes",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005015"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Diabetes"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_diff_breath",
+      "lbl" : "diff_breath",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0019153"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Shortness of breath or difficulty breathing"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_disability",
+      "lbl" : "disability",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_dress_bathe",
+      "lbl" : "dress_bathe",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C131923"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C95544"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Do you have difficulty dressing or bathing?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_education",
+      "lbl" : "education",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C17953"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What is the highest level of education you have achieved outside or in the United States?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_education_yrs",
+      "lbl" : "education_yrs",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C122393"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "How many years of education have you completed?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_employment",
+      "lbl" : "employment",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C179143"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C25172"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Please specify your employment status."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_errand",
+      "lbl" : "errand",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C121690"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C95549"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_ethnicity",
+      "lbl" : "ethnicity",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16564"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Are you of Hispanic or Latino origin? May include Spanish origin."
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_fatigue",
+      "lbl" : "fatigue",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000280"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Excessive fatigue"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_fever_chills",
+      "lbl" : "fever_chills",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000613"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Fever or Chills"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_fibromyalgia",
+      "lbl" : "fibromyalgia",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005546"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Fibromyalgia"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_gerd",
+      "lbl" : "gerd",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0007186"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Gastroesophageal reflux disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_gestational_diabetes",
+      "lbl" : "gestational_diabetes",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005406"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Gestational Diabetes"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_headache",
+      "lbl" : "headache",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000504"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Headache"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_health_status",
+      "lbl" : "health_status",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "Would you say that (your) health in general is excellent, very good, good, fair, or poor?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_heart_attack",
+      "lbl" : "heart_attack",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005068"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "A heart attack (myocardial infarction)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_heart_condition",
+      "lbl" : "heart_condition",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005267"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Serious heart condition (heart failure, CAD, cardiomyopathies)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_height",
+      "lbl" : "height",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000119"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What is your height in inches?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_height_category",
+      "lbl" : "height_category",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000119"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Approximately what is your height?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_high_temp",
+      "lbl" : "high_temp",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000613"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "A temperature greater than 100.4 °F"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_history_smoking",
+      "lbl" : "history_smoking",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0015005"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "History of Smoking"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_hiv",
+      "lbl" : "hiv",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005109"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Chronic HIV infection?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_hypertension",
+      "lbl" : "hypertension",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005044"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Hypertension"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_ibd",
+      "lbl" : "ibd",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005265"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Inflammatory Bowel Disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_ibs",
+      "lbl" : "ibs",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005052"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Irritable bowel syndrome"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ",
+      "lbl" : "immuno_compromised_solid_organ",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C130200"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C14139"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "immunocompromised from solid organ transplant"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_immunocompromised",
+      "lbl" : "immunocompromised",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C14139"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Immunocompromised condition"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_immunodeficiency",
+      "lbl" : "immunodeficiency",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0021094"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Immunodeficiency (NOT including HIV)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition",
+      "lbl" : "immunosuppressive_condition",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C178942"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Immunosuppressive condition"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_insomnia",
+      "lbl" : "insomnia",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0013600"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Insomnia"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_insurance",
+      "lbl" : "insurance",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C157356"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What kind of health insurance do you have?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_iv_drug_use",
+      "lbl" : "iv_drug_use",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C84367"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Intravenous drug use"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol",
+      "lbl" : "lifetime_use_alcohol",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0000131"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_liver_disease",
+      "lbl" : "liver_disease",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005154"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Liver disease (cirrhosis, hepB, hepC)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_lupus",
+      "lbl" : "lupus",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004670"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Lupus"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "lbl" : "memory",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0002039"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000233"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000543"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000719"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000817"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0020029"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_mental_health_disorder",
+      "lbl" : "mental_health_disorder",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005084"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Mental health disorder"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_migraines",
+      "lbl" : "migraines",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005277"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Migraines"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_ms",
+      "lbl" : "ms",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005301"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Multiple Sclerosis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_muscle_ache",
+      "lbl" : "muscle_ache",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000626"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Muscle ache"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea",
+      "lbl" : "nausea_vomiting_diarrhea",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000458"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000570"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0019145"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Nausea, vomiting, or diarrhea"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_neuro_shakes",
+      "lbl" : "neuro_shakes",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000662"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Unusual shivering or shaking"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_neurodegenerative",
+      "lbl" : "neurodegenerative",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005559"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Neurodegenerative disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_neurological_condition",
+      "lbl" : "neurological_condition",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005071"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Neurological Condition"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_nicotine_yn",
+      "lbl" : "nicotine_yn",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C173060"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C691"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Nicotine use (Yes or No)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_no_chronic_condition",
+      "lbl" : "no_chronic_condition",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "No chronic condition"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_no_sympt",
+      "lbl" : "no_sympt",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "None of the above"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_numb_extremities",
+      "lbl" : "numb_extremities",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000834"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Tingling or numbness or swelling of hands and feet"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_obesity",
+      "lbl" : "obesity",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0011122"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Obesity (BMI >= 30)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_olfactory",
+      "lbl" : "olfactory",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0020004"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "New loss of taste or smell"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_osteoporosis",
+      "lbl" : "osteoporosis",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005298"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Osteoporosis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_other_chronic_cond",
+      "lbl" : "other_chronic_cond",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C165593"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Other chronic condition"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_other_symp",
+      "lbl" : "other_symp",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Other"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_othermh",
+      "lbl" : "othermh",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0002025"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Other mental health disorder"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_pcos",
+      "lbl" : "pcos",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0008487"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Polycystic ovary syndrome"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_pregnancy",
+      "lbl" : "pregnancy",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C69218"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Pregnancy status"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_premature_birth",
+      "lbl" : "premature_birth",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "History of premature birth (being born before 37 weeks of pregnancy)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_psoriasis",
+      "lbl" : "psoriasis",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005083"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Psoriasis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_ra",
+      "lbl" : "ra",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0008383"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Rheumatoid Arthritis"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_race",
+      "lbl" : "race",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "What is your race?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_rash_toes",
+      "lbl" : "rash_toes",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C2962"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Red or purple rash or lesions on toes"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_record_id",
+      "lbl" : "record_id",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "https://schema.org/text",
+          "val" : "User ID"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_red_eyes",
+      "lbl" : "red_eyes",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000446"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000828"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Red or painful eyes"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_renal",
+      "lbl" : "renal",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005240"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Renal disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_rls",
+      "lbl" : "rls",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005391"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Restless leg"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_seasonal_allergies",
+      "lbl" : "seasonal_allergies",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005324"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Seasonal Allergies"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_seizures",
+      "lbl" : "seizures",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000124"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Seizures"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_serious_mental_illness",
+      "lbl" : "serious_mental_illness",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005084"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Serious mental illness"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_sex",
+      "lbl" : "sex",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000047"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What is your biological sex assigned at birth?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease",
+      "lbl" : "sickle_cell_disease",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0017146"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Sickle cell disease"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_skin_rash",
+      "lbl" : "skin_rash",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000487"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Skin rash"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_sleep_apnea",
+      "lbl" : "sleep_apnea",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005296"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Sleep Apnea"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_slurred_peech",
+      "lbl" : "slurred_peech",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000342"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Slurred speech"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_smoking_yn",
+      "lbl" : "smoking_yn",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0045002"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C17934"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_stroke",
+      "lbl" : "stroke",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005098"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005264"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_substance_use",
+      "lbl" : "substance_use",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C18272"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Substance use"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_sweating",
+      "lbl" : "sweating",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0019152"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Excessive sweating"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_t1d",
+      "lbl" : "t1d",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005147"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Type 1 Diabetes"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_t2dm",
+      "lbl" : "t2dm",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005148"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Type 2 Diabetes"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_thalassemia",
+      "lbl" : "thalassemia",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0000984"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Thalassemia"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose",
+      "lbl" : "throat_congestion_nose",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000237"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000372"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000505"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Sore throat, congestion or runny nose"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_thyroid",
+      "lbl" : "thyroid",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0004425"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/MONDO_0005420"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Hypo/Hyper Thyroidism"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_tobacco",
+      "lbl" : "tobacco",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NBO_0045002"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C154329"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Tobacco Use"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
+      "lbl" : "vape_freq",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C120482"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C173060"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C173621"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_vaping_yn",
+      "lbl" : "vaping_yn",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C173621"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Vaping use (Yes or No)"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_walk_climb",
+      "lbl" : "walk_climb",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C111629"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C175910"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Do you have serious difficulty walking or climbing stairs?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_weight",
+      "lbl" : "weight",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000125"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What is your weight in pounds?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_weight_category",
+      "lbl" : "weight_category",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/PATO_0000125"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Approximately what is your weight?"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_wheezing",
+      "lbl" : "wheezing",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/SYMP_0000604"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "Wheezing"
+        } ]
+      }
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/nih_zip",
+      "lbl" : "zip",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C25621"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C25720"
+        }, {
+          "pred" : "https://schema.org/text",
+          "val" : "What is your zip code?"
+        } ]
+      }
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000392"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000099",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000892"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000124",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000480"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000146",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000233",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000482"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000237",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000244",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000473"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000245",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000244"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000280",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019177"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000287",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000528"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000309",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000244"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000318",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020045"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000342",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000386"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000372",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000388"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000386",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000387",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000597"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000388",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000392",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000410",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000446",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000457",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000458",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000459",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000473",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000480",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000482",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000487",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000488",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000504",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000505",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000099"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000514",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000528",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000537",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000543",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000551",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000480"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000567",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000570",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000146"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000587",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000597",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000598",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000604",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000587"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000613",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000614",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000514"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000662",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000567"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000719",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000817",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000482"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000828",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019163"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000834",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000892"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0000892",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000480"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019145",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000459"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019152",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019175"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019153",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000598"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000387"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019175",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000488"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0019177",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000551"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000482"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/SYMP_0020045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
     } ]
   } ]
 }

@@ -1,4 +1,4 @@
-Prefix(:=<http://purl.obolibary.org/obo/gcbo/pattern.owl#>)
+Prefix(:=<urn:unnamed:ontology#ont1>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,6 +6,14 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibary.org/obo/gcbo/pattern.owl>
+Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/SCHEMA_text>))
+Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
+
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/SCHEMA_text> <https://bmir-radx.github.io/patterns/data_element.yaml> "'thing'"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element.yaml> "data_element"^^xsd:string)
+AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element.yaml> "data_element_mapping"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://bmir-radx.github.io/patterns/data_element.yaml> "'thing'"^^xsd:string)
 )

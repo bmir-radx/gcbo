@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/bmir-radx/gcbo/gcbo/gcbo-full.owl#"
-     xml:base="https://github.com/bmir-radx/gcbo/gcbo/gcbo-full.owl"
+<rdf:RDF xmlns="https://github.com/bmir-radx/gbco/gcbo/gcbo-full.owl#"
+     xml:base="https://github.com/bmir-radx/gbco/gcbo/gcbo-full.owl"
      xmlns:dce="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -8,14 +8,15 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="https://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology rdf:about="https://github.com/bmir-radx/gcbo/gcbo/gcbo-full.owl">
-        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gcbo/gcbo/releases/2024-04-16/gcbo-full.owl"/>
+    <owl:Ontology rdf:about="https://github.com/bmir-radx/gbco/gcbo/gcbo-full.owl">
+        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-17/gcbo-full.owl"/>
         <dcterms:description>None</dcterms:description>
         <dcterms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <dcterms:title>Global Code Book Ontology</dcterms:title>
-        <owl:versionInfo>2024-04-16</owl:versionInfo>
+        <owl:versionInfo>2024-04-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -31,9 +32,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000700 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000700"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -79,6 +92,18 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
@@ -91,15 +116,57 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- https://schema.org/text -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/text"/>
     
 
 
@@ -114,11 +181,1782 @@
     
 
 
-    <!-- https://github.com/bmir-radx/gcbo/GCBO_0000000 -->
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000016 -->
 
-    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/GCBO_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020045"/>
+        <obo:IAO_0000115>A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000016</oboInOwl:id>
+        <rdfs:label>confusion</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000016"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=confusion</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000392"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000019</oboInOwl:id>
+        <rdfs:label>deafness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000892"/>
+        <obo:IAO_0000115>A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000099</oboInOwl:id>
+        <rdfs:label>pain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000124</oboInOwl:id>
+        <rdfs:label>seizure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+        <oboInOwl:hasExactSynonym>fecal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000146</oboInOwl:id>
+        <rdfs:label>feces and droppings symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000482"/>
+        <oboInOwl:hasExactSynonym>clouded sensorium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>decreased sensorium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000233</oboInOwl:id>
+        <rdfs:label>inability to think clearly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115>A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>blocked nose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nasal blockage</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nasal obstruction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stuffed up nose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stuffy nose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000237</oboInOwl:id>
+        <rdfs:label>congestion</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000237"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=congestion</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000473"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000244</oboInOwl:id>
+        <rdfs:label>alteration of appetite</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000244"/>
+        <obo:IAO_0000115>An alteration of appetite that is characterized by a reduced desire to eat.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>poor appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000245</oboInOwl:id>
+        <rdfs:label>decreased appetite</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000245"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An alteration of appetite that is characterized by a reduced desire to eat.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.healthline.com/health/appetite-decreased</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
+        <obo:IAO_0000115>A fatigue that is characterized by exceeding the ordinary, usual, or expected.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000280</oboInOwl:id>
+        <rdfs:label>extreme fatigue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000280"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A fatigue that is characterized by exceeding the ordinary, usual, or expected.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.merriam-webster.com/dictionary/extreme</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000528"/>
+        <obo:IAO_0000115>Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>SYMP:0000288</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>SYMP:0000667</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>SYMP:0000668</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>abnormal heart beat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>abnormal heart rhythm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dysrhythmia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart rhythm symptom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>irregular heartbeat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>fluctuation of heart rate</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>SYMP:0000287</oboInOwl:id>
+        <rdfs:label>arrhythmia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=arrhythmia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000244"/>
+        <obo:IAO_0000115>An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>inappetence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lack of appetite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000309</oboInOwl:id>
+        <rdfs:label>loss of appetite</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000309"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020045"/>
+        <obo:IAO_0000115>A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000318</oboInOwl:id>
+        <rdfs:label>loss of balance</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000318"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://medlineplus.gov/balanceproblems.html</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.nidcd.nih.gov/health/balance-disorders</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000342">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000386"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000342</oboInOwl:id>
+        <rdfs:label>slurred speech</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000388"/>
+        <obo:IAO_0000115>A nose symptom that is characterized by an excessive secretion of mucous through the nose.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>runny nose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000372</oboInOwl:id>
+        <rdfs:label>rhinorrhea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000372"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A nose symptom that is characterized by an excessive secretion of mucous through the nose.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=Rhinorrhea</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000387"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000386</oboInOwl:id>
+        <rdfs:label>mouth symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000597"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000387</oboInOwl:id>
+        <rdfs:label>head symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000387"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000388</oboInOwl:id>
+        <rdfs:label>nose symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000387"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000392</oboInOwl:id>
+        <rdfs:label>ear symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000410</oboInOwl:id>
+        <rdfs:label>neurological and physiological symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <oboInOwl:hasExactSynonym>red eye</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>redness of eye</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000446</oboInOwl:id>
+        <rdfs:label>bloodshot eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000457">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <obo:IAO_0000115>A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:789.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM_2005:789.00</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0000737</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0387333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0637138</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000457</oboInOwl:id>
+        <rdfs:label>abdominal pain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://medlineplus.gov/ency/article/003120.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+        <obo:IAO_0000115>Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:787.02</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0375548</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0750850</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000458</oboInOwl:id>
+        <rdfs:label>nausea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000458"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.nlm.nih.gov/medlineplus/nauseaandvomiting.html</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000459 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000459">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:787</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284224</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000459</oboInOwl:id>
+        <rdfs:label>digestive system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000462">
+        <obo:IAO_0000115>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000462</oboInOwl:id>
+        <rdfs:label>symptom</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://link.springer.com/chapter/10.1007/978-1-4615-4789-1_5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.merriam-webster.com/dictionary/symptom</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.nature.com/subjects/signs-and-symptoms</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284163</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000473</oboInOwl:id>
+        <rdfs:label>nutrition, metabolism, and development symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284131</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000480</oboInOwl:id>
+        <rdfs:label>nervous system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000482">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0234428</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0389211</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000482</oboInOwl:id>
+        <rdfs:label>alteration of consciousness</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000482"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Altered_state_of_consciousness</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <obo:IAO_0000115>A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0015230</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0243780</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>erythema</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rubor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin eruption</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin rash</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>skin redness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000487</oboInOwl:id>
+        <rdfs:label>rash</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=rash</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <obo:IAO_0000115>A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284146</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284161</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000488</oboInOwl:id>
+        <rdfs:label>skin and integumentary tissue symptom</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.medicinenet.com/peeling_skin/symptoms.htm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.webmd.com/skin-problems-and-treatments/what-know-about-peeling-skin-desquamation</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <obo:IAO_0000115>A pain that is characterized by a pain in the head.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:784.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0018681</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0065994</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cephalalgia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000504</oboInOwl:id>
+        <rdfs:label>headache</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A pain that is characterized by a pain in the head.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=headache</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000099"/>
+        <obo:IAO_0000115>A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:784.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0242429</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284175</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>sore throat</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000505</oboInOwl:id>
+        <rdfs:label>throat pain</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000505"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=sore%20throat</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000514">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0476271</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284200</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000514</oboInOwl:id>
+        <rdfs:label>respiratory system and chest symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:785</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284192</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000528</oboInOwl:id>
+        <rdfs:label>cardiovascular system symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000537 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000537">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <obo:IAO_0000115>A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:782.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0010520</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0044296</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000537</oboInOwl:id>
+        <rdfs:label>cyanosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000537"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=cyanosis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780.93</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0751295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A2797424</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000543</oboInOwl:id>
+        <rdfs:label>memory loss</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000543"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://medlineplus.gov/ency/article/003257.htm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>url:https://www.merckmanuals.com/professional/neurologic-disorders/symptoms-of-neurologic-disorders/memory-loss</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:781.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0495689</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0243765</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>taste alteration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000551</oboInOwl:id>
+        <rdfs:label>disturbances of sensation of smell and taste</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000567">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159028</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284119</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000567</oboInOwl:id>
+        <rdfs:label>general symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000570 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000570">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000146"/>
+        <obo:IAO_0000115>Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:787.91</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0011991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0048148</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bacterial gastroenteritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diarrhoea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fecal incontinence</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>incontinence of feces</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>loose bowel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>loose bowels</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>the runs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000570</oboInOwl:id>
+        <rdfs:comment>doid/symp duplicate - reviewed 10/2022, both DO &amp; SYMP</rdfs:comment>
+        <rdfs:label>diarrhea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=diarrhea</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115>A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway).</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159056</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284219</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000587</oboInOwl:id>
+        <rdfs:label>abnormal chest sound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000587"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.healthline.com/health/breath-sounds#types</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <oboInOwl:hasDbXref>ICD9CM_2005:784</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0476247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284173</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000597</oboInOwl:id>
+        <rdfs:label>head and neck symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115>A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0159053</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0284202</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000598</oboInOwl:id>
+        <rdfs:label>respiratory abnormality</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000598"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/books/NBK470309/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000604 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000587"/>
+        <obo:IAO_0000115>An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.07</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0043144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0133941</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000604</oboInOwl:id>
+        <rdfs:label>wheezing</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000604"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=wheezing</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:780.6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0015967</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0058972</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>pyrexia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000613</oboInOwl:id>
+        <rdfs:label>fever</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=fever</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000614 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000514"/>
+        <obo:IAO_0000115>A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9CM_2005:786.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0010200</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_ICD9CM_2005_AUI:A0043303</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000614</oboInOwl:id>
+        <rdfs:label>cough</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=cough</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000626">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019161"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000626</oboInOwl:id>
+        <rdfs:label xml:lang="en">obsolete myalgia</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000662 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000662">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000567"/>
+        <obo:IAO_0000115>Shakes is a general symptom characterized by a condition of trembling.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>trembling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000662</oboInOwl:id>
+        <rdfs:label>shakes</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000662"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Shakes is a general symptom characterized by a condition of trembling.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=shakes</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000719</oboInOwl:id>
+        <rdfs:label>memory impairment</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000719"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.merriam-webster.com/dictionary/impairment</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000482"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000817</oboInOwl:id>
+        <rdfs:label>inability to concentrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019163"/>
+        <obo:IAO_0000115>Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000828</oboInOwl:id>
+        <rdfs:label>sore eyes</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000828"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.doh.gov.ph/faqs/sore_eyes</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000834">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000892"/>
+        <obo:IAO_0000115>A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>numbness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000834</oboInOwl:id>
+        <rdfs:label>hypoesthesia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000834"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://en.wikipedia.org/wiki/Hypoesthesia</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0000892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000480"/>
+        <obo:IAO_0000115>A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors.</obo:IAO_0000115>
+        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
+        <oboInOwl:creation_date>2010-10-15T11:54:30Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0000892</oboInOwl:id>
+        <rdfs:label>sensation perception</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000892"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.audiblox2000.com/sensation-perception.htm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000459"/>
+        <obo:IAO_0000115>Vomiting is a digestive system symptom characterized by throwing up the stomach contents.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>emesis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019145</oboInOwl:id>
+        <rdfs:label>vomiting</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019145"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Vomiting is a digestive system symptom characterized by throwing up the stomach contents.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www.merriam-webster.com/dictionary/vomiting</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019175"/>
+        <obo:IAO_0000115>A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>profuse perspiration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019152</oboInOwl:id>
+        <rdfs:label>diaphoresis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019152"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://en.wikipedia.org/wiki/Diaphoresis</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000598"/>
+        <obo:IAO_0000115>A respiratory abnormality that is characterized by difficult or labored respiration.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>breathing difficulty</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>breathlessness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>difficulty breathing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>labored respiration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>shortness of breath</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019153</oboInOwl:id>
+        <rdfs:label>dyspnea</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A respiratory abnormality that is characterized by difficult or labored respiration.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=dyspnea</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000387"/>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019163</oboInOwl:id>
+        <rdfs:label>eye symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000488"/>
+        <obo:IAO_0000115>A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>perspire</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019175</oboInOwl:id>
+        <rdfs:label>sweaty</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019175"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=sweat</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0019177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0019177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0019177</oboInOwl:id>
+        <rdfs:label>fatigue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019177"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:http://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&amp;va=fatigue</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000551"/>
+        <obo:IAO_0000115>A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>loss of taste</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0020004</oboInOwl:id>
+        <rdfs:label>ageusia</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.ncbi.nlm.nih.gov/books/NBK549775/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000482"/>
+        <obo:IAO_0000115>An alteration of consciousness that is characterized by a decreased ability to focus one&apos;s thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0020029</oboInOwl:id>
+        <rdfs:label>concentration difficulty</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020029"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An alteration of consciousness that is characterized by a decreased ability to focus one&apos;s thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.healthgrades.com/right-care/symptoms-and-conditions/concentration-difficulty</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0020045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SYMP_0020045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000410"/>
+        <obo:IAO_0000115>A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>symptoms</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>SYMP:0020045</oboInOwl:id>
+        <rdfs:label xml:lang="en">balance symptom</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020045"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.nidcd.nih.gov/health/balance-disorders</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_abdom_pain">
+        <rdfs:label>abdom_pain</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <schema:text>Abdominal pain</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_af">
+        <rdfs:label>af</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004981"/>
+        <schema:text>Atrial Fibrillation</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_age">
+        <rdfs:label>age</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <schema:text>What is your age?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse">
+        <rdfs:label>alc_sub_abuse</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002494"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021698"/>
+        <schema:text>Alcohol or substance use disorder</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_frequency">
+        <rdfs:label>alcohol_frequency</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <schema:text>How often did you have a drink containing alcohol ?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_yn">
+        <rdfs:label>alcohol_yn</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <schema:text>Alcohol use (Yes or No)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_yrs">
+        <rdfs:label>alcohol_yrs</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <schema:text>How often did you have a drink containing alcohol in the past year?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alz">
+        <rdfs:label>alz</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+        <schema:text>Alzheimers</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_anemia">
+        <rdfs:label>anemia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002280"/>
+        <schema:text>Anemia or other blood disorder (do not include leukemia or lymphoma)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_anxiety">
+        <rdfs:label>anxiety</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011918"/>
+        <schema:text>Anxiety</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_appetite">
+        <rdfs:label>appetite</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000245"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000309"/>
+        <schema:text>Change in or loss of appetite</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_arrhythmia">
+        <rdfs:label>arrhythmia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+        <schema:text>Arrhythmia</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_arthritis">
+        <rdfs:label>arthritis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+        <schema:text>Arthritis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_asthma">
+        <rdfs:label>asthma</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004979"/>
+        <schema:text>Asthma</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_autoimm">
+        <rdfs:label>autoimm</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007179"/>
+        <schema:text>Autoimmune disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_balance">
+        <rdfs:label>balance</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000318"/>
+        <schema:text>Loss of balance</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_blind">
+        <rdfs:label>blind</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001941"/>
+        <schema:text>Are you blind or do you have serious difficulty seeing, even when wearing glasses?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_blue_lips">
+        <rdfs:label>blue_lips</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000537"/>
+        <schema:text>Bluish lips or face</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer">
+        <rdfs:label>cancer</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+        <schema:text>Cancer</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment">
+        <rdfs:label>cancer_active_treatment</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19700"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+        <schema:text>Cancer (including leukemia or lymphoma) undergoing active treatment?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer_past_yr">
+        <rdfs:label>cancer_past_yr</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+        <schema:text>Cancer diagnosis and/or treatment within the past 12 months</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease">
+        <rdfs:label>cardiovascular_disease</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <schema:text>Cardiovascular disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cf">
+        <rdfs:label>cf</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0009061"/>
+        <schema:text>Cystic Fibrosis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chd">
+        <rdfs:label>chd</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001493"/>
+        <schema:text>Chronic Heart Disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chf">
+        <rdfs:label>chf</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005009"/>
+        <schema:text>Congestive Heart failure (CHF, Heart Failure)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cholesterol">
+        <rdfs:label>cholesterol</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C37967"/>
+        <schema:text>High Cholesterol</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease">
+        <rdfs:label>chronic_kidney_disease</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+        <schema:text>Chronic kidney disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment">
+        <rdfs:label>chronic_kidney_disease_treatment</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+        <schema:text>Chronic kidney disease treatment</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_lung">
+        <rdfs:label>chronic_lung</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <schema:text>Other chronic lung disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease">
+        <rdfs:label>chronic_lung_disease</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <schema:text>Chronic lung disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_pain">
+        <rdfs:label>chronic_pain</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26940"/>
+        <schema:text>Chronic Pain</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq">
+        <rdfs:label>cig_smoke_freq</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19796"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <schema:text>http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cld_bpd">
+        <rdfs:label>cld_bpd</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019091"/>
+        <schema:text>CLD BPD (Chronic Lung Disease Bronchopulmonary Dysplasia)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_confusion">
+        <rdfs:label>confusion</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000016"/>
+        <schema:text>New confusion</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_conjunctivitis">
+        <rdfs:label>conjunctivitis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0003799"/>
+        <schema:text>Conjunctivitis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_copd">
+        <rdfs:label>copd</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+        <schema:text>Chronic obstructive pulmonary disease (COPD)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_copd_plus">
+        <rdfs:label>copd_plus</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+        <schema:text>Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease">
+        <rdfs:label>coronary_artery_disease</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+        <schema:text>Coronary artery disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina">
+        <rdfs:label>coronary_artery_disease_angina</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+        <schema:text>Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cough">
+        <rdfs:label>cough</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
+        <schema:text>Cough</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_deaf">
+        <rdfs:label>deaf</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/HP_0000364"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000019"/>
+        <schema:text>Are you deaf or do you have serious difficulty hearing?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_depression">
+        <rdfs:label>depression</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <schema:text>Depression</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_diabetes">
+        <rdfs:label>diabetes</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005015"/>
+        <schema:text>Diabetes</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_diff_breath">
+        <rdfs:label>diff_breath</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
+        <schema:text>Shortness of breath or difficulty breathing</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_disability">
+        <rdfs:label>disability</rdfs:label>
+        <schema:text>Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_dress_bathe">
+        <rdfs:label>dress_bathe</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C131923"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95544"/>
+        <schema:text>Do you have difficulty dressing or bathing?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_education">
+        <rdfs:label>education</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17953"/>
+        <schema:text>What is the highest level of education you have achieved outside or in the United States?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_education_yrs">
+        <rdfs:label>education_yrs</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122393"/>
+        <schema:text>How many years of education have you completed?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_employment">
+        <rdfs:label>employment</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179143"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25172"/>
+        <schema:text>Please specify your employment status.</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_errand">
+        <rdfs:label>errand</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C121690"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95549"/>
+        <schema:text>Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor&apos;s office or shopping?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ethnicity">
+        <rdfs:label>ethnicity</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16564"/>
+        <schema:text>Are you of Hispanic or Latino origin? May include Spanish origin.</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_fatigue">
+        <rdfs:label>fatigue</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000280"/>
+        <schema:text>Excessive fatigue</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_fever_chills">
+        <rdfs:label>fever_chills</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+        <schema:text>Fever or Chills</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_fibromyalgia">
+        <rdfs:label>fibromyalgia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005546"/>
+        <schema:text>Fibromyalgia</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_gerd">
+        <rdfs:label>gerd</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007186"/>
+        <schema:text>Gastroesophageal reflux disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_gestational_diabetes">
+        <rdfs:label>gestational_diabetes</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005406"/>
+        <schema:text>Gestational Diabetes</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_headache">
+        <rdfs:label>headache</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
+        <schema:text>Headache</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_health_status">
+        <rdfs:label>health_status</rdfs:label>
+        <schema:text>Would you say that (your) health in general is excellent, very good, good, fair, or poor?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_heart_attack">
+        <rdfs:label>heart_attack</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005068"/>
+        <schema:text>A heart attack (myocardial infarction)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_heart_condition">
+        <rdfs:label>heart_condition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+        <schema:text>Serious heart condition (heart failure, CAD, cardiomyopathies)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_height">
+        <rdfs:label>height</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <schema:text>What is your height in inches?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_height_category">
+        <rdfs:label>height_category</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <schema:text>Approximately what is your height?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_high_temp">
+        <rdfs:label>high_temp</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+        <schema:text>A temperature greater than 100.4 °F</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_history_smoking">
+        <rdfs:label>history_smoking</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+        <schema:text>History of Smoking</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_hiv">
+        <rdfs:label>hiv</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005109"/>
+        <schema:text>Chronic HIV infection?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_hypertension">
+        <rdfs:label>hypertension</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005044"/>
+        <schema:text>Hypertension</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ibd">
+        <rdfs:label>ibd</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005265"/>
+        <schema:text>Inflammatory Bowel Disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ibs">
+        <rdfs:label>ibs</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005052"/>
+        <schema:text>Irritable bowel syndrome</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ">
+        <rdfs:label>immuno_compromised_solid_organ</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C130200"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+        <schema:text>immunocompromised from solid organ transplant</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immunocompromised">
+        <rdfs:label>immunocompromised</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+        <schema:text>Immunocompromised condition</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immunodeficiency">
+        <rdfs:label>immunodeficiency</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021094"/>
+        <schema:text>Immunodeficiency (NOT including HIV)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition">
+        <rdfs:label>immunosuppressive_condition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178942"/>
+        <schema:text>Immunosuppressive condition</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_insomnia">
+        <rdfs:label>insomnia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0013600"/>
+        <schema:text>Insomnia</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_insurance">
+        <rdfs:label>insurance</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157356"/>
+        <schema:text>What kind of health insurance do you have?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_iv_drug_use">
+        <rdfs:label>iv_drug_use</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84367"/>
+        <schema:text>Intravenous drug use</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol">
+        <rdfs:label>lifetime_use_alcohol</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <schema:text>In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_liver_disease">
+        <rdfs:label>liver_disease</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005154"/>
+        <schema:text>Liver disease (cirrhosis, hepB, hepC)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_lupus">
+        <rdfs:label>lupus</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004670"/>
+        <schema:text>Lupus</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_memory">
+        <rdfs:label>memory</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002039"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000233"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000543"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000719"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000817"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020029"/>
+        <schema:text>Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_mental_health_disorder">
+        <rdfs:label>mental_health_disorder</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <schema:text>Mental health disorder</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_migraines">
+        <rdfs:label>migraines</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005277"/>
+        <schema:text>Migraines</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ms">
+        <rdfs:label>ms</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005301"/>
+        <schema:text>Multiple Sclerosis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_muscle_ache">
+        <rdfs:label>muscle_ache</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000626"/>
+        <schema:text>Muscle ache</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea">
+        <rdfs:label>nausea_vomiting_diarrhea</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000458"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019145"/>
+        <schema:text>Nausea, vomiting, or diarrhea</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_neuro_shakes">
+        <rdfs:label>neuro_shakes</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000662"/>
+        <schema:text>Unusual shivering or shaking</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_neurodegenerative">
+        <rdfs:label>neurodegenerative</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005559"/>
+        <schema:text>Neurodegenerative disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_neurological_condition">
+        <rdfs:label>neurological_condition</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+        <schema:text>Neurological Condition</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_nicotine_yn">
+        <rdfs:label>nicotine_yn</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C691"/>
+        <schema:text>Nicotine use (Yes or No)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_no_chronic_condition">
+        <rdfs:label>no_chronic_condition</rdfs:label>
+        <schema:text>No chronic condition</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_no_sympt">
+        <rdfs:label>no_sympt</rdfs:label>
+        <schema:text>None of the above</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_numb_extremities">
+        <rdfs:label>numb_extremities</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000834"/>
+        <schema:text>Tingling or numbness or swelling of hands and feet</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_obesity">
+        <rdfs:label>obesity</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011122"/>
+        <schema:text>Obesity (BMI &gt;= 30)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_olfactory">
+        <rdfs:label>olfactory</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020004"/>
+        <schema:text>New loss of taste or smell</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_osteoporosis">
+        <rdfs:label>osteoporosis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005298"/>
+        <schema:text>Osteoporosis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_other_chronic_cond">
+        <rdfs:label>other_chronic_cond</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165593"/>
+        <schema:text>Other chronic condition</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_other_symp">
+        <rdfs:label>other_symp</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <schema:text>Other</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_othermh">
+        <rdfs:label>othermh</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
+        <schema:text>Other mental health disorder</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_pcos">
+        <rdfs:label>pcos</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008487"/>
+        <schema:text>Polycystic ovary syndrome</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_pregnancy">
+        <rdfs:label>pregnancy</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69218"/>
+        <schema:text>Pregnancy status</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_premature_birth">
+        <rdfs:label>premature_birth</rdfs:label>
+        <schema:text>History of premature birth (being born before 37 weeks of pregnancy)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_psoriasis">
+        <rdfs:label>psoriasis</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005083"/>
+        <schema:text>Psoriasis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ra">
+        <rdfs:label>ra</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+        <schema:text>Rheumatoid Arthritis</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_race">
+        <rdfs:label>race</rdfs:label>
+        <schema:text>What is your race?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_rash_toes">
+        <rdfs:label>rash_toes</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2962"/>
+        <schema:text>Red or purple rash or lesions on toes</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_record_id">
+        <rdfs:label>record_id</rdfs:label>
+        <schema:text>User ID</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_red_eyes">
+        <rdfs:label>red_eyes</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000446"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000828"/>
+        <schema:text>Red or painful eyes</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_renal">
+        <rdfs:label>renal</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+        <schema:text>Renal disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_rls">
+        <rdfs:label>rls</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005391"/>
+        <schema:text>Restless leg</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_seasonal_allergies">
+        <rdfs:label>seasonal_allergies</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005324"/>
+        <schema:text>Seasonal Allergies</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_seizures">
+        <rdfs:label>seizures</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+        <schema:text>Seizures</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_serious_mental_illness">
+        <rdfs:label>serious_mental_illness</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <schema:text>Serious mental illness</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sex">
+        <rdfs:label>sex</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
+        <schema:text>What is your biological sex assigned at birth?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease">
+        <rdfs:label>sickle_cell_disease</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017146"/>
+        <schema:text>Sickle cell disease</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_skin_rash">
+        <rdfs:label>skin_rash</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
+        <schema:text>Skin rash</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sleep_apnea">
+        <rdfs:label>sleep_apnea</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005296"/>
+        <schema:text>Sleep Apnea</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_slurred_peech">
+        <rdfs:label>slurred_peech</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000342"/>
+        <schema:text>Slurred speech</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_smoking_yn">
+        <rdfs:label>smoking_yn</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17934"/>
+        <schema:text>Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_stroke">
+        <rdfs:label>stroke</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005098"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005264"/>
+        <schema:text>Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_substance_use">
+        <rdfs:label>substance_use</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18272"/>
+        <schema:text>Substance use</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sweating">
+        <rdfs:label>sweating</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019152"/>
+        <schema:text>Excessive sweating</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_t1d">
+        <rdfs:label>t1d</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005147"/>
+        <schema:text>Type 1 Diabetes</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_t2dm">
+        <rdfs:label>t2dm</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005148"/>
+        <schema:text>Type 2 Diabetes</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_thalassemia">
+        <rdfs:label>thalassemia</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000984"/>
+        <schema:text>Thalassemia</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose">
+        <rdfs:label>throat_congestion_nose</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000237"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000372"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000505"/>
+        <schema:text>Sore throat, congestion or runny nose</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_thyroid">
+        <rdfs:label>thyroid</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004425"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005420"/>
+        <schema:text>Hypo/Hyper Thyroidism</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_tobacco">
+        <rdfs:label>tobacco</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154329"/>
+        <schema:text>Tobacco Use</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_vape_freq">
+        <rdfs:label>vape_freq</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120482"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <schema:text>http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_vaping_yn">
+        <rdfs:label>vaping_yn</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <schema:text>Vaping use (Yes or No)</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_walk_climb">
+        <rdfs:label>walk_climb</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C111629"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C175910"/>
+        <schema:text>Do you have serious difficulty walking or climbing stairs?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_weight">
+        <rdfs:label>weight</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <schema:text>What is your weight in pounds?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_weight_category">
+        <rdfs:label>weight_category</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <schema:text>Approximately what is your weight?</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_wheezing">
+        <rdfs:label>wheezing</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000604"/>
+        <schema:text>Wheezing</schema:text>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_zip">
+        <rdfs:label>zip</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25621"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25720"/>
+        <schema:text>What is your zip code?</schema:text>
+    </rdf:Description>
 </rdf:RDF>
 
 

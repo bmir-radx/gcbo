@@ -1,18 +1,19 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://github.com/bmir-radx/gcbo/gcbo/gcbo-simple.owl#"
-     xml:base="https://github.com/bmir-radx/gcbo/gcbo/gcbo-simple.owl"
+<rdf:RDF xmlns="https://github.com/bmir-radx/gbco/gcbo/gcbo-simple.owl#"
+     xml:base="https://github.com/bmir-radx/gbco/gcbo/gcbo-simple.owl"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/">
-    <owl:Ontology rdf:about="https://github.com/bmir-radx/gcbo/gcbo/gcbo-simple.owl">
-        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gcbo/gcbo/releases/2024-04-16/gcbo-simple.owl"/>
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://schema.org/">
+    <owl:Ontology rdf:about="https://github.com/bmir-radx/gbco/gcbo/gcbo-simple.owl">
+        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-17/gcbo-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Global Code Book Ontology</terms:title>
-        <owl:versionInfo>2024-04-16</owl:versionInfo>
+        <owl:versionInfo>2024-04-17</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -52,22 +53,9 @@
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- https://schema.org/text -->
 
-    
-
-
-    <!-- https://github.com/bmir-radx/gcbo/GCBO_0000000 -->
-
-    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/GCBO_0000000">
-        <rdfs:label xml:lang="en">root node</rdfs:label>
-    </owl:Class>
+    <owl:AnnotationProperty rdf:about="https://schema.org/text"/>
 </rdf:RDF>
 
 

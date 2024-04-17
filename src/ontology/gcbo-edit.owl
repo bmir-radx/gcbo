@@ -23,7 +23,6 @@ Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
 Annotation(dcterms:title "Global Code Book Ontology")
 
 
-Declaration(Class(<https://github.com/bmir-radx/gcbo/GCBO_0000000>))
 Declaration(AnnotationProperty(dcterms:description))
 Declaration(AnnotationProperty(dcterms:license))
 Declaration(AnnotationProperty(dcterms:title))
@@ -40,9 +39,6 @@ AnnotationAssertion(rdfs:label dcterms:title "title")
 #   Classes
 ############################
 
-# Class: <https://github.com/bmir-radx/gcbo/GCBO_0000000> (root node)
-
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/GCBO_0000000> "root node"@en)
 
 
 )

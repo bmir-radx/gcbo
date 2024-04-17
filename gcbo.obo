@@ -1,12 +1,538 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/gcbo/gcbo/releases/2024-04-16/gcbo.owl
-ontology: https://github.com/bmir-radx/gcbo/gcbo.owl
+data-version: https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-17/gcbo.owl
+ontology: https://github.com/bmir-radx/gbco/gcbo.owl
 property_value: http://purl.org/dc/terms/description "None" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "Global Code Book Ontology" xsd:string
-property_value: owl:versionInfo "2024-04-16" xsd:string
+property_value: owl:versionInfo "2024-04-17" xsd:string
 
 [Term]
-id: GCBO:0000000
-name: root node
+id: SYMP:0000016
+name: confusion
+namespace: symptoms
+def: "A balance symptom that is characterized by a disturbance of consciousness characterized by inability to engage in orderly thought or by lack of power to distinguish, choose, or act decisively." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=confusion]
+is_a: SYMP:0020045 ! balance symptom
+
+[Term]
+id: SYMP:0000019
+name: deafness
+namespace: symptoms
+is_a: SYMP:0000392 ! ear symptom
+
+[Term]
+id: SYMP:0000099
+name: pain
+namespace: symptoms
+def: "A sensation perception that is characterized by an unpleasant sensation that usually indicates the body is threatened or damaged. The sensation may be sharp or dull, short-lived or chronic, intermittent or continual, confined to one area or spread over the entire body." [url:http\://www.nationalpainfoundation.org/MyTreatment/articles/Cancer_PainDefinitions.asp]
+is_a: SYMP:0000892 ! sensation perception
+
+[Term]
+id: SYMP:0000124
+name: seizure
+namespace: symptoms
+is_a: SYMP:0000480 ! nervous system symptom
+
+[Term]
+id: SYMP:0000146
+name: feces and droppings symptom
+namespace: symptoms
+synonym: "fecal" EXACT []
+is_a: SYMP:0000459 ! digestive system symptom
+
+[Term]
+id: SYMP:0000233
+name: inability to think clearly
+namespace: symptoms
+synonym: "clouded sensorium" EXACT []
+synonym: "decreased sensorium" EXACT []
+is_a: SYMP:0000482 ! alteration of consciousness
+
+[Term]
+id: SYMP:0000237
+name: congestion
+namespace: symptoms
+def: "A respiratory system and chest symptom that is characterized by an excessive accumulation especially of blood or mucus." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=congestion]
+synonym: "blocked nose" EXACT []
+synonym: "nasal blockage" EXACT []
+synonym: "nasal obstruction" EXACT []
+synonym: "stuffed up nose" EXACT []
+synonym: "stuffy nose" EXACT []
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0000244
+name: alteration of appetite
+namespace: symptoms
+is_a: SYMP:0000473 ! nutrition, metabolism, and development symptom
+
+[Term]
+id: SYMP:0000245
+name: decreased appetite
+namespace: symptoms
+def: "An alteration of appetite that is characterized by a reduced desire to eat." [url:https\://www.healthline.com/health/appetite-decreased]
+synonym: "poor appetite" EXACT []
+is_a: SYMP:0000244 ! alteration of appetite
+
+[Term]
+id: SYMP:0000280
+name: extreme fatigue
+namespace: symptoms
+def: "A fatigue that is characterized by exceeding the ordinary, usual, or expected." [url:https\://www.merriam-webster.com/dictionary/extreme]
+is_a: SYMP:0019177 ! fatigue
+
+[Term]
+id: SYMP:0000287
+name: arrhythmia
+namespace: symptoms
+alt_id: SYMP:0000288
+alt_id: SYMP:0000667
+alt_id: SYMP:0000668
+def: "Arrhythmia is a cardiovascular system symptom consisting of an alteration in rhythm of the heartbeat either in time or force." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=arrhythmia]
+synonym: "abnormal heart beat" EXACT []
+synonym: "abnormal heart rhythm" EXACT []
+synonym: "dysrhythmia" EXACT []
+synonym: "fluctuation of heart rate" RELATED []
+synonym: "heart rhythm symptom" EXACT []
+synonym: "irregular heartbeat" EXACT []
+is_a: SYMP:0000528 ! cardiovascular system symptom
+
+[Term]
+id: SYMP:0000309
+name: loss of appetite
+namespace: symptoms
+def: "An alteration of appetite that is characterized by a loss of desire to eat, i.e. no desire to eat." [url:https\://www.merckmanuals.com/home/digestive-disorders/symptoms-of-digestive-disorders/loss-of-appetite]
+synonym: "inappetence" EXACT []
+synonym: "lack of appetite" EXACT []
+is_a: SYMP:0000244 ! alteration of appetite
+
+[Term]
+id: SYMP:0000318
+name: loss of balance
+namespace: symptoms
+def: "A  balance symptom that is characterized by an inability to stay upright and move confidently.  Loss of balance may be due to problems in the inner ear, the brain, or the heart. Aging, infections, head injury, certain medicines, and problems with blood circulation may also cause balance problems." [url:https\://medlineplus.gov/balanceproblems.html, url:https\://www.nidcd.nih.gov/health/balance-disorders]
+is_a: SYMP:0020045 ! balance symptom
+
+[Term]
+id: SYMP:0000342
+name: slurred speech
+namespace: symptoms
+is_a: SYMP:0000386 ! mouth symptom
+
+[Term]
+id: SYMP:0000372
+name: rhinorrhea
+namespace: symptoms
+def: "A nose symptom that is characterized by an excessive secretion of mucous through the nose." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=Rhinorrhea]
+synonym: "runny nose" EXACT []
+is_a: SYMP:0000388 ! nose symptom
+
+[Term]
+id: SYMP:0000386
+name: mouth symptom
+namespace: symptoms
+is_a: SYMP:0000387 ! head symptom
+
+[Term]
+id: SYMP:0000387
+name: head symptom
+namespace: symptoms
+is_a: SYMP:0000597 ! head and neck symptom
+
+[Term]
+id: SYMP:0000388
+name: nose symptom
+namespace: symptoms
+is_a: SYMP:0000387 ! head symptom
+
+[Term]
+id: SYMP:0000392
+name: ear symptom
+namespace: symptoms
+is_a: SYMP:0000387 ! head symptom
+
+[Term]
+id: SYMP:0000410
+name: neurological and physiological symptom
+namespace: symptoms
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000446
+name: bloodshot eye
+namespace: symptoms
+synonym: "red eye" EXACT []
+synonym: "redness of eye" EXACT []
+is_a: SYMP:0019163 ! eye symptom
+
+[Term]
+id: SYMP:0000457
+name: abdominal pain
+namespace: symptoms
+def: "A pain that is characterized by occurring in the abdomen, i.e. between the chest and groin." [url:https\://medlineplus.gov/ency/article/003120.htm]
+xref: ICD9CM_2005:789.0
+xref: ICD9CM_2005:789.00
+xref: UMLS_CUI:C0000737
+xref: UMLS_ICD9CM_2005_AUI:A0387333
+xref: UMLS_ICD9CM_2005_AUI:A0637138
+is_a: SYMP:0000099 ! pain
+
+[Term]
+id: SYMP:0000458
+name: nausea
+namespace: symptoms
+def: "Nausea is a digestive system symptom characterized by an uneasy or unsettled feeling in the stomach together with an urge to vomit." [url:http\://www.nlm.nih.gov/medlineplus/nauseaandvomiting.html]
+xref: ICD9CM_2005:787.02
+xref: UMLS_CUI:C0375548
+xref: UMLS_ICD9CM_2005_AUI:A0750850
+is_a: SYMP:0000459 ! digestive system symptom
+
+[Term]
+id: SYMP:0000459
+name: digestive system symptom
+namespace: symptoms
+xref: ICD9CM_2005:787
+xref: UMLS_CUI:C0159058
+xref: UMLS_ICD9CM_2005_AUI:A0284224
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000462
+name: symptom
+namespace: symptoms
+def: "A symptom is a perceived change in function, sensation, loss, disturbance or appearance reported by a patient indicative of a disease." [url:https\://link.springer.com/chapter/10.1007/978-1-4615-4789-1_5, url:https\://www.merriam-webster.com/dictionary/symptom, url:https\://www.nature.com/subjects/signs-and-symptoms]
+
+[Term]
+id: SYMP:0000473
+name: nutrition, metabolism, and development symptom
+namespace: symptoms
+xref: ICD9CM_2005:783
+xref: UMLS_CUI:C0159041
+xref: UMLS_ICD9CM_2005_AUI:A0284163
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000480
+name: nervous system symptom
+namespace: symptoms
+xref: ICD9CM_2005:781
+xref: UMLS_CUI:C0159033
+xref: UMLS_ICD9CM_2005_AUI:A0284131
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000482
+name: alteration of consciousness
+namespace: symptoms
+def: "A neurological and physiological symptom that is characterized by any condition which is significantly different from a normal waking state." [url:https\://en.wikipedia.org/wiki/Altered_state_of_consciousness]
+xref: ICD9CM_2005:780.0
+xref: UMLS_CUI:C0234428
+xref: UMLS_ICD9CM_2005_AUI:A0389211
+is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:0000487
+name: rash
+namespace: symptoms
+def: "A skin and integumentary tissue symptom that is characterized by an eruption on the body typically with little or no elevation above the surface." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=rash]
+synonym: "erythema" EXACT []
+synonym: "rubor" EXACT []
+synonym: "skin eruption" EXACT []
+synonym: "skin rash" EXACT []
+synonym: "skin redness" EXACT []
+xref: ICD9CM_2005:782.1
+xref: UMLS_CUI:C0015230
+xref: UMLS_ICD9CM_2005_AUI:A0243780
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0000488
+name: skin and integumentary tissue symptom
+namespace: symptoms
+def: "A skin and integumentary tissue symptom that is characterized by the outer layer of the skin starting to replace itself. Often, this happens when skin is damaged, either by disease or injury." [url:https\://www.medicinenet.com/peeling_skin/symptoms.htm, url:https\://www.webmd.com/skin-problems-and-treatments/what-know-about-peeling-skin-desquamation]
+xref: ICD9CM_2005:782
+xref: ICD9CM_2005:782.9
+xref: UMLS_CUI:C0159037
+xref: UMLS_ICD9CM_2005_AUI:A0284146
+xref: UMLS_ICD9CM_2005_AUI:A0284161
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000504
+name: headache
+namespace: symptoms
+def: "A pain that is characterized by a pain in the head." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=headache]
+synonym: "cephalalgia" EXACT []
+xref: ICD9CM_2005:784.0
+xref: UMLS_CUI:C0018681
+xref: UMLS_ICD9CM_2005_AUI:A0065994
+is_a: SYMP:0000099 ! pain
+
+[Term]
+id: SYMP:0000505
+name: throat pain
+namespace: symptoms
+def: "A pain that is characterized by a painful throat due to inflammation of the fauces and pharynx." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sore%20throat]
+synonym: "sore throat" EXACT []
+xref: ICD9CM_2005:784.1
+xref: UMLS_CUI:C0242429
+xref: UMLS_ICD9CM_2005_AUI:A0284175
+is_a: SYMP:0000099 ! pain
+
+[Term]
+id: SYMP:0000514
+name: respiratory system and chest symptom
+namespace: symptoms
+xref: ICD9CM_2005:786
+xref: UMLS_CUI:C0476271
+xref: UMLS_ICD9CM_2005_AUI:A0284200
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000528
+name: cardiovascular system symptom
+namespace: symptoms
+xref: ICD9CM_2005:785
+xref: UMLS_CUI:C0159049
+xref: UMLS_ICD9CM_2005_AUI:A0284192
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000537
+name: cyanosis
+namespace: symptoms
+def: "A skin and integumentary tissue symptom that is characterized by a bluish or purplish discoloration (as of skin) due to deficient oxygenation of the blood." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cyanosis]
+xref: ICD9CM_2005:782.5
+xref: UMLS_CUI:C0010520
+xref: UMLS_ICD9CM_2005_AUI:A0044296
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0000543
+name: memory loss
+namespace: symptoms
+def: "A neurological and physiological symptom that is characterized by an unusual forgetfulness. One may not be able to remember new events, recall one or more memories of the past, or both.  Memory loss may be for a short time and then resolve (transient), or it may not go away and get worse over time." [url:https\://medlineplus.gov/ency/article/003257.htm, url:https\://www.merckmanuals.com/professional/neurologic-disorders/symptoms-of-neurologic-disorders/memory-loss]
+xref: ICD9CM_2005:780.93
+xref: UMLS_CUI:C0751295
+xref: UMLS_ICD9CM_2005_AUI:A2797424
+is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:0000551
+name: disturbances of sensation of smell and taste
+namespace: symptoms
+synonym: "taste alteration" EXACT []
+xref: ICD9CM_2005:781.1
+xref: UMLS_CUI:C0495689
+xref: UMLS_ICD9CM_2005_AUI:A0243765
+is_a: SYMP:0000480 ! nervous system symptom
+
+[Term]
+id: SYMP:0000567
+name: general symptom
+namespace: symptoms
+xref: ICD9CM_2005:780
+xref: UMLS_CUI:C0159028
+xref: UMLS_ICD9CM_2005_AUI:A0284119
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000570
+name: diarrhea
+namespace: symptoms
+def: "Diarrhea is a feces and droppng symptom involving the abnormally frequent intestinal evacuations with more or less fluid stools." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=diarrhea]
+comment: doid/symp duplicate - reviewed 10/2022, both DO & SYMP
+synonym: "bacterial gastroenteritis" EXACT []
+synonym: "diarrhoea" EXACT []
+synonym: "fecal incontinence" EXACT []
+synonym: "incontinence of feces" EXACT []
+synonym: "loose bowel" EXACT []
+synonym: "loose bowels" EXACT []
+synonym: "the runs" EXACT []
+xref: ICD9CM_2005:787.91
+xref: UMLS_CUI:C0011991
+xref: UMLS_ICD9CM_2005_AUI:A0048148
+is_a: SYMP:0000146 ! feces and droppings symptom
+
+[Term]
+id: SYMP:0000587
+name: abnormal chest sound
+namespace: symptoms
+def: "A respiratory system and chest symptom that is characterized by a sound of breathing that is not similar to that of the sound of moving air and may include: rhonchi (a low-pitched breath sound), crackles (a high-pitched breath sound), wheezing (a high-pitched whistling sound caused by narrowing of the bronchial tubes), and stridor (a harsh, vibratory sound caused by narrowing of the upper airway)." [url:https\://www.healthline.com/health/breath-sounds#types]
+xref: ICD9CM_2005:786.7
+xref: UMLS_CUI:C0159056
+xref: UMLS_ICD9CM_2005_AUI:A0284219
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0000597
+name: head and neck symptom
+namespace: symptoms
+xref: ICD9CM_2005:784
+xref: UMLS_CUI:C0476247
+xref: UMLS_ICD9CM_2005_AUI:A0284173
+is_a: SYMP:0000462 ! symptom
+
+[Term]
+id: SYMP:0000598
+name: respiratory abnormality
+namespace: symptoms
+def: "A respiratory system and chest symptom that is characterized by a respiration that is not normal and may include, but is not limited to: apnea, eupnea, orthopnea, dyspnea hyperpnea, hyperventilation, hypoventilation, tachypnea, Kussmaul respiration, Cheyne-Stokes respiration, sighing respiration, Biot respiration, apneustic breathing, central neurogenic hyperventilation, and central neurogenic hypoventilation." [url:https\://www.ncbi.nlm.nih.gov/books/NBK470309/]
+xref: ICD9CM_2005:786.0
+xref: UMLS_CUI:C0159053
+xref: UMLS_ICD9CM_2005_AUI:A0284202
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0000604
+name: wheezing
+namespace: symptoms
+def: "An abnormal chest sound that is characterized by breathing with difficulty usually with a whistling sound." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=wheezing]
+xref: ICD9CM_2005:786.07
+xref: UMLS_CUI:C0043144
+xref: UMLS_ICD9CM_2005_AUI:A0133941
+is_a: SYMP:0000587 ! abnormal chest sound
+
+[Term]
+id: SYMP:0000613
+name: fever
+namespace: symptoms
+def: "A neurological and physiological symptom that is characterized by a rise of body temperature above the normal, whether as a natural response (as to infection) or artificially induced for therapeutic reasons." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fever]
+synonym: "pyrexia" EXACT []
+xref: ICD9CM_2005:780.6
+xref: UMLS_CUI:C0015967
+xref: UMLS_ICD9CM_2005_AUI:A0058972
+is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:0000614
+name: cough
+namespace: symptoms
+def: "A respiratory system and chest symptom that is characterized by an explosive expulsion of air from the lungs acting as a protective mechanism to clear the air passages or as a symptom of pulmonary disturbance." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=cough]
+xref: ICD9CM_2005:786.2
+xref: UMLS_CUI:C0010200
+xref: UMLS_ICD9CM_2005_AUI:A0043303
+is_a: SYMP:0000514 ! respiratory system and chest symptom
+
+[Term]
+id: SYMP:0000626
+name: obsolete myalgia
+namespace: symptoms
+is_obsolete: true
+replaced_by: SYMP:0019161
+
+[Term]
+id: SYMP:0000662
+name: shakes
+namespace: symptoms
+def: "Shakes is a general symptom characterized by a condition of trembling." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=shakes]
+synonym: "trembling" EXACT []
+is_a: SYMP:0000567 ! general symptom
+
+[Term]
+id: SYMP:0000719
+name: memory impairment
+namespace: symptoms
+def: "A neurological and physiological symptom that is characterized by a diminished or reduced ability to remember things such as dates and names, and increased forgetfulness." [url:https\://www.merriam-webster.com/dictionary/impairment]
+is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:0000817
+name: inability to concentrate
+namespace: symptoms
+is_a: SYMP:0000482 ! alteration of consciousness
+
+[Term]
+id: SYMP:0000828
+name: sore eyes
+namespace: symptoms
+def: "Sore eyes is a eye symptom characterized by an inflammation of the thin covering of the eyeball and the inner eyelid brought about by a viral infection which may be highly contagious." [url:http\://www.doh.gov.ph/faqs/sore_eyes]
+is_a: SYMP:0019163 ! eye symptom
+
+[Term]
+id: SYMP:0000834
+name: hypoesthesia
+namespace: symptoms
+def: "A sensation perception that is characterized by a reduced sense of touch or sensation, or a partial loss of sensitivity to sensory stimuli." [url:https\://en.wikipedia.org/wiki/Hypoesthesia]
+synonym: "numbness" EXACT []
+is_a: SYMP:0000892 ! sensation perception
+
+[Term]
+id: SYMP:0000892
+name: sensation perception
+namespace: symptoms
+def: "A nervous system symptom that is characterized by interpretation of the information perceived by sensory receptors." [url:http\://www.audiblox2000.com/sensation-perception.htm]
+is_a: SYMP:0000480 ! nervous system symptom
+created_by: lschriml
+creation_date: 2010-10-15T11:54:30Z
+
+[Term]
+id: SYMP:0019145
+name: vomiting
+namespace: symptoms
+def: "Vomiting is a digestive system symptom characterized by throwing up the stomach contents." [url:http\://www.merriam-webster.com/dictionary/vomiting]
+synonym: "emesis" EXACT []
+is_a: SYMP:0000459 ! digestive system symptom
+
+[Term]
+id: SYMP:0019152
+name: diaphoresis
+namespace: symptoms
+def: "A sweat that is characterized by excessive sweating commonly associated with shock and other medical emergency conditions." [url:http\://en.wikipedia.org/wiki/Diaphoresis]
+synonym: "profuse perspiration" EXACT []
+is_a: SYMP:0019175 ! sweaty
+
+[Term]
+id: SYMP:0019153
+name: dyspnea
+namespace: symptoms
+def: "A respiratory abnormality that is characterized by difficult or labored respiration." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=dyspnea]
+synonym: "breathing difficulty" EXACT []
+synonym: "breathlessness" EXACT []
+synonym: "difficulty breathing" EXACT []
+synonym: "labored respiration" EXACT []
+synonym: "shortness of breath" EXACT []
+is_a: SYMP:0000598 ! respiratory abnormality
+
+[Term]
+id: SYMP:0019163
+name: eye symptom
+namespace: symptoms
+is_a: SYMP:0000387 ! head symptom
+
+[Term]
+id: SYMP:0019175
+name: sweaty
+namespace: symptoms
+def: "A skin and integumentary tissue symptom that is characterized by the excretion of moisture in visible quantities through the opening of the sweat glands." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=sweat]
+synonym: "perspire" EXACT []
+is_a: SYMP:0000488 ! skin and integumentary tissue symptom
+
+[Term]
+id: SYMP:0019177
+name: fatigue
+namespace: symptoms
+def: "A neurological and physiological symptom that is characterized by a weariness or exhaustion from labor, exertion, or stress." [url:http\://www2.merriam-webster.com/cgi-bin/mwmednlm?book=Medical&va=fatigue]
+is_a: SYMP:0000410 ! neurological and physiological symptom
+
+[Term]
+id: SYMP:0020004
+name: ageusia
+namespace: symptoms
+def: "A disturbances of sensation of smell and taste that is characterized by a complete loss of taste function of the tongue." [url:https\://www.ncbi.nlm.nih.gov/books/NBK549775/]
+synonym: "loss of taste" EXACT []
+is_a: SYMP:0000551 ! disturbances of sensation of smell and taste
+
+[Term]
+id: SYMP:0020029
+name: concentration difficulty
+namespace: symptoms
+def: "An alteration of consciousness that is characterized by a decreased ability to focus one's thoughts on something. Concentration difficulties can be related to difficulty staying awake, impulsiveness, intrusive thoughts or concerns, overactivity, or inattention. They can be caused by medical, cognitive or psychological problems, or, may be related to sleep disorders, medications, alcohol, or drugs." [url:https\://www.healthgrades.com/right-care/symptoms-and-conditions/concentration-difficulty]
+is_a: SYMP:0000482 ! alteration of consciousness
+
+[Term]
+id: SYMP:0020045
+name: balance symptom
+namespace: symptoms
+def: "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation." [url:https\://www.nidcd.nih.gov/health/balance-disorders]
+is_a: SYMP:0000410 ! neurological and physiological symptom
 
