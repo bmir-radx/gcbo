@@ -36,7 +36,7 @@ BMIR:nih_vape_freq	NCIT:C68751
 BMIR:nih_vape_freq	NCIT:C173060
 BMIR:nih_cig_smoke_freq	NCIT:C19796
 BMIR:nih_cig_smoke_freq	NCIT:C68751
-BMIR:nih_cig_smoke_freq	NCIT:C173060"
+BMIR:nih_cig_smoke_freq	NCIT:C173060
 BMIR:nih_smoking_yn	NBO:0045002
 BMIR:nih_smoking_yn	NCIT:C17934
 BMIR:nih_history_smoking	NBO:0015005
