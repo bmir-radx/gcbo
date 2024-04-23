@@ -1,0 +1,15 @@
+defined_class	section
+BMIR:IdentitySection	Identity
+BMIR:RaceSection	Race
+BMIR:EthnicitySection	Ethnicity
+BMIR:AgeSection	Age
+BMIR:SexSection	Sex
+BMIR:EducationLevelSection	Education Level
+BMIR:EducationYearsSection	Education Years
+BMIR:DomicileSection	Domicile
+BMIR:EmploymentSection	Employment
+BMIR:InsuraceStatusSection	Insurance Status
+BMIR:DisabilityStatusSection	Disability Status
+BMIR:MedicalHistorySection	Medical History
+BMIR:SymptomsSection	Symptoms
+BMIR:HealthStatusSection	Health Status
