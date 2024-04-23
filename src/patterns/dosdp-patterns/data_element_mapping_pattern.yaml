@@ -7,6 +7,9 @@ description: 'Pattern mapping data elements to related terms from external ontol
 classes:
   thing: owl:Thing
 
+relations:
+  is associated with: BMIR:isAssociatedWith
+
 annotationProperties:
   see_also: rdfs:seeAlso
 
@@ -17,5 +20,7 @@ annotations:
 - annotationProperty: see_also
   var: mapping
 
-
-  
+subClassOf:
+  text: "'is associated with' some %s"
+  vars:
+    - mapping
