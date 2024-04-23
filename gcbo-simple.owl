@@ -5,6 +5,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:gcbo="https://github.com/bmir-radx/gcbo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
@@ -53,9 +54,32 @@
     
 
 
+    <!-- https://github.com/bmir-radx/gcbo/isInSection -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/gcbo/isInSection"/>
+    
+
+
     <!-- https://schema.org/text -->
 
     <owl:AnnotationProperty rdf:about="https://schema.org/text"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/isAssociatedWith -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
 </rdf:RDF>
 
 

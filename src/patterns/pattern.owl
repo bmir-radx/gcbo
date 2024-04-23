@@ -8,12 +8,33 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/BMIR_DataElementSection>))
+Declaration(Class(<https://bmir-radx.github.io/patterns/data_element.yaml>))
+Declaration(Class(<https://bmir-radx.github.io/patterns/data_element_section.yaml>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BMIR_isAssociatedWith>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/SCHEMA_text>))
 Declaration(AnnotationProperty(<http://purl.org/dc/terms/title>))
 
+
+
+############################
+#   Classes
+############################
+
+# Class: <https://bmir-radx.github.io/patterns/data_element.yaml> ('thing' data element)
 
 AnnotationAssertion(<http://purl.obolibrary.org/obo/SCHEMA_text> <https://bmir-radx.github.io/patterns/data_element.yaml> "'thing'"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element.yaml> "data_element"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element.yaml> "data_element_mapping"^^xsd:string)
 AnnotationAssertion(rdfs:label <https://bmir-radx.github.io/patterns/data_element.yaml> "'thing' data element"^^xsd:string)
+SubClassOf(<https://bmir-radx.github.io/patterns/data_element.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BMIR_isAssociatedWith> owl:Thing))
+
+# Class: <https://bmir-radx.github.io/patterns/data_element_section.yaml> (http://purl.obolibrary.org/obo/BMIR_DataElementSection Section)
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element_section.yaml> "data_element_section"^^xsd:string)
+AnnotationAssertion(rdfs:label <https://bmir-radx.github.io/patterns/data_element_section.yaml> "http://purl.obolibrary.org/obo/BMIR_DataElementSection Section"^^xsd:string)
+SubClassOf(<https://bmir-radx.github.io/patterns/data_element_section.yaml> <http://purl.obolibrary.org/obo/BMIR_DataElementSection>)
+
+
+AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element_section_mapping.yaml> "data_element_section_mapping"^^xsd:string)
 )

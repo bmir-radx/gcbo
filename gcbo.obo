@@ -536,3 +536,1165 @@ namespace: symptoms
 def: "A neurological and physiological symptom that is characterized by any of the following: dizziness or vertigo (a spinning sensation); falling or feeling as if you are going to fall; staggering when walking; lightheadedness, faintness, or a floating sensation; and confusion or disorientation." [url:https\://www.nidcd.nih.gov/health/balance-disorders]
 is_a: SYMP:0000410 ! neurological and physiological symptom
 
+[Term]
+id: https://github.com/bmir-radx/gcbo/AgeSection
+name: Age Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+name: Disability Status Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/DomicileSection
+name: Domicile Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/EducationLevelSection
+name: Education Level Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/EducationYearsSection
+name: Education Years Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/EmploymentSection
+name: Employment Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/EthnicitySection
+name: Ethnicity Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/HealthStatusSection
+name: Health Status Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/IdentitySection
+name: Identity Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/InsuraceStatusSection
+name: Insurance Status Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/MedicalHistorySection
+name: Medical History Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/RaceSection
+name: Race Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/SexSection
+name: Sex Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/SymptomsSection
+name: Symptoms Section
+is_a: https://github.com/bmir-radx/gcbo/DataElementSection
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_abdom_pain
+name: Abdom pain data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000457 ! abdominal pain
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Abdominal pain" xsd:string
+property_value: seeAlso SYMP:0000457
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse
+name: Alcohol substance abuse data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0002494
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0021698
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Alcohol or substance use disorder" xsd:string
+property_value: seeAlso MONDO:0002494
+property_value: seeAlso MONDO:0021698
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_alcohol_frequency
+name: Alcohol frequency data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0000131
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C16273
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C81229
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "How often did you have a drink containing alcohol ?" xsd:string
+property_value: seeAlso NBO:0000131
+property_value: seeAlso NCIT:C16273
+property_value: seeAlso NCIT:C81229
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_alcohol_yn
+name: Alcohol use data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0000131
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C16273
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C81229
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Alcohol use (Yes or No)" xsd:string
+property_value: seeAlso NBO:0000131
+property_value: seeAlso NCIT:C16273
+property_value: seeAlso NCIT:C81229
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_alcohol_yrs
+name: Alcohol past year data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0000131
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C16273
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C81229
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "How often did you have a drink containing alcohol in the past year?" xsd:string
+property_value: seeAlso NBO:0000131
+property_value: seeAlso NCIT:C16273
+property_value: seeAlso NCIT:C81229
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_blue_lips
+name: Blue lips data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000537 ! cyanosis
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Bluish lips or face" xsd:string
+property_value: seeAlso SYMP:0000537
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment
+name: Active cancer treatment data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004992
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C19700
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C9305
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Cancer (including leukemia or lymphoma) undergoing active treatment?" xsd:string
+property_value: seeAlso MONDO:0004992
+property_value: seeAlso NCIT:C19700
+property_value: seeAlso NCIT:C9305
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_cancer_past_yr
+name: Cancer diagnosis past year data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004992
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Cancer diagnosis and/or treatment within the past 12 months" xsd:string
+property_value: seeAlso MONDO:0004992
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease
+name: Cardiovascular disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004995
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Cardiovascular disease" xsd:string
+property_value: seeAlso MONDO:0004995
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease
+name: Chronic kidney disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005300
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic kidney disease" xsd:string
+property_value: seeAlso MONDO:0005300
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment
+name: Chronic kidney disease treatment data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005300
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic kidney disease treatment" xsd:string
+property_value: seeAlso MONDO:0005300
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_chronic_lung
+name: Chronic lung disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005275
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Other chronic lung disease" xsd:string
+property_value: seeAlso MONDO:0005275
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease
+name: Chronic lung disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005275
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic lung disease" xsd:string
+property_value: seeAlso MONDO:0005275
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_chronic_pain
+name: Chronic pain data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C26940
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic Pain" xsd:string
+property_value: seeAlso NCIT:C26940
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq
+name: Cigarettes smoke frequency data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C173060
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C19796
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C68751
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?" xsd:string
+property_value: seeAlso NCIT:C173060
+property_value: seeAlso NCIT:C19796
+property_value: seeAlso NCIT:C68751
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_cld_bpd
+name: Chronic lung disease bronchopulmonary dysplasia data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0019091
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic Lung Disease Bronchopulmonary Dysplasia (CLD BPD)" xsd:string
+property_value: seeAlso MONDO:0019091
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_copd_plus
+name: Chronic obstructive pulmonary disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005002
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?" xsd:string
+property_value: seeAlso MONDO:0005002
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease
+name: Coronary artery disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005010
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Coronary artery disease" xsd:string
+property_value: seeAlso MONDO:0005010
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina
+name: Coronary artery disease angina data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005010
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?" xsd:string
+property_value: seeAlso MONDO:0005010
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_diff_breath
+name: Difficulty breathing data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0019153 ! dyspnea
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Shortness of breath or difficulty breathing" xsd:string
+property_value: seeAlso SYMP:0019153
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_dress_bathe
+name: Dress/Bathe data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C131923
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C95544
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+property_value: https://schema.org/text "Do you have difficulty dressing or bathing?" xsd:string
+property_value: seeAlso NCIT:C131923
+property_value: seeAlso NCIT:C95544
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_education_yrs
+name: Education years data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C122393
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/EducationYearsSection
+property_value: https://schema.org/text "How many years of education have you completed?" xsd:string
+property_value: seeAlso NCIT:C122393
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_fever_chills
+name: Fever chills data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000613 ! fever
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Fever or Chills" xsd:string
+property_value: seeAlso SYMP:0000613
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_gestational_diabetes
+name: Gestational diabetes data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005406
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Gestational Diabetes" xsd:string
+property_value: seeAlso MONDO:0005406
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_heart_attack
+name: Heart attack data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005068
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "A heart attack (myocardial infarction)?" xsd:string
+property_value: seeAlso MONDO:0005068
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_heart_condition
+name: Heart condition data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005267
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Serious heart condition (heart failure, CAD, cardiomyopathies)" xsd:string
+property_value: seeAlso MONDO:0005267
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_height_category
+name: Height category data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith PATO:0000119
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/HealthStatusSection
+property_value: https://schema.org/text "Approximately what is your height?" xsd:string
+property_value: seeAlso PATO:0000119
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_high_temp
+name: High temperature data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000613 ! fever
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "A temperature greater than 100.4 °F" xsd:string
+property_value: seeAlso SYMP:0000613
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_history_smoking
+name: Smoking history data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0015005
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "History of Smoking" xsd:string
+property_value: seeAlso NBO:0015005
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ
+name: Immuno compromised solid organ data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C130200
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C14139
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "immunocompromised from solid organ transplant" xsd:string
+property_value: seeAlso NCIT:C130200
+property_value: seeAlso NCIT:C14139
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition
+name: Immunosuppressive condition data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C178942
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Immunosuppressive condition" xsd:string
+property_value: seeAlso NCIT:C178942
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_iv_drug_use
+name: Intravenous drug use data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C84367
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Intravenous drug use" xsd:string
+property_value: seeAlso NCIT:C84367
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol
+name: Lifetime alcohol use data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0000131
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C16273
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C81229
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)" xsd:string
+property_value: seeAlso NBO:0000131
+property_value: seeAlso NCIT:C16273
+property_value: seeAlso NCIT:C81229
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_liver_disease
+name: Liver disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005154
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Liver disease (cirrhosis, hepB, hepC)" xsd:string
+property_value: seeAlso MONDO:0005154
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_mental_health_disorder
+name: Mental health disorder data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005084
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Mental health disorder" xsd:string
+property_value: seeAlso MONDO:0005084
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_muscle_ache
+name: Muscle ache data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000626 ! obsolete myalgia
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Muscle ache" xsd:string
+property_value: seeAlso SYMP:0000626
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea
+name: Nausea/vomiting/diarrhea data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000458 ! nausea
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000570 ! diarrhea
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0019145 ! vomiting
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Nausea, vomiting, or diarrhea" xsd:string
+property_value: seeAlso SYMP:0000458
+property_value: seeAlso SYMP:0000570
+property_value: seeAlso SYMP:0019145
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_neuro_shakes
+name: Shaking data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000662 ! shakes
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Unusual shivering or shaking" xsd:string
+property_value: seeAlso SYMP:0000662
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_neurological_condition
+name: Neurological condition data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005071
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Neurological Condition" xsd:string
+property_value: seeAlso MONDO:0005071
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_nicotine_yn
+name: Nicotine data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C173060
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C68751
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C691
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Nicotine use (Yes or No)" xsd:string
+property_value: seeAlso NCIT:C173060
+property_value: seeAlso NCIT:C68751
+property_value: seeAlso NCIT:C691
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_numb_extremities
+name: Numb extremities data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000834 ! hypoesthesia
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Tingling or numbness or swelling of hands and feet" xsd:string
+property_value: seeAlso SYMP:0000834
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_other_chronic_cond
+name: Other chronic condition data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C165593
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Other chronic condition" xsd:string
+property_value: seeAlso NCIT:C165593
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_other_symp
+name: Other symptoms data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000462 ! symptom
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Other" xsd:string
+property_value: seeAlso SYMP:0000462
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_rash_toes
+name: Rash/toes data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C2962
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Red or purple rash or lesions on toes" xsd:string
+property_value: seeAlso NCIT:C2962
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_red_eyes
+name: Red eyes data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000446 ! bloodshot eye
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000828 ! sore eyes
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Red or painful eyes" xsd:string
+property_value: seeAlso SYMP:0000446
+property_value: seeAlso SYMP:0000828
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_seasonal_allergies
+name: Seasonal allergies data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005324
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Seasonal Allergies" xsd:string
+property_value: seeAlso MONDO:0005324
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_serious_mental_illness
+name: Serious mental illness data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005084
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Serious mental illness" xsd:string
+property_value: seeAlso MONDO:0005084
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease
+name: Sickle cell disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0017146
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Sickle cell disease" xsd:string
+property_value: seeAlso MONDO:0017146
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_skin_rash
+name: Skin rash data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000487 ! rash
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Skin rash" xsd:string
+property_value: seeAlso SYMP:0000487
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_sleep_apnea
+name: Sleep apnea data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005296
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Sleep Apnea" xsd:string
+property_value: seeAlso MONDO:0005296
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_slurred_peech
+name: Slurred speech data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000342 ! slurred speech
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Slurred speech" xsd:string
+property_value: seeAlso SYMP:0000342
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_smoking_yn
+name: Smoking data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0045002
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C17934
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?" xsd:string
+property_value: seeAlso NBO:0045002
+property_value: seeAlso NCIT:C17934
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_substance_use
+name: Substance use data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C18272
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Substance use" xsd:string
+property_value: seeAlso NCIT:C18272
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose
+name: Throat/congestion/nose data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000237 ! congestion
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000372 ! rhinorrhea
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000505 ! throat pain
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Sore throat, congestion or runny nose" xsd:string
+property_value: seeAlso SYMP:0000237
+property_value: seeAlso SYMP:0000372
+property_value: seeAlso SYMP:0000505
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_vape_freq
+name: Vape frequency data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C120482
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C173060
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C173621
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C68751
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?" xsd:string
+property_value: seeAlso NCIT:C120482
+property_value: seeAlso NCIT:C173060
+property_value: seeAlso NCIT:C173621
+property_value: seeAlso NCIT:C68751
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_vaping_yn
+name: Vaping data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C173621
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C68751
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Vaping use (Yes or No)" xsd:string
+property_value: seeAlso NCIT:C173621
+property_value: seeAlso NCIT:C68751
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_walk_climb
+name: Walk/Climb data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C111629
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C175910
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+property_value: https://schema.org/text "Do you have serious difficulty walking or climbing stairs?" xsd:string
+property_value: seeAlso NCIT:C111629
+property_value: seeAlso NCIT:C175910
+
+[Term]
+id: https://github.com/bmir-radx/gcbo/nih_weight_category
+name: Weight category data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith PATO:0000125
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/HealthStatusSection
+property_value: https://schema.org/text "Approximately what is your weight?" xsd:string
+property_value: seeAlso PATO:0000125
+
+[Term]
+id: nih:af
+name: Atrial fibrillation data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004981
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Atrial Fibrillation" xsd:string
+property_value: seeAlso MONDO:0004981
+
+[Term]
+id: nih:age
+name: Age data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith PATO:0000011
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/AgeSection
+property_value: https://schema.org/text "What is your age?" xsd:string
+property_value: seeAlso PATO:0000011
+
+[Term]
+id: nih:alz
+name: Alzheimers data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004975
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Alzheimers" xsd:string
+property_value: seeAlso MONDO:0004975
+
+[Term]
+id: nih:anemia
+name: Anemia data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0002280
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Anemia or other blood disorder (do not include leukemia or lymphoma)?" xsd:string
+property_value: seeAlso MONDO:0002280
+
+[Term]
+id: nih:anxiety
+name: Anxiety data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0011918
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Anxiety" xsd:string
+property_value: seeAlso MONDO:0011918
+
+[Term]
+id: nih:appetite
+name: Appetite data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000245 ! decreased appetite
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000309 ! loss of appetite
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Change in or loss of appetite" xsd:string
+property_value: seeAlso SYMP:0000245
+property_value: seeAlso SYMP:0000309
+
+[Term]
+id: nih:arrhythmia
+name: Arrhythmia data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000287 ! arrhythmia
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Arrhythmia" xsd:string
+property_value: seeAlso SYMP:0000287
+
+[Term]
+id: nih:arthritis
+name: Arthritis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0008383
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Arthritis" xsd:string
+property_value: seeAlso MONDO:0008383
+
+[Term]
+id: nih:asthma
+name: Asthma data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004979
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Asthma" xsd:string
+property_value: seeAlso MONDO:0004979
+
+[Term]
+id: nih:autoimm
+name: Autoimmune disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0007179
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Autoimmune disease" xsd:string
+property_value: seeAlso MONDO:0007179
+
+[Term]
+id: nih:balance
+name: Balance data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000318 ! loss of balance
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Loss of balance" xsd:string
+property_value: seeAlso SYMP:0000318
+
+[Term]
+id: nih:blind
+name: Blind data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0001941
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+property_value: https://schema.org/text "Are you blind or do you have serious difficulty seeing, even when wearing glasses?" xsd:string
+property_value: seeAlso MONDO:0001941
+
+[Term]
+id: nih:cancer
+name: Cancer data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004992
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C9305
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Cancer" xsd:string
+property_value: seeAlso MONDO:0004992
+property_value: seeAlso NCIT:C9305
+
+[Term]
+id: nih:cf
+name: Cystic fibrosis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0009061
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Cystic Fibrosis" xsd:string
+property_value: seeAlso MONDO:0009061
+
+[Term]
+id: nih:chd
+name: Chronic heart disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0001493
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic Heart Disease" xsd:string
+property_value: seeAlso MONDO:0001493
+
+[Term]
+id: nih:chf
+name: Congestive heart failure data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005009
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Congestive Heart failure (CHF, Heart Failure)?" xsd:string
+property_value: seeAlso MONDO:0005009
+
+[Term]
+id: nih:cholesterol
+name: Cholesterol data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C37967
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "High Cholesterol" xsd:string
+property_value: seeAlso NCIT:C37967
+
+[Term]
+id: nih:confusion
+name: Confusion data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000016 ! confusion
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "New confusion" xsd:string
+property_value: seeAlso SYMP:0000016
+
+[Term]
+id: nih:conjunctivitis
+name: Conjunctivitis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0003799
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Conjunctivitis" xsd:string
+property_value: seeAlso MONDO:0003799
+
+[Term]
+id: nih:copd
+name: Chronic obstructive pulmonary disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005002
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic obstructive pulmonary disease (COPD)" xsd:string
+property_value: seeAlso MONDO:0005002
+
+[Term]
+id: nih:cough
+name: Cough data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000614 ! cough
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Cough" xsd:string
+property_value: seeAlso SYMP:0000614
+
+[Term]
+id: nih:deaf
+name: Deaf data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith HP:0000364
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000019 ! deafness
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+property_value: https://schema.org/text "Are you deaf or do you have serious difficulty hearing?" xsd:string
+property_value: seeAlso HP:0000364
+property_value: seeAlso SYMP:0000019
+
+[Term]
+id: nih:depression
+name: Depression data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0002050
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Depression" xsd:string
+property_value: seeAlso MONDO:0002050
+
+[Term]
+id: nih:diabetes
+name: Diabetes data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005015
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Diabetes" xsd:string
+property_value: seeAlso MONDO:0005015
+
+[Term]
+id: nih:education
+name: Education data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C17953
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/EducationLevelSection
+property_value: https://schema.org/text "What is the highest level of education you have achieved outside or in the United States?" xsd:string
+property_value: seeAlso NCIT:C17953
+
+[Term]
+id: nih:employment
+name: Employment data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C179143
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C25172
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/EmploymentSection
+property_value: https://schema.org/text "Please specify your employment status." xsd:string
+property_value: seeAlso NCIT:C179143
+property_value: seeAlso NCIT:C25172
+
+[Term]
+id: nih:errand
+name: Errand data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C121690
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C95549
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+property_value: https://schema.org/text "Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?" xsd:string
+property_value: seeAlso NCIT:C121690
+property_value: seeAlso NCIT:C95549
+
+[Term]
+id: nih:ethnicity
+name: Ethnicity data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C16564
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/EthnicitySection
+property_value: https://schema.org/text "Are you of Hispanic or Latino origin? May include Spanish origin." xsd:string
+property_value: seeAlso NCIT:C16564
+
+[Term]
+id: nih:fatigue
+name: Fatigue data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000280 ! extreme fatigue
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Excessive fatigue" xsd:string
+property_value: seeAlso SYMP:0000280
+
+[Term]
+id: nih:fibromyalgia
+name: Fibromyalgia data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005546
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Fibromyalgia" xsd:string
+property_value: seeAlso MONDO:0005546
+
+[Term]
+id: nih:gerd
+name: Gastroesophageal reflux disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0007186
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Gastroesophageal reflux disease" xsd:string
+property_value: seeAlso MONDO:0007186
+
+[Term]
+id: nih:headache
+name: Headache data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000504 ! headache
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Headache" xsd:string
+property_value: seeAlso SYMP:0000504
+
+[Term]
+id: nih:height
+name: Height data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith PATO:0000119
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/HealthStatusSection
+property_value: https://schema.org/text "What is your height in inches?" xsd:string
+property_value: seeAlso PATO:0000119
+
+[Term]
+id: nih:hiv
+name: HIV data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005109
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Chronic HIV infection?" xsd:string
+property_value: seeAlso MONDO:0005109
+
+[Term]
+id: nih:hypertension
+name: Hypertension data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005044
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Hypertension" xsd:string
+property_value: seeAlso MONDO:0005044
+
+[Term]
+id: nih:ibd
+name: Inflammatory bowel disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005265
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Inflammatory Bowel Disease" xsd:string
+property_value: seeAlso MONDO:0005265
+
+[Term]
+id: nih:ibs
+name: Irritable bowel syndrome data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005052
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Irritable bowel syndrome" xsd:string
+property_value: seeAlso MONDO:0005052
+
+[Term]
+id: nih:immunocompromised
+name: Immunocompromised data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C14139
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Immunocompromised condition" xsd:string
+property_value: seeAlso NCIT:C14139
+
+[Term]
+id: nih:immunodeficiency
+name: Immunodeficiency data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0021094
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Immunodeficiency (NOT including HIV)?" xsd:string
+property_value: seeAlso MONDO:0021094
+
+[Term]
+id: nih:insomnia
+name: Insomnia data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0013600
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Insomnia" xsd:string
+property_value: seeAlso MONDO:0013600
+
+[Term]
+id: nih:insurance
+name: Insurance data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C157356
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/InsuranceStatusSection
+property_value: https://schema.org/text "What kind of health insurance do you have?" xsd:string
+property_value: seeAlso NCIT:C157356
+
+[Term]
+id: nih:lupus
+name: Lupus data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004670
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Lupus" xsd:string
+property_value: seeAlso MONDO:0004670
+
+[Term]
+id: nih:memory
+name: Memory data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0002039
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000233 ! inability to think clearly
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000543 ! memory loss
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000719 ! memory impairment
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000817 ! inability to concentrate
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0020029 ! concentration difficulty
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DisabilityStatusSection
+property_value: https://schema.org/text "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?" xsd:string
+property_value: seeAlso MONDO:0002039
+property_value: seeAlso SYMP:0000233
+property_value: seeAlso SYMP:0000543
+property_value: seeAlso SYMP:0000719
+property_value: seeAlso SYMP:0000817
+property_value: seeAlso SYMP:0020029
+
+[Term]
+id: nih:migraines
+name: Migraines data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005277
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Migraines" xsd:string
+property_value: seeAlso MONDO:0005277
+
+[Term]
+id: nih:ms
+name: Multiple sclerosis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005301
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Multiple Sclerosis" xsd:string
+property_value: seeAlso MONDO:0005301
+
+[Term]
+id: nih:neurodegenerative
+name: Neurodegenerative disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005559
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Neurodegenerative disease" xsd:string
+property_value: seeAlso MONDO:0005559
+
+[Term]
+id: nih:obesity
+name: Obesity data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0011122
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Obesity (BMI >= 30)" xsd:string
+property_value: seeAlso MONDO:0011122
+
+[Term]
+id: nih:olfactory
+name: Loss of taste or smell data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0020004 ! ageusia
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "New loss of taste or smell" xsd:string
+property_value: seeAlso SYMP:0020004
+
+[Term]
+id: nih:osteoporosis
+name: Osteoporosis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005298
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Osteoporosis" xsd:string
+property_value: seeAlso MONDO:0005298
+
+[Term]
+id: nih:othermh
+name: Other mental health disorder data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0002025
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Other mental health disorder" xsd:string
+property_value: seeAlso MONDO:0002025
+
+[Term]
+id: nih:pcos
+name: Polycystic ovary syndrome data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0008487
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Polycystic ovary syndrome" xsd:string
+property_value: seeAlso MONDO:0008487
+
+[Term]
+id: nih:pregnancy
+name: Pregnancy data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C69218
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Pregnancy status" xsd:string
+property_value: seeAlso NCIT:C69218
+
+[Term]
+id: nih:psoriasis
+name: Osoriasis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005083
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Psoriasis" xsd:string
+property_value: seeAlso MONDO:0005083
+
+[Term]
+id: nih:ra
+name: Rheumatoid arthritis data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0008383
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Rheumatoid Arthritis" xsd:string
+property_value: seeAlso MONDO:0008383
+
+[Term]
+id: nih:renal
+name: Renal disease data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005240
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Renal disease" xsd:string
+property_value: seeAlso MONDO:0005240
+
+[Term]
+id: nih:rls
+name: Restless leg data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005391
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Restless leg" xsd:string
+property_value: seeAlso MONDO:0005391
+
+[Term]
+id: nih:seizures
+name: Seizures data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000124 ! seizure
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Seizures" xsd:string
+property_value: seeAlso SYMP:0000124
+
+[Term]
+id: nih:sex
+name: Sex data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith PATO:0000047
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SexSection
+property_value: https://schema.org/text "What is your biological sex assigned at birth?" xsd:string
+property_value: seeAlso PATO:0000047
+
+[Term]
+id: nih:stroke
+name: Stroke data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005098
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005264
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?" xsd:string
+property_value: seeAlso MONDO:0005098
+property_value: seeAlso MONDO:0005264
+
+[Term]
+id: nih:sweating
+name: Sweating data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0019152 ! diaphoresis
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Excessive sweating" xsd:string
+property_value: seeAlso SYMP:0019152
+
+[Term]
+id: nih:t1d
+name: Type 1 diabetes data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005147
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Type 1 Diabetes" xsd:string
+property_value: seeAlso MONDO:0005147
+
+[Term]
+id: nih:t2dm
+name: Type 2 diabetes data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005148
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Type 2 Diabetes" xsd:string
+property_value: seeAlso MONDO:0005148
+
+[Term]
+id: nih:thalassemia
+name: Thalassemia data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0000984
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Thalassemia" xsd:string
+property_value: seeAlso MONDO:0000984
+
+[Term]
+id: nih:thyroid
+name: Thyroid data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0004425
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith MONDO:0005420
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Hypo/Hyper Thyroidism" xsd:string
+property_value: seeAlso MONDO:0004425
+property_value: seeAlso MONDO:0005420
+
+[Term]
+id: nih:tobacco
+name: Tobacco use data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NBO:0045002
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C154329
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/MedicalHistorySection
+property_value: https://schema.org/text "Tobacco Use" xsd:string
+property_value: seeAlso NBO:0045002
+property_value: seeAlso NCIT:C154329
+
+[Term]
+id: nih:weight
+name: Weight data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith PATO:0000125
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/HealthStatusSection
+property_value: https://schema.org/text "What is your weight in pounds?" xsd:string
+property_value: seeAlso PATO:0000125
+
+[Term]
+id: nih:wheezing
+name: Wheezing data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith SYMP:0000604 ! wheezing
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/SymptomsSection
+property_value: https://schema.org/text "Wheezing" xsd:string
+property_value: seeAlso SYMP:0000604
+
+[Term]
+id: nih:zip
+name: ZIP code data element
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C25621
+relationship: https://github.com/bmir-radx/gcbo/isAssociatedWith NCIT:C25720
+property_value: https://github.com/bmir-radx/gcbo/isInSection https://github.com/bmir-radx/gcbo/DomicileSection
+property_value: https://schema.org/text "What is your zip code?" xsd:string
+property_value: seeAlso NCIT:C25621
+property_value: seeAlso NCIT:C25720
+

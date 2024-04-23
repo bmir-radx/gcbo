@@ -7,6 +7,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:gcbo="https://github.com/bmir-radx/gcbo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:schema="https://schema.org/"
      xmlns:dcterms="http://purl.org/dc/terms/"
@@ -164,9 +165,32 @@
     
 
 
+    <!-- https://github.com/bmir-radx/gcbo/isInSection -->
+
+    <owl:AnnotationProperty rdf:about="https://github.com/bmir-radx/gcbo/isInSection"/>
+    
+
+
     <!-- https://schema.org/text -->
 
     <owl:AnnotationProperty rdf:about="https://schema.org/text"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/isAssociatedWith -->
+
+    <owl:ObjectProperty rdf:about="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
     
 
 
@@ -178,6 +202,624 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000364"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000984 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000984"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001493"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001941"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002039"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002280"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002494"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0003799 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0003799"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004425"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004670"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004979"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004981"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005044"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005083"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005098"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005147"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005148"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005154"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005264"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005265"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005277"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005296"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005298"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005301"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005324"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005391"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005406"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005420"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005546 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005546"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005559"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0007179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007179"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0007186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007186"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0008383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0008487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0008487"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0009061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0009061"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0011122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0011122"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0011918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0011918"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0013600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0013600"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0017146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0017146"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021094"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021698 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021698"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0000131"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0015005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0015005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NBO_0045002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NBO_0045002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C111629 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C111629"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120482 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120482"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C121690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C121690"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C122393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C122393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C130200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C130200"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C131923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C131923"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C14139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C154329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C154329"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C157356"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C165593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C165593"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16564"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C175910 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C175910"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C178942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C178942"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C179143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C179143"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17934"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17953"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18272"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19700"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19796"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25172"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25621"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25720"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26940"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2962"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C37967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C37967"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C68751 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C691"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C69218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C69218"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C81229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C84367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C84367"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C9305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C95544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95544"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C95549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95549"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000047"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000125"/>
     
 
 
@@ -1249,6 +1891,2574 @@
     
 
 
+    <!-- https://github.com/bmir-radx/gcbo/AgeSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/AgeSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Age Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/DataElementSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/DisabilityStatusSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/DisabilityStatusSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Disability Status Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/DomicileSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/DomicileSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Domicile Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/EducationLevelSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/EducationLevelSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Education Level Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/EducationYearsSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/EducationYearsSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Education Years Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/EmploymentSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/EmploymentSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Employment Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/EthnicitySection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/EthnicitySection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Ethnicity Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/HealthStatusSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/HealthStatusSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Health Status Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/IdentitySection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/IdentitySection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Identity Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/InsuraceStatusSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/InsuraceStatusSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Insurance Status Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/MedicalHistorySection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/MedicalHistorySection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Medical History Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/RaceSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/RaceSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Race Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/SexSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/SexSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Sex Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/SymptomsSection -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/SymptomsSection">
+        <rdfs:subClassOf rdf:resource="https://github.com/bmir-radx/gcbo/DataElementSection"/>
+        <rdfs:label>Symptoms Section</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_abdom_pain -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_abdom_pain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Abdom pain data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Abdominal pain</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_af -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_af">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004981"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Atrial fibrillation data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004981"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Atrial Fibrillation</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_age -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_age">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Age data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/AgeSection"/>
+        <schema:text>What is your age?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002494"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021698"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Alcohol substance abuse data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002494"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021698"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Alcohol or substance use disorder</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_alcohol_frequency -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_frequency">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Alcohol frequency data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>How often did you have a drink containing alcohol ?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_alcohol_yn -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_yn">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Alcohol use data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Alcohol use (Yes or No)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_alcohol_yrs -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_yrs">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Alcohol past year data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>How often did you have a drink containing alcohol in the past year?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_alz -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_alz">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Alzheimers data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Alzheimers</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_anemia -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_anemia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Anemia data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002280"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Anemia or other blood disorder (do not include leukemia or lymphoma)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_anxiety -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_anxiety">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011918"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Anxiety data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011918"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Anxiety</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_appetite -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_appetite">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000245"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000309"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Appetite data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000245"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000309"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Change in or loss of appetite</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_arrhythmia -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_arrhythmia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Arrhythmia data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Arrhythmia</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_arthritis -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_arthritis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Arthritis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Arthritis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_asthma -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_asthma">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004979"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Asthma data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004979"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Asthma</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_autoimm -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_autoimm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007179"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Autoimmune disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007179"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Autoimmune disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_balance -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_balance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000318"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Balance data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000318"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Loss of balance</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_blind -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_blind">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001941"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Blind data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001941"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
+        <schema:text>Are you blind or do you have serious difficulty seeing, even when wearing glasses?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_blue_lips -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_blue_lips">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000537"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Blue lips data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000537"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Bluish lips or face</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cancer -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cancer data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Cancer</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19700"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Active cancer treatment data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19700"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Cancer (including leukemia or lymphoma) undergoing active treatment?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cancer_past_yr -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer_past_yr">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cancer diagnosis past year data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Cancer diagnosis and/or treatment within the past 12 months</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cardiovascular disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Cardiovascular disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cf -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cf">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0009061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cystic fibrosis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0009061"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Cystic Fibrosis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chd -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001493"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic heart disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001493"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic Heart Disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chf -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chf">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005009"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Congestive heart failure data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005009"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Congestive Heart failure (CHF, Heart Failure)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cholesterol -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cholesterol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C37967"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cholesterol data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C37967"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>High Cholesterol</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic kidney disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic kidney disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic kidney disease treatment data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic kidney disease treatment</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chronic_lung -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_lung">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic lung disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Other chronic lung disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic lung disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic lung disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_chronic_pain -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_pain">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26940"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic pain data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26940"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic Pain</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19796"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cigarettes smoke frequency data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19796"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cld_bpd -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cld_bpd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic lung disease bronchopulmonary dysplasia data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019091"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic Lung Disease Bronchopulmonary Dysplasia (CLD BPD)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_confusion -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_confusion">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Confusion data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000016"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>New confusion</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_conjunctivitis -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_conjunctivitis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0003799"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Conjunctivitis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0003799"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Conjunctivitis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_copd -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_copd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic obstructive pulmonary disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic obstructive pulmonary disease (COPD)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_copd_plus -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_copd_plus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Chronic obstructive pulmonary disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Coronary artery disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Coronary artery disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Coronary artery disease angina data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_cough -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_cough">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Cough data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Cough</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_deaf -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_deaf">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000019"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Deaf data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/HP_0000364"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000019"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
+        <schema:text>Are you deaf or do you have serious difficulty hearing?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_depression -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_depression">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Depression data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Depression</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_diabetes -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_diabetes">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Diabetes data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005015"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Diabetes</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_diff_breath -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_diff_breath">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Difficulty breathing data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Shortness of breath or difficulty breathing</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_dress_bathe -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_dress_bathe">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C131923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Dress/Bathe data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C131923"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95544"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
+        <schema:text>Do you have difficulty dressing or bathing?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_education -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_education">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17953"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Education data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17953"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/EducationLevelSection"/>
+        <schema:text>What is the highest level of education you have achieved outside or in the United States?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_education_yrs -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_education_yrs">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Education years data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122393"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/EducationYearsSection"/>
+        <schema:text>How many years of education have you completed?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_employment -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_employment">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25172"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Employment data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179143"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25172"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/EmploymentSection"/>
+        <schema:text>Please specify your employment status.</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_errand -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_errand">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C121690"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95549"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Errand data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C121690"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95549"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
+        <schema:text>Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor&apos;s office or shopping?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_ethnicity -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_ethnicity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16564"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Ethnicity data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16564"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/EthnicitySection"/>
+        <schema:text>Are you of Hispanic or Latino origin? May include Spanish origin.</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_fatigue -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_fatigue">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Fatigue data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000280"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Excessive fatigue</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_fever_chills -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_fever_chills">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Fever chills data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Fever or Chills</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_fibromyalgia -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_fibromyalgia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005546"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Fibromyalgia data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005546"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Fibromyalgia</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_gerd -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_gerd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007186"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Gastroesophageal reflux disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007186"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Gastroesophageal reflux disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_gestational_diabetes -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_gestational_diabetes">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005406"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Gestational diabetes data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005406"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Gestational Diabetes</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_headache -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_headache">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Headache data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Headache</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_heart_attack -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_heart_attack">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005068"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Heart attack data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005068"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>A heart attack (myocardial infarction)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_heart_condition -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_heart_condition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Heart condition data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Serious heart condition (heart failure, CAD, cardiomyopathies)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_height -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_height">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Height data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/HealthStatusSection"/>
+        <schema:text>What is your height in inches?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_height_category -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_height_category">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Height category data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/HealthStatusSection"/>
+        <schema:text>Approximately what is your height?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_high_temp -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_high_temp">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>High temperature data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>A temperature greater than 100.4 °F</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_history_smoking -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_history_smoking">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Smoking history data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>History of Smoking</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_hiv -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_hiv">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005109"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>HIV data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005109"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Chronic HIV infection?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_hypertension -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_hypertension">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005044"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Hypertension data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005044"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Hypertension</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_ibd -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_ibd">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005265"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Inflammatory bowel disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005265"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Inflammatory Bowel Disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_ibs -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_ibs">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Irritable bowel syndrome data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005052"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Irritable bowel syndrome</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C130200"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Immuno compromised solid organ data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C130200"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>immunocompromised from solid organ transplant</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_immunocompromised -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_immunocompromised">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Immunocompromised data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Immunocompromised condition</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_immunodeficiency -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_immunodeficiency">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Immunodeficiency data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021094"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Immunodeficiency (NOT including HIV)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178942"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Immunosuppressive condition data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178942"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Immunosuppressive condition</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_insomnia -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_insomnia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0013600"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Insomnia data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0013600"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Insomnia</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_insurance -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_insurance">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157356"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Insurance data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157356"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/InsuranceStatusSection"/>
+        <schema:text>What kind of health insurance do you have?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_iv_drug_use -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_iv_drug_use">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84367"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Intravenous drug use data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84367"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Intravenous drug use</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Lifetime alcohol use data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_liver_disease -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_liver_disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Liver disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005154"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Liver disease (cirrhosis, hepB, hepC)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_lupus -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_lupus">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004670"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Lupus data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004670"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Lupus</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_memory -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_memory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002039"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000233"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000543"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000719"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000817"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Memory data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002039"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000233"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000543"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000719"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000817"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020029"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
+        <schema:text>Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_mental_health_disorder -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_mental_health_disorder">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Mental health disorder data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Mental health disorder</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_migraines -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_migraines">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005277"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Migraines data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005277"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Migraines</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_ms -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_ms">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005301"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Multiple sclerosis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005301"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Multiple Sclerosis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_muscle_ache -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_muscle_ache">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000626"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Muscle ache data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000626"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Muscle ache</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000458"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019145"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Nausea/vomiting/diarrhea data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000458"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019145"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Nausea, vomiting, or diarrhea</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_neuro_shakes -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_neuro_shakes">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000662"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Shaking data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000662"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Unusual shivering or shaking</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_neurodegenerative -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_neurodegenerative">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005559"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Neurodegenerative disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005559"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Neurodegenerative disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_neurological_condition -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_neurological_condition">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Neurological condition data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Neurological Condition</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_nicotine_yn -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_nicotine_yn">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C691"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Nicotine data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C691"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Nicotine use (Yes or No)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_numb_extremities -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_numb_extremities">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000834"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Numb extremities data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000834"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Tingling or numbness or swelling of hands and feet</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_obesity -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_obesity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011122"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Obesity data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011122"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Obesity (BMI &gt;= 30)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_olfactory -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_olfactory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Loss of taste or smell data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020004"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>New loss of taste or smell</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_osteoporosis -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_osteoporosis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005298"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Osteoporosis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005298"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Osteoporosis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_other_chronic_cond -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_other_chronic_cond">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165593"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Other chronic condition data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165593"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Other chronic condition</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_other_symp -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_other_symp">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Other symptoms data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Other</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_othermh -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_othermh">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Other mental health disorder data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Other mental health disorder</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_pcos -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_pcos">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Polycystic ovary syndrome data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008487"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Polycystic ovary syndrome</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_pregnancy -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_pregnancy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69218"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Pregnancy data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69218"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Pregnancy status</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_psoriasis -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_psoriasis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005083"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Osoriasis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005083"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Psoriasis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_ra -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_ra">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Rheumatoid arthritis data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Rheumatoid Arthritis</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_rash_toes -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_rash_toes">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2962"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Rash/toes data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2962"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Red or purple rash or lesions on toes</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_red_eyes -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_red_eyes">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000446"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000828"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Red eyes data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000446"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000828"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Red or painful eyes</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_renal -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_renal">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Renal disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Renal disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_rls -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_rls">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005391"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Restless leg data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005391"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Restless leg</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_seasonal_allergies -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_seasonal_allergies">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Seasonal allergies data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005324"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Seasonal Allergies</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_seizures -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_seizures">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Seizures data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Seizures</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_serious_mental_illness -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_serious_mental_illness">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Serious mental illness data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Serious mental illness</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_sex -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_sex">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Sex data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SexSection"/>
+        <schema:text>What is your biological sex assigned at birth?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017146"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Sickle cell disease data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017146"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Sickle cell disease</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_skin_rash -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_skin_rash">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Skin rash data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Skin rash</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_sleep_apnea -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_sleep_apnea">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005296"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Sleep apnea data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005296"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Sleep Apnea</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_slurred_peech -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_slurred_peech">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000342"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Slurred speech data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000342"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Slurred speech</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_smoking_yn -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_smoking_yn">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17934"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Smoking data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17934"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_stroke -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_stroke">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005098"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005264"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Stroke data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005098"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005264"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_substance_use -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_substance_use">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18272"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Substance use data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18272"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Substance use</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_sweating -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_sweating">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019152"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Sweating data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019152"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Excessive sweating</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_t1d -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_t1d">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005147"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Type 1 diabetes data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005147"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Type 1 Diabetes</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_t2dm -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_t2dm">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005148"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Type 2 diabetes data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005148"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Type 2 Diabetes</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_thalassemia -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_thalassemia">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000984"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Thalassemia data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000984"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Thalassemia</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000237"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000372"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000505"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Throat/congestion/nose data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000237"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000372"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000505"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Sore throat, congestion or runny nose</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_thyroid -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_thyroid">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005420"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Thyroid data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004425"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005420"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Hypo/Hyper Thyroidism</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_tobacco -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_tobacco">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154329"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Tobacco use data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154329"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Tobacco Use</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_vape_freq -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_vape_freq">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120482"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Vape frequency data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120482"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_vaping_yn -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_vaping_yn">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Vaping data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
+        <schema:text>Vaping use (Yes or No)</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_walk_climb -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_walk_climb">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C111629"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C175910"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Walk/Climb data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C111629"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C175910"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
+        <schema:text>Do you have serious difficulty walking or climbing stairs?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_weight -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_weight">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Weight data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/HealthStatusSection"/>
+        <schema:text>What is your weight in pounds?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_weight_category -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_weight_category">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Weight category data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/HealthStatusSection"/>
+        <schema:text>Approximately what is your weight?</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_wheezing -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_wheezing">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000604"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Wheezing data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000604"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
+        <schema:text>Wheezing</schema:text>
+    </owl:Class>
+    
+
+
+    <!-- https://github.com/bmir-radx/gcbo/nih_zip -->
+
+    <owl:Class rdf:about="https://github.com/bmir-radx/gcbo/nih_zip">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25621"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://github.com/bmir-radx/gcbo/isAssociatedWith"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25720"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ZIP code data element</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25621"/>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25720"/>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DomicileSection"/>
+        <schema:text>What is your zip code?</schema:text>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1257,705 +4467,40 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_abdom_pain">
-        <rdfs:label>Abdom pain data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000457"/>
-        <schema:text>Abdominal pain</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_af">
-        <rdfs:label>Atrial fibrillation data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004981"/>
-        <schema:text>Atrial Fibrillation</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_age">
-        <rdfs:label>Age data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000011"/>
-        <schema:text>What is your age?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse">
-        <rdfs:label>Alcohol substance abuse data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002494"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021698"/>
-        <schema:text>Alcohol or substance use disorder</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_frequency">
-        <rdfs:label>Alcohol frequency data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
-        <schema:text>How often did you have a drink containing alcohol ?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_yn">
-        <rdfs:label>Alcohol use data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
-        <schema:text>Alcohol use (Yes or No)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alcohol_yrs">
-        <rdfs:label>Alcohol past year data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
-        <schema:text>How often did you have a drink containing alcohol in the past year?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_alz">
-        <rdfs:label>Alzheimers data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
-        <schema:text>Alzheimers</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_anemia">
-        <rdfs:label>Anemia data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002280"/>
-        <schema:text>Anemia or other blood disorder (do not include leukemia or lymphoma)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_anxiety">
-        <rdfs:label>Anxiety data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011918"/>
-        <schema:text>Anxiety</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_appetite">
-        <rdfs:label>Appetite data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000245"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000309"/>
-        <schema:text>Change in or loss of appetite</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_arrhythmia">
-        <rdfs:label>Arrhythmia data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000287"/>
-        <schema:text>Arrhythmia</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_arthritis">
-        <rdfs:label>Arthritis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
-        <schema:text>Arthritis</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_asthma">
-        <rdfs:label>Asthma data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004979"/>
-        <schema:text>Asthma</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_autoimm">
-        <rdfs:label>Autoimmune disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007179"/>
-        <schema:text>Autoimmune disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_balance">
-        <rdfs:label>Balance data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000318"/>
-        <schema:text>Loss of balance</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_blind">
-        <rdfs:label>Blind data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001941"/>
-        <schema:text>Are you blind or do you have serious difficulty seeing, even when wearing glasses?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_blue_lips">
-        <rdfs:label>Blue lips data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000537"/>
-        <schema:text>Bluish lips or face</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer">
-        <rdfs:label>Cancer data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
-        <schema:text>Cancer</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment">
-        <rdfs:label>Active cancer treatment data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19700"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9305"/>
-        <schema:text>Cancer (including leukemia or lymphoma) undergoing active treatment?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cancer_past_yr">
-        <rdfs:label>Cancer diagnosis past year data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004992"/>
-        <schema:text>Cancer diagnosis and/or treatment within the past 12 months</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease">
-        <rdfs:label>Cardiovascular disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <schema:text>Cardiovascular disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cf">
-        <rdfs:label>Cystic fibrosis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0009061"/>
-        <schema:text>Cystic Fibrosis</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chd">
-        <rdfs:label>Chronic heart disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0001493"/>
-        <schema:text>Chronic Heart Disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chf">
-        <rdfs:label>Congestive heart failure data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005009"/>
-        <schema:text>Congestive Heart failure (CHF, Heart Failure)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cholesterol">
-        <rdfs:label>Cholesterol data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C37967"/>
-        <schema:text>High Cholesterol</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease">
-        <rdfs:label>Chronic kidney disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
-        <schema:text>Chronic kidney disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment">
-        <rdfs:label>Chronic kidney disease treatment data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005300"/>
-        <schema:text>Chronic kidney disease treatment</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_lung">
-        <rdfs:label>Chronic lung disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
-        <schema:text>Other chronic lung disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease">
-        <rdfs:label>Chronic lung disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005275"/>
-        <schema:text>Chronic lung disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_chronic_pain">
-        <rdfs:label>Chronic pain data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26940"/>
-        <schema:text>Chronic Pain</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq">
-        <rdfs:label>Cigarettes smoke frequency data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19796"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
-        <schema:text>http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cld_bpd">
-        <rdfs:label>Chronic lung disease bronchopulmonary dysplasia data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019091"/>
-        <schema:text>Chronic Lung Disease Bronchopulmonary Dysplasia (CLD BPD)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_confusion">
-        <rdfs:label>Confusion data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000016"/>
-        <schema:text>New confusion</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_conjunctivitis">
-        <rdfs:label>Conjunctivitis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0003799"/>
-        <schema:text>Conjunctivitis</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_copd">
-        <rdfs:label>Chronic obstructive pulmonary disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
-        <schema:text>Chronic obstructive pulmonary disease (COPD)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_copd_plus">
-        <rdfs:label>Chronic obstructive pulmonary disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
-        <schema:text>Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease">
-        <rdfs:label>Coronary artery disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
-        <schema:text>Coronary artery disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina">
-        <rdfs:label>Coronary artery disease angina data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005010"/>
-        <schema:text>Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_cough">
-        <rdfs:label>Cough data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000614"/>
-        <schema:text>Cough</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_deaf">
-        <rdfs:label>Deaf data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/HP_0000364"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000019"/>
-        <schema:text>Are you deaf or do you have serious difficulty hearing?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_depression">
-        <rdfs:label>Depression data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <schema:text>Depression</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_diabetes">
-        <rdfs:label>Diabetes data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005015"/>
-        <schema:text>Diabetes</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_diff_breath">
-        <rdfs:label>Difficulty breathing data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019153"/>
-        <schema:text>Shortness of breath or difficulty breathing</schema:text>
-    </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_disability">
         <rdfs:label>Disability data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/DisabilityStatusSection"/>
         <schema:text>Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_dress_bathe">
-        <rdfs:label>Dress/Bathe data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C131923"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95544"/>
-        <schema:text>Do you have difficulty dressing or bathing?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_education">
-        <rdfs:label>Education data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17953"/>
-        <schema:text>What is the highest level of education you have achieved outside or in the United States?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_education_yrs">
-        <rdfs:label>Education years data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C122393"/>
-        <schema:text>How many years of education have you completed?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_employment">
-        <rdfs:label>Employment data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C179143"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25172"/>
-        <schema:text>Please specify your employment status.</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_errand">
-        <rdfs:label>Errand data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C121690"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C95549"/>
-        <schema:text>Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor&apos;s office or shopping?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ethnicity">
-        <rdfs:label>Ethnicity data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16564"/>
-        <schema:text>Are you of Hispanic or Latino origin? May include Spanish origin.</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_fatigue">
-        <rdfs:label>Fatigue data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000280"/>
-        <schema:text>Excessive fatigue</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_fever_chills">
-        <rdfs:label>Fever chills data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
-        <schema:text>Fever or Chills</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_fibromyalgia">
-        <rdfs:label>Fibromyalgia data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005546"/>
-        <schema:text>Fibromyalgia</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_gerd">
-        <rdfs:label>Gastroesophageal reflux disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0007186"/>
-        <schema:text>Gastroesophageal reflux disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_gestational_diabetes">
-        <rdfs:label>Gestational diabetes data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005406"/>
-        <schema:text>Gestational Diabetes</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_headache">
-        <rdfs:label>Headache data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000504"/>
-        <schema:text>Headache</schema:text>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_health_status">
         <rdfs:label>Health status data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/HealthStatusSection"/>
         <schema:text>Would you say that (your) health in general is excellent, very good, good, fair, or poor?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_heart_attack">
-        <rdfs:label>Heart attack data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005068"/>
-        <schema:text>A heart attack (myocardial infarction)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_heart_condition">
-        <rdfs:label>Heart condition data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005267"/>
-        <schema:text>Serious heart condition (heart failure, CAD, cardiomyopathies)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_height">
-        <rdfs:label>Height data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
-        <schema:text>What is your height in inches?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_height_category">
-        <rdfs:label>Height category data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000119"/>
-        <schema:text>Approximately what is your height?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_high_temp">
-        <rdfs:label>High temperature data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
-        <schema:text>A temperature greater than 100.4 °F</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_history_smoking">
-        <rdfs:label>Smoking history data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0015005"/>
-        <schema:text>History of Smoking</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_hiv">
-        <rdfs:label>HIV data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005109"/>
-        <schema:text>Chronic HIV infection?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_hypertension">
-        <rdfs:label>Hypertension data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005044"/>
-        <schema:text>Hypertension</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ibd">
-        <rdfs:label>Inflammatory bowel disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005265"/>
-        <schema:text>Inflammatory Bowel Disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ibs">
-        <rdfs:label>Irritable bowel syndrome data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005052"/>
-        <schema:text>Irritable bowel syndrome</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ">
-        <rdfs:label>Immuno compromised solid organ data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C130200"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
-        <schema:text>immunocompromised from solid organ transplant</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immunocompromised">
-        <rdfs:label>Immunocompromised data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C14139"/>
-        <schema:text>Immunocompromised condition</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immunodeficiency">
-        <rdfs:label>Immunodeficiency data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021094"/>
-        <schema:text>Immunodeficiency (NOT including HIV)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition">
-        <rdfs:label>Immunosuppressive condition data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178942"/>
-        <schema:text>Immunosuppressive condition</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_insomnia">
-        <rdfs:label>Insomnia data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0013600"/>
-        <schema:text>Insomnia</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_insurance">
-        <rdfs:label>Insurance data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157356"/>
-        <schema:text>What kind of health insurance do you have?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_iv_drug_use">
-        <rdfs:label>Intravenous drug use data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84367"/>
-        <schema:text>Intravenous drug use</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol">
-        <rdfs:label>Lifetime alcohol use data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0000131"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16273"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C81229"/>
-        <schema:text>In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_liver_disease">
-        <rdfs:label>Liver disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005154"/>
-        <schema:text>Liver disease (cirrhosis, hepB, hepC)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_lupus">
-        <rdfs:label>Lupus data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004670"/>
-        <schema:text>Lupus</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_memory">
-        <rdfs:label>Memory data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002039"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000233"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000543"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000719"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000817"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020029"/>
-        <schema:text>Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_mental_health_disorder">
-        <rdfs:label>Mental health disorder data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
-        <schema:text>Mental health disorder</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_migraines">
-        <rdfs:label>Migraines data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005277"/>
-        <schema:text>Migraines</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ms">
-        <rdfs:label>Multiple sclerosis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005301"/>
-        <schema:text>Multiple Sclerosis</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_muscle_ache">
-        <rdfs:label>Muscle ache data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000626"/>
-        <schema:text>Muscle ache</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea">
-        <rdfs:label>Nausea/vomiting/diarrhea data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000458"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000570"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019145"/>
-        <schema:text>Nausea, vomiting, or diarrhea</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_neuro_shakes">
-        <rdfs:label>Shaking data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000662"/>
-        <schema:text>Unusual shivering or shaking</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_neurodegenerative">
-        <rdfs:label>Neurodegenerative disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005559"/>
-        <schema:text>Neurodegenerative disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_neurological_condition">
-        <rdfs:label>Neurological condition data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
-        <schema:text>Neurological Condition</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_nicotine_yn">
-        <rdfs:label>Nicotine data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C691"/>
-        <schema:text>Nicotine use (Yes or No)</schema:text>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_no_chronic_condition">
         <rdfs:label>No chronic condition data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
         <schema:text>No chronic condition</schema:text>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_no_sympt">
         <rdfs:label>No symptoms data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/SymptomsSection"/>
         <schema:text>None of the above</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_numb_extremities">
-        <rdfs:label>Numb extremities data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000834"/>
-        <schema:text>Tingling or numbness or swelling of hands and feet</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_obesity">
-        <rdfs:label>Obesity data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0011122"/>
-        <schema:text>Obesity (BMI &gt;= 30)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_olfactory">
-        <rdfs:label>Loss of taste or smell data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0020004"/>
-        <schema:text>New loss of taste or smell</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_osteoporosis">
-        <rdfs:label>Osteoporosis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005298"/>
-        <schema:text>Osteoporosis</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_other_chronic_cond">
-        <rdfs:label>Other chronic condition data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165593"/>
-        <schema:text>Other chronic condition</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_other_symp">
-        <rdfs:label>Other symptoms data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
-        <schema:text>Other</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_othermh">
-        <rdfs:label>Other mental health disorder data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002025"/>
-        <schema:text>Other mental health disorder</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_pcos">
-        <rdfs:label>Polycystic ovary syndrome data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008487"/>
-        <schema:text>Polycystic ovary syndrome</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_pregnancy">
-        <rdfs:label>Pregnancy data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69218"/>
-        <schema:text>Pregnancy status</schema:text>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_premature_birth">
         <rdfs:label>Premature birth data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/MedicalHistorySection"/>
         <schema:text>History of premature birth (being born before 37 weeks of pregnancy)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_psoriasis">
-        <rdfs:label>Osoriasis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005083"/>
-        <schema:text>Psoriasis</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_ra">
-        <rdfs:label>Rheumatoid arthritis data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0008383"/>
-        <schema:text>Rheumatoid Arthritis</schema:text>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_race">
         <rdfs:label>Race data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/RaceSection"/>
         <schema:text>What is your race?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_rash_toes">
-        <rdfs:label>Rash/toes data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2962"/>
-        <schema:text>Red or purple rash or lesions on toes</schema:text>
     </rdf:Description>
     <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_record_id">
         <rdfs:label>Record ID data element</rdfs:label>
+        <gcbo:isInSection rdf:resource="https://github.com/bmir-radx/gcbo/IdentitySection"/>
         <schema:text>User ID</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_red_eyes">
-        <rdfs:label>Red eyes data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000446"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000828"/>
-        <schema:text>Red or painful eyes</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_renal">
-        <rdfs:label>Renal disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005240"/>
-        <schema:text>Renal disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_rls">
-        <rdfs:label>Restless leg data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005391"/>
-        <schema:text>Restless leg</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_seasonal_allergies">
-        <rdfs:label>Seasonal allergies data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005324"/>
-        <schema:text>Seasonal Allergies</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_seizures">
-        <rdfs:label>Seizures data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000124"/>
-        <schema:text>Seizures</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_serious_mental_illness">
-        <rdfs:label>Serious mental illness data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005084"/>
-        <schema:text>Serious mental illness</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sex">
-        <rdfs:label>Sex data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000047"/>
-        <schema:text>What is your biological sex assigned at birth?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease">
-        <rdfs:label>Sickle cell disease data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0017146"/>
-        <schema:text>Sickle cell disease</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_skin_rash">
-        <rdfs:label>Skin rash data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000487"/>
-        <schema:text>Skin rash</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sleep_apnea">
-        <rdfs:label>Sleep apnea data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005296"/>
-        <schema:text>Sleep Apnea</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_slurred_peech">
-        <rdfs:label>Slurred speech data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000342"/>
-        <schema:text>Slurred speech</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_smoking_yn">
-        <rdfs:label>Smoking data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17934"/>
-        <schema:text>Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_stroke">
-        <rdfs:label>Stroke data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005098"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005264"/>
-        <schema:text>Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_substance_use">
-        <rdfs:label>Substance use data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18272"/>
-        <schema:text>Substance use</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_sweating">
-        <rdfs:label>Sweating data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0019152"/>
-        <schema:text>Excessive sweating</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_t1d">
-        <rdfs:label>Type 1 diabetes data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005147"/>
-        <schema:text>Type 1 Diabetes</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_t2dm">
-        <rdfs:label>Type 2 diabetes data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005148"/>
-        <schema:text>Type 2 Diabetes</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_thalassemia">
-        <rdfs:label>Thalassemia data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000984"/>
-        <schema:text>Thalassemia</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose">
-        <rdfs:label>Throat/congestion/nose data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000237"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000372"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000505"/>
-        <schema:text>Sore throat, congestion or runny nose</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_thyroid">
-        <rdfs:label>Thyroid data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004425"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005420"/>
-        <schema:text>Hypo/Hyper Thyroidism</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_tobacco">
-        <rdfs:label>Tobacco use data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NBO_0045002"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C154329"/>
-        <schema:text>Tobacco Use</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_vape_freq">
-        <rdfs:label>Vape frequency data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120482"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173060"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
-        <schema:text>http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_vaping_yn">
-        <rdfs:label>Vaping data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173621"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C68751"/>
-        <schema:text>Vaping use (Yes or No)</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_walk_climb">
-        <rdfs:label>Walk/Climb data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C111629"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C175910"/>
-        <schema:text>Do you have serious difficulty walking or climbing stairs?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_weight">
-        <rdfs:label>Weight data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
-        <schema:text>What is your weight in pounds?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_weight_category">
-        <rdfs:label>Weight category data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
-        <schema:text>Approximately what is your weight?</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_wheezing">
-        <rdfs:label>Wheezing data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000604"/>
-        <schema:text>Wheezing</schema:text>
-    </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/bmir-radx/gcbo/nih_zip">
-        <rdfs:label>ZIP code data element</rdfs:label>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25621"/>
-        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25720"/>
-        <schema:text>What is your zip code?</schema:text>
     </rdf:Description>
 </rdf:RDF>
 

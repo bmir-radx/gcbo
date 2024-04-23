@@ -1143,12 +1143,72 @@
       "lbl" : "title",
       "type" : "PROPERTY"
     }, {
+      "id" : "https://github.com/bmir-radx/gcbo/AgeSection",
+      "lbl" : "Age Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection",
+      "lbl" : "Disability Status Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/DomicileSection",
+      "lbl" : "Domicile Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/EducationLevelSection",
+      "lbl" : "Education Level Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/EducationYearsSection",
+      "lbl" : "Education Years Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/EmploymentSection",
+      "lbl" : "Employment Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/EthnicitySection",
+      "lbl" : "Ethnicity Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/HealthStatusSection",
+      "lbl" : "Health Status Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/IdentitySection",
+      "lbl" : "Identity Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/InsuraceStatusSection",
+      "lbl" : "Insurance Status Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection",
+      "lbl" : "Medical History Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/RaceSection",
+      "lbl" : "Race Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/SexSection",
+      "lbl" : "Sex Section",
+      "type" : "CLASS"
+    }, {
+      "id" : "https://github.com/bmir-radx/gcbo/SymptomsSection",
+      "lbl" : "Symptoms Section",
+      "type" : "CLASS"
+    }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_abdom_pain",
       "lbl" : "Abdom pain data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000457"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Abdominal pain"
@@ -1157,10 +1217,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_af",
       "lbl" : "Atrial fibrillation data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004981"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Atrial Fibrillation"
@@ -1169,10 +1233,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_age",
       "lbl" : "Age data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/PATO_0000011"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/AgeSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What is your age?"
@@ -1181,6 +1249,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse",
       "lbl" : "Alcohol substance abuse data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1189,6 +1258,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0021698"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Alcohol or substance use disorder"
         } ]
@@ -1196,6 +1268,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_frequency",
       "lbl" : "Alcohol frequency data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1206,6 +1279,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "How often did you have a drink containing alcohol ?"
@@ -1214,6 +1290,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yn",
       "lbl" : "Alcohol use data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1224,6 +1301,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Alcohol use (Yes or No)"
@@ -1232,6 +1312,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yrs",
       "lbl" : "Alcohol past year data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1243,6 +1324,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "How often did you have a drink containing alcohol in the past year?"
         } ]
@@ -1250,10 +1334,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alz",
       "lbl" : "Alzheimers data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004975"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Alzheimers"
@@ -1262,10 +1350,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_anemia",
       "lbl" : "Anemia data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0002280"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Anemia or other blood disorder (do not include leukemia or lymphoma)?"
@@ -1274,10 +1366,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_anxiety",
       "lbl" : "Anxiety data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0011918"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Anxiety"
@@ -1286,6 +1382,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_appetite",
       "lbl" : "Appetite data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1294,6 +1391,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000309"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Change in or loss of appetite"
         } ]
@@ -1301,10 +1401,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_arrhythmia",
       "lbl" : "Arrhythmia data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000287"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Arrhythmia"
@@ -1313,10 +1417,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_arthritis",
       "lbl" : "Arthritis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0008383"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Arthritis"
@@ -1325,10 +1433,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_asthma",
       "lbl" : "Asthma data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004979"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Asthma"
@@ -1337,10 +1449,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_autoimm",
       "lbl" : "Autoimmune disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0007179"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Autoimmune disease"
@@ -1349,10 +1465,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_balance",
       "lbl" : "Balance data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000318"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Loss of balance"
@@ -1361,10 +1481,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_blind",
       "lbl" : "Blind data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0001941"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Are you blind or do you have serious difficulty seeing, even when wearing glasses?"
@@ -1373,10 +1497,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_blue_lips",
       "lbl" : "Blue lips data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000537"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Bluish lips or face"
@@ -1385,6 +1513,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cancer",
       "lbl" : "Cancer data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1393,6 +1522,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C9305"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Cancer"
         } ]
@@ -1400,6 +1532,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment",
       "lbl" : "Active cancer treatment data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1411,6 +1544,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C9305"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Cancer (including leukemia or lymphoma) undergoing active treatment?"
         } ]
@@ -1418,10 +1554,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cancer_past_yr",
       "lbl" : "Cancer diagnosis past year data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Cancer diagnosis and/or treatment within the past 12 months"
@@ -1430,10 +1570,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease",
       "lbl" : "Cardiovascular disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004995"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Cardiovascular disease"
@@ -1442,10 +1586,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cf",
       "lbl" : "Cystic fibrosis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0009061"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Cystic Fibrosis"
@@ -1454,10 +1602,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chd",
       "lbl" : "Chronic heart disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0001493"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic Heart Disease"
@@ -1466,10 +1618,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chf",
       "lbl" : "Congestive heart failure data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005009"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Congestive Heart failure (CHF, Heart Failure)?"
@@ -1478,10 +1634,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cholesterol",
       "lbl" : "Cholesterol data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C37967"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "High Cholesterol"
@@ -1490,10 +1650,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease",
       "lbl" : "Chronic kidney disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005300"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic kidney disease"
@@ -1502,10 +1666,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment",
       "lbl" : "Chronic kidney disease treatment data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005300"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic kidney disease treatment"
@@ -1514,10 +1682,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung",
       "lbl" : "Chronic lung disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005275"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Other chronic lung disease"
@@ -1526,10 +1698,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease",
       "lbl" : "Chronic lung disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005275"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic lung disease"
@@ -1538,10 +1714,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_pain",
       "lbl" : "Chronic pain data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C26940"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic Pain"
@@ -1550,6 +1730,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq",
       "lbl" : "Cigarettes smoke frequency data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1561,6 +1742,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?"
         } ]
@@ -1568,10 +1752,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cld_bpd",
       "lbl" : "Chronic lung disease bronchopulmonary dysplasia data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0019091"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic Lung Disease Bronchopulmonary Dysplasia (CLD BPD)"
@@ -1580,10 +1768,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_confusion",
       "lbl" : "Confusion data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000016"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "New confusion"
@@ -1592,10 +1784,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_conjunctivitis",
       "lbl" : "Conjunctivitis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0003799"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Conjunctivitis"
@@ -1604,10 +1800,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_copd",
       "lbl" : "Chronic obstructive pulmonary disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005002"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic obstructive pulmonary disease (COPD)"
@@ -1616,10 +1816,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_copd_plus",
       "lbl" : "Chronic obstructive pulmonary disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005002"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?"
@@ -1628,10 +1832,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease",
       "lbl" : "Coronary artery disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005010"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Coronary artery disease"
@@ -1640,10 +1848,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina",
       "lbl" : "Coronary artery disease angina data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005010"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?"
@@ -1652,10 +1864,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cough",
       "lbl" : "Cough data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000614"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Cough"
@@ -1664,6 +1880,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_deaf",
       "lbl" : "Deaf data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1672,6 +1889,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000019"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Are you deaf or do you have serious difficulty hearing?"
         } ]
@@ -1679,10 +1899,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_depression",
       "lbl" : "Depression data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0002050"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Depression"
@@ -1691,10 +1915,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_diabetes",
       "lbl" : "Diabetes data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005015"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Diabetes"
@@ -1703,10 +1931,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_diff_breath",
       "lbl" : "Difficulty breathing data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0019153"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Shortness of breath or difficulty breathing"
@@ -1717,6 +1949,9 @@
       "lbl" : "Disability data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?"
         } ]
@@ -1724,6 +1959,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_dress_bathe",
       "lbl" : "Dress/Bathe data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1732,6 +1968,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C95544"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Do you have difficulty dressing or bathing?"
         } ]
@@ -1739,10 +1978,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_education",
       "lbl" : "Education data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C17953"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/EducationLevelSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What is the highest level of education you have achieved outside or in the United States?"
@@ -1751,10 +1994,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_education_yrs",
       "lbl" : "Education years data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C122393"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/EducationYearsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "How many years of education have you completed?"
@@ -1763,6 +2010,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_employment",
       "lbl" : "Employment data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1771,6 +2019,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C25172"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/EmploymentSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Please specify your employment status."
         } ]
@@ -1778,6 +2029,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_errand",
       "lbl" : "Errand data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1786,6 +2038,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C95549"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?"
         } ]
@@ -1793,10 +2048,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ethnicity",
       "lbl" : "Ethnicity data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C16564"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/EthnicitySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Are you of Hispanic or Latino origin? May include Spanish origin."
@@ -1805,10 +2064,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_fatigue",
       "lbl" : "Fatigue data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000280"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Excessive fatigue"
@@ -1817,10 +2080,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_fever_chills",
       "lbl" : "Fever chills data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000613"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Fever or Chills"
@@ -1829,10 +2096,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_fibromyalgia",
       "lbl" : "Fibromyalgia data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005546"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Fibromyalgia"
@@ -1841,10 +2112,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_gerd",
       "lbl" : "Gastroesophageal reflux disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0007186"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Gastroesophageal reflux disease"
@@ -1853,10 +2128,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_gestational_diabetes",
       "lbl" : "Gestational diabetes data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005406"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Gestational Diabetes"
@@ -1865,10 +2144,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_headache",
       "lbl" : "Headache data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000504"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Headache"
@@ -1879,6 +2162,9 @@
       "lbl" : "Health status data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/HealthStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Would you say that (your) health in general is excellent, very good, good, fair, or poor?"
         } ]
@@ -1886,10 +2172,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_heart_attack",
       "lbl" : "Heart attack data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005068"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "A heart attack (myocardial infarction)?"
@@ -1898,10 +2188,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_heart_condition",
       "lbl" : "Heart condition data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005267"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Serious heart condition (heart failure, CAD, cardiomyopathies)"
@@ -1910,10 +2204,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_height",
       "lbl" : "Height data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/PATO_0000119"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/HealthStatusSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What is your height in inches?"
@@ -1922,10 +2220,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_height_category",
       "lbl" : "Height category data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/PATO_0000119"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/HealthStatusSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Approximately what is your height?"
@@ -1934,10 +2236,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_high_temp",
       "lbl" : "High temperature data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000613"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "A temperature greater than 100.4 °F"
@@ -1946,10 +2252,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_history_smoking",
       "lbl" : "Smoking history data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NBO_0015005"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "History of Smoking"
@@ -1958,10 +2268,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_hiv",
       "lbl" : "HIV data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005109"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Chronic HIV infection?"
@@ -1970,10 +2284,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_hypertension",
       "lbl" : "Hypertension data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005044"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Hypertension"
@@ -1982,10 +2300,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ibd",
       "lbl" : "Inflammatory bowel disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005265"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Inflammatory Bowel Disease"
@@ -1994,10 +2316,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ibs",
       "lbl" : "Irritable bowel syndrome data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005052"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Irritable bowel syndrome"
@@ -2006,6 +2332,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ",
       "lbl" : "Immuno compromised solid organ data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2014,6 +2341,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C14139"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "immunocompromised from solid organ transplant"
         } ]
@@ -2021,10 +2351,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immunocompromised",
       "lbl" : "Immunocompromised data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C14139"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Immunocompromised condition"
@@ -2033,10 +2367,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immunodeficiency",
       "lbl" : "Immunodeficiency data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0021094"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Immunodeficiency (NOT including HIV)?"
@@ -2045,10 +2383,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition",
       "lbl" : "Immunosuppressive condition data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C178942"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Immunosuppressive condition"
@@ -2057,10 +2399,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_insomnia",
       "lbl" : "Insomnia data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0013600"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Insomnia"
@@ -2069,10 +2415,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_insurance",
       "lbl" : "Insurance data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C157356"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/InsuranceStatusSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What kind of health insurance do you have?"
@@ -2081,10 +2431,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_iv_drug_use",
       "lbl" : "Intravenous drug use data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C84367"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Intravenous drug use"
@@ -2093,6 +2447,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol",
       "lbl" : "Lifetime alcohol use data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2104,6 +2459,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C81229"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)"
         } ]
@@ -2111,10 +2469,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_liver_disease",
       "lbl" : "Liver disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005154"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Liver disease (cirrhosis, hepB, hepC)"
@@ -2123,10 +2485,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_lupus",
       "lbl" : "Lupus data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0004670"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Lupus"
@@ -2135,6 +2501,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_memory",
       "lbl" : "Memory data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2155,6 +2522,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0020029"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?"
         } ]
@@ -2162,10 +2532,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_mental_health_disorder",
       "lbl" : "Mental health disorder data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005084"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Mental health disorder"
@@ -2174,10 +2548,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_migraines",
       "lbl" : "Migraines data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005277"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Migraines"
@@ -2186,10 +2564,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ms",
       "lbl" : "Multiple sclerosis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005301"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Multiple Sclerosis"
@@ -2198,10 +2580,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_muscle_ache",
       "lbl" : "Muscle ache data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000626"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Muscle ache"
@@ -2210,6 +2596,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea",
       "lbl" : "Nausea/vomiting/diarrhea data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2221,6 +2608,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0019145"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Nausea, vomiting, or diarrhea"
         } ]
@@ -2228,10 +2618,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_neuro_shakes",
       "lbl" : "Shaking data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000662"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Unusual shivering or shaking"
@@ -2240,10 +2634,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_neurodegenerative",
       "lbl" : "Neurodegenerative disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005559"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Neurodegenerative disease"
@@ -2252,10 +2650,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_neurological_condition",
       "lbl" : "Neurological condition data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005071"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Neurological Condition"
@@ -2264,6 +2666,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_nicotine_yn",
       "lbl" : "Nicotine data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2275,6 +2678,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C691"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Nicotine use (Yes or No)"
         } ]
@@ -2284,6 +2690,9 @@
       "lbl" : "No chronic condition data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "No chronic condition"
         } ]
@@ -2293,6 +2702,9 @@
       "lbl" : "No symptoms data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "None of the above"
         } ]
@@ -2300,10 +2712,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_numb_extremities",
       "lbl" : "Numb extremities data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000834"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Tingling or numbness or swelling of hands and feet"
@@ -2312,10 +2728,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_obesity",
       "lbl" : "Obesity data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0011122"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Obesity (BMI >= 30)"
@@ -2324,10 +2744,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_olfactory",
       "lbl" : "Loss of taste or smell data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0020004"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "New loss of taste or smell"
@@ -2336,10 +2760,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_osteoporosis",
       "lbl" : "Osteoporosis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005298"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Osteoporosis"
@@ -2348,10 +2776,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_other_chronic_cond",
       "lbl" : "Other chronic condition data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C165593"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Other chronic condition"
@@ -2360,10 +2792,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_other_symp",
       "lbl" : "Other symptoms data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Other"
@@ -2372,10 +2808,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_othermh",
       "lbl" : "Other mental health disorder data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0002025"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Other mental health disorder"
@@ -2384,10 +2824,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_pcos",
       "lbl" : "Polycystic ovary syndrome data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0008487"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Polycystic ovary syndrome"
@@ -2396,10 +2840,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_pregnancy",
       "lbl" : "Pregnancy data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C69218"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Pregnancy status"
@@ -2410,6 +2858,9 @@
       "lbl" : "Premature birth data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "History of premature birth (being born before 37 weeks of pregnancy)"
         } ]
@@ -2417,10 +2868,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_psoriasis",
       "lbl" : "Osoriasis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005083"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Psoriasis"
@@ -2429,10 +2884,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ra",
       "lbl" : "Rheumatoid arthritis data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0008383"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Rheumatoid Arthritis"
@@ -2443,6 +2902,9 @@
       "lbl" : "Race data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/RaceSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "What is your race?"
         } ]
@@ -2450,10 +2912,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_rash_toes",
       "lbl" : "Rash/toes data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C2962"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Red or purple rash or lesions on toes"
@@ -2464,6 +2930,9 @@
       "lbl" : "Record ID data element",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/IdentitySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "User ID"
         } ]
@@ -2471,6 +2940,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_red_eyes",
       "lbl" : "Red eyes data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2479,6 +2949,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000828"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Red or painful eyes"
         } ]
@@ -2486,10 +2959,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_renal",
       "lbl" : "Renal disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005240"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Renal disease"
@@ -2498,10 +2975,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_rls",
       "lbl" : "Restless leg data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005391"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Restless leg"
@@ -2510,10 +2991,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_seasonal_allergies",
       "lbl" : "Seasonal allergies data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005324"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Seasonal Allergies"
@@ -2522,10 +3007,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_seizures",
       "lbl" : "Seizures data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000124"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Seizures"
@@ -2534,10 +3023,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_serious_mental_illness",
       "lbl" : "Serious mental illness data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005084"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Serious mental illness"
@@ -2546,10 +3039,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sex",
       "lbl" : "Sex data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/PATO_0000047"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SexSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What is your biological sex assigned at birth?"
@@ -2558,10 +3055,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease",
       "lbl" : "Sickle cell disease data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0017146"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Sickle cell disease"
@@ -2570,10 +3071,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_skin_rash",
       "lbl" : "Skin rash data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000487"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Skin rash"
@@ -2582,10 +3087,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sleep_apnea",
       "lbl" : "Sleep apnea data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005296"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Sleep Apnea"
@@ -2594,10 +3103,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_slurred_peech",
       "lbl" : "Slurred speech data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000342"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Slurred speech"
@@ -2606,6 +3119,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_smoking_yn",
       "lbl" : "Smoking data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2614,6 +3128,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C17934"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?"
         } ]
@@ -2621,6 +3138,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_stroke",
       "lbl" : "Stroke data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2629,6 +3147,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005264"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?"
         } ]
@@ -2636,10 +3157,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_substance_use",
       "lbl" : "Substance use data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C18272"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Substance use"
@@ -2648,10 +3173,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sweating",
       "lbl" : "Sweating data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0019152"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Excessive sweating"
@@ -2660,10 +3189,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_t1d",
       "lbl" : "Type 1 diabetes data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005147"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Type 1 Diabetes"
@@ -2672,10 +3205,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_t2dm",
       "lbl" : "Type 2 diabetes data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005148"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Type 2 Diabetes"
@@ -2684,10 +3221,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_thalassemia",
       "lbl" : "Thalassemia data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0000984"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Thalassemia"
@@ -2696,6 +3237,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose",
       "lbl" : "Throat/congestion/nose data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2707,6 +3249,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000505"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Sore throat, congestion or runny nose"
         } ]
@@ -2714,6 +3259,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_thyroid",
       "lbl" : "Thyroid data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2722,6 +3268,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0005420"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Hypo/Hyper Thyroidism"
         } ]
@@ -2729,6 +3278,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_tobacco",
       "lbl" : "Tobacco use data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2737,6 +3287,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C154329"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Tobacco Use"
         } ]
@@ -2744,6 +3297,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
       "lbl" : "Vape frequency data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2758,6 +3312,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?"
         } ]
@@ -2765,6 +3322,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_vaping_yn",
       "lbl" : "Vaping data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2773,6 +3331,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C68751"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Vaping use (Yes or No)"
         } ]
@@ -2780,6 +3341,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_walk_climb",
       "lbl" : "Walk/Climb data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2788,6 +3350,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C175910"
         }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection"
+        }, {
           "pred" : "https://schema.org/text",
           "val" : "Do you have serious difficulty walking or climbing stairs?"
         } ]
@@ -2795,10 +3360,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_weight",
       "lbl" : "Weight data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/PATO_0000125"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/HealthStatusSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What is your weight in pounds?"
@@ -2807,10 +3376,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_weight_category",
       "lbl" : "Weight category data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/PATO_0000125"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/HealthStatusSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Approximately what is your weight?"
@@ -2819,10 +3392,14 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_wheezing",
       "lbl" : "Wheezing data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/SYMP_0000604"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/SymptomsSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "Wheezing"
@@ -2831,6 +3408,7 @@
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_zip",
       "lbl" : "ZIP code data element",
+      "type" : "CLASS",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2838,6 +3416,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/NCIT_C25720"
+        }, {
+          "pred" : "https://github.com/bmir-radx/gcbo/isInSection",
+          "val" : "https://github.com/bmir-radx/gcbo/DomicileSection"
         }, {
           "pred" : "https://schema.org/text",
           "val" : "What is your zip code?"
@@ -3080,6 +3661,734 @@
       "sub" : "http://purl.obolibrary.org/obo/SYMP_0020045",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/SYMP_0000410"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/AgeSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/DisabilityStatusSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/DomicileSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/EducationLevelSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/EducationYearsSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/EmploymentSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/EthnicitySection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/HealthStatusSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/IdentitySection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/InsuraceStatusSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/MedicalHistorySection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/RaceSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/SexSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/SymptomsSection",
+      "pred" : "is_a",
+      "obj" : "https://github.com/bmir-radx/gcbo/DataElementSection"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_abdom_pain",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000457"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_af",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004981"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_age",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000011"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0002494"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0021698"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_frequency",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000131"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_frequency",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_frequency",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000131"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yrs",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000131"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yrs",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yrs",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_alz",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004975"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_anemia",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0002280"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_anxiety",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0011918"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_appetite",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000245"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_appetite",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000309"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_arrhythmia",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000287"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_arthritis",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0008383"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_asthma",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004979"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_autoimm",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0007179"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_balance",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000318"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_blind",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0001941"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_blue_lips",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000537"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cancer",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cancer",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C9305"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C19700"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C9305"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cancer_past_yr",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004992"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004995"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cf",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0009061"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chd",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0001493"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chf",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005009"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cholesterol",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C37967"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005300"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005300"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005275"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005275"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_chronic_pain",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C26940"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C173060"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C19796"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cld_bpd",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0019091"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_confusion",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000016"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_conjunctivitis",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0003799"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_copd",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_copd_plus",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005010"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005010"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_cough",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000614"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_deaf",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/HP_0000364"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_deaf",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000019"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_depression",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0002050"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_diabetes",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005015"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_diff_breath",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019153"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_dress_bathe",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C131923"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_dress_bathe",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C95544"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_education",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C17953"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_education_yrs",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C122393"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_employment",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C179143"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_employment",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25172"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_errand",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C121690"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_errand",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C95549"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_ethnicity",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16564"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_fatigue",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000280"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_fever_chills",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000613"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_fibromyalgia",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005546"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_gerd",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0007186"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_gestational_diabetes",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005406"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_headache",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000504"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_heart_attack",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005068"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_heart_condition",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005267"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_height",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000119"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_height_category",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000119"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_high_temp",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000613"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_history_smoking",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0015005"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_hiv",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005109"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_hypertension",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005044"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_ibd",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005265"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_ibs",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005052"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C130200"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14139"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_immunocompromised",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14139"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_immunodeficiency",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0021094"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C178942"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_insomnia",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0013600"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_insurance",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C157356"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_iv_drug_use",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C84367"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0000131"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C16273"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C81229"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_liver_disease",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005154"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_lupus",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004670"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0002039"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000233"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000543"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000719"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000817"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_memory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020029"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_mental_health_disorder",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005084"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_migraines",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005277"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_ms",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005301"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_muscle_ache",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000626"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000458"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000570"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019145"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_neuro_shakes",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000662"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_neurodegenerative",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005559"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_neurological_condition",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005071"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_nicotine_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C173060"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_nicotine_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_nicotine_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C691"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_numb_extremities",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000834"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_obesity",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0011122"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_olfactory",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0020004"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_osteoporosis",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005298"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_other_chronic_cond",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C165593"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_other_symp",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000462"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_othermh",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0002025"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_pcos",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0008487"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_pregnancy",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C69218"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_psoriasis",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005083"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_ra",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0008383"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_rash_toes",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C2962"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_red_eyes",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000446"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_red_eyes",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000828"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_renal",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005240"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_rls",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005391"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_seasonal_allergies",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005324"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_seizures",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000124"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_serious_mental_illness",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005084"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_sex",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000047"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0017146"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_skin_rash",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000487"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_sleep_apnea",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005296"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_slurred_peech",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000342"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_smoking_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0045002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_smoking_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C17934"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_stroke",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005098"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_stroke",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005264"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_substance_use",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C18272"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_sweating",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0019152"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_t1d",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005147"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_t2dm",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005148"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_thalassemia",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000984"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000237"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000372"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000505"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_thyroid",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0004425"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_thyroid",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005420"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_tobacco",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NBO_0045002"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_tobacco",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C154329"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C120482"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C173060"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C173621"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_vaping_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C173621"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_vaping_yn",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C68751"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_walk_climb",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C111629"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_walk_climb",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C175910"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_weight",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000125"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_weight_category",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/PATO_0000125"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_wheezing",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/SYMP_0000604"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_zip",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25621"
+    }, {
+      "sub" : "https://github.com/bmir-radx/gcbo/nih_zip",
+      "pred" : "https://github.com/bmir-radx/gcbo/isAssociatedWith",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C25720"
     } ]
   } ]
 }
