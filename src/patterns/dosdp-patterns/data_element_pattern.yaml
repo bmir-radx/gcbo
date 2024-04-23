@@ -17,7 +17,7 @@ vars:
   data_element_text: "'thing'"
 
 name:
-  text: '%s'
+  text: '%s data element'
   vars:
   - data_element_name
 

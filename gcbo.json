@@ -13,9 +13,9 @@
         "val" : "Global Code Book Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-04-17"
+        "val" : "2024-04-23"
       } ],
-      "version" : "https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-17/gcbo.json"
+      "version" : "https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-23/gcbo.json"
     },
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/SYMP_0000016",
@@ -1144,7 +1144,7 @@
       "type" : "PROPERTY"
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_abdom_pain",
-      "lbl" : "abdom_pain",
+      "lbl" : "Abdom pain data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1156,7 +1156,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_af",
-      "lbl" : "af",
+      "lbl" : "Atrial fibrillation data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1168,7 +1168,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_age",
-      "lbl" : "age",
+      "lbl" : "Age data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1180,7 +1180,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse",
-      "lbl" : "alc_sub_abuse",
+      "lbl" : "Alcohol substance abuse data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1195,7 +1195,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_frequency",
-      "lbl" : "alcohol_frequency",
+      "lbl" : "Alcohol frequency data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1213,7 +1213,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yn",
-      "lbl" : "alcohol_yn",
+      "lbl" : "Alcohol use data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1231,7 +1231,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alcohol_yrs",
-      "lbl" : "alcohol_yrs",
+      "lbl" : "Alcohol past year data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1249,7 +1249,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_alz",
-      "lbl" : "alz",
+      "lbl" : "Alzheimers data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1261,7 +1261,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_anemia",
-      "lbl" : "anemia",
+      "lbl" : "Anemia data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1273,7 +1273,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_anxiety",
-      "lbl" : "anxiety",
+      "lbl" : "Anxiety data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1285,7 +1285,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_appetite",
-      "lbl" : "appetite",
+      "lbl" : "Appetite data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1300,7 +1300,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_arrhythmia",
-      "lbl" : "arrhythmia",
+      "lbl" : "Arrhythmia data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1312,7 +1312,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_arthritis",
-      "lbl" : "arthritis",
+      "lbl" : "Arthritis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1324,7 +1324,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_asthma",
-      "lbl" : "asthma",
+      "lbl" : "Asthma data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1336,7 +1336,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_autoimm",
-      "lbl" : "autoimm",
+      "lbl" : "Autoimmune disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1348,7 +1348,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_balance",
-      "lbl" : "balance",
+      "lbl" : "Balance data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1360,7 +1360,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_blind",
-      "lbl" : "blind",
+      "lbl" : "Blind data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1372,7 +1372,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_blue_lips",
-      "lbl" : "blue_lips",
+      "lbl" : "Blue lips data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1384,7 +1384,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cancer",
-      "lbl" : "cancer",
+      "lbl" : "Cancer data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1399,7 +1399,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment",
-      "lbl" : "cancer_active_treatment",
+      "lbl" : "Active cancer treatment data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1417,7 +1417,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cancer_past_yr",
-      "lbl" : "cancer_past_yr",
+      "lbl" : "Cancer diagnosis past year data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1429,7 +1429,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease",
-      "lbl" : "cardiovascular_disease",
+      "lbl" : "Cardiovascular disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1441,7 +1441,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cf",
-      "lbl" : "cf",
+      "lbl" : "Cystic fibrosis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1453,7 +1453,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chd",
-      "lbl" : "chd",
+      "lbl" : "Chronic heart disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1465,7 +1465,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chf",
-      "lbl" : "chf",
+      "lbl" : "Congestive heart failure data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1477,7 +1477,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cholesterol",
-      "lbl" : "cholesterol",
+      "lbl" : "Cholesterol data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1489,7 +1489,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease",
-      "lbl" : "chronic_kidney_disease",
+      "lbl" : "Chronic kidney disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1501,7 +1501,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment",
-      "lbl" : "chronic_kidney_disease_treatment",
+      "lbl" : "Chronic kidney disease treatment data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1513,7 +1513,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung",
-      "lbl" : "chronic_lung",
+      "lbl" : "Chronic lung disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1525,7 +1525,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease",
-      "lbl" : "chronic_lung_disease",
+      "lbl" : "Chronic lung disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1537,7 +1537,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_chronic_pain",
-      "lbl" : "chronic_pain",
+      "lbl" : "Chronic pain data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1549,7 +1549,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq",
-      "lbl" : "cig_smoke_freq",
+      "lbl" : "Cigarettes smoke frequency data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1567,19 +1567,19 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cld_bpd",
-      "lbl" : "cld_bpd",
+      "lbl" : "Chronic lung disease bronchopulmonary dysplasia data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
           "val" : "http://purl.obolibrary.org/obo/MONDO_0019091"
         }, {
           "pred" : "https://schema.org/text",
-          "val" : "CLD BPD (Chronic Lung Disease Bronchopulmonary Dysplasia)"
+          "val" : "Chronic Lung Disease Bronchopulmonary Dysplasia (CLD BPD)"
         } ]
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_confusion",
-      "lbl" : "confusion",
+      "lbl" : "Confusion data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1591,7 +1591,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_conjunctivitis",
-      "lbl" : "conjunctivitis",
+      "lbl" : "Conjunctivitis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1603,7 +1603,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_copd",
-      "lbl" : "copd",
+      "lbl" : "Chronic obstructive pulmonary disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1615,7 +1615,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_copd_plus",
-      "lbl" : "copd_plus",
+      "lbl" : "Chronic obstructive pulmonary disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1627,7 +1627,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease",
-      "lbl" : "coronary_artery_disease",
+      "lbl" : "Coronary artery disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1639,7 +1639,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina",
-      "lbl" : "coronary_artery_disease_angina",
+      "lbl" : "Coronary artery disease angina data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1651,7 +1651,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_cough",
-      "lbl" : "cough",
+      "lbl" : "Cough data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1663,7 +1663,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_deaf",
-      "lbl" : "deaf",
+      "lbl" : "Deaf data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1678,7 +1678,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_depression",
-      "lbl" : "depression",
+      "lbl" : "Depression data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1690,7 +1690,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_diabetes",
-      "lbl" : "diabetes",
+      "lbl" : "Diabetes data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1702,7 +1702,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_diff_breath",
-      "lbl" : "diff_breath",
+      "lbl" : "Difficulty breathing data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1714,7 +1714,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_disability",
-      "lbl" : "disability",
+      "lbl" : "Disability data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -1723,7 +1723,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_dress_bathe",
-      "lbl" : "dress_bathe",
+      "lbl" : "Dress/Bathe data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1738,7 +1738,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_education",
-      "lbl" : "education",
+      "lbl" : "Education data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1750,7 +1750,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_education_yrs",
-      "lbl" : "education_yrs",
+      "lbl" : "Education years data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1762,7 +1762,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_employment",
-      "lbl" : "employment",
+      "lbl" : "Employment data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1777,7 +1777,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_errand",
-      "lbl" : "errand",
+      "lbl" : "Errand data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1792,7 +1792,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ethnicity",
-      "lbl" : "ethnicity",
+      "lbl" : "Ethnicity data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1804,7 +1804,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_fatigue",
-      "lbl" : "fatigue",
+      "lbl" : "Fatigue data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1816,7 +1816,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_fever_chills",
-      "lbl" : "fever_chills",
+      "lbl" : "Fever chills data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1828,7 +1828,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_fibromyalgia",
-      "lbl" : "fibromyalgia",
+      "lbl" : "Fibromyalgia data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1840,7 +1840,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_gerd",
-      "lbl" : "gerd",
+      "lbl" : "Gastroesophageal reflux disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1852,7 +1852,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_gestational_diabetes",
-      "lbl" : "gestational_diabetes",
+      "lbl" : "Gestational diabetes data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1864,7 +1864,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_headache",
-      "lbl" : "headache",
+      "lbl" : "Headache data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1876,7 +1876,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_health_status",
-      "lbl" : "health_status",
+      "lbl" : "Health status data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -1885,7 +1885,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_heart_attack",
-      "lbl" : "heart_attack",
+      "lbl" : "Heart attack data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1897,7 +1897,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_heart_condition",
-      "lbl" : "heart_condition",
+      "lbl" : "Heart condition data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1909,7 +1909,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_height",
-      "lbl" : "height",
+      "lbl" : "Height data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1921,7 +1921,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_height_category",
-      "lbl" : "height_category",
+      "lbl" : "Height category data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1933,7 +1933,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_high_temp",
-      "lbl" : "high_temp",
+      "lbl" : "High temperature data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1945,7 +1945,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_history_smoking",
-      "lbl" : "history_smoking",
+      "lbl" : "Smoking history data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1957,7 +1957,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_hiv",
-      "lbl" : "hiv",
+      "lbl" : "HIV data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1969,7 +1969,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_hypertension",
-      "lbl" : "hypertension",
+      "lbl" : "Hypertension data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1981,7 +1981,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ibd",
-      "lbl" : "ibd",
+      "lbl" : "Inflammatory bowel disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -1993,7 +1993,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ibs",
-      "lbl" : "ibs",
+      "lbl" : "Irritable bowel syndrome data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2005,7 +2005,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ",
-      "lbl" : "immuno_compromised_solid_organ",
+      "lbl" : "Immuno compromised solid organ data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2020,7 +2020,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immunocompromised",
-      "lbl" : "immunocompromised",
+      "lbl" : "Immunocompromised data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2032,7 +2032,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immunodeficiency",
-      "lbl" : "immunodeficiency",
+      "lbl" : "Immunodeficiency data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2044,7 +2044,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition",
-      "lbl" : "immunosuppressive_condition",
+      "lbl" : "Immunosuppressive condition data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2056,7 +2056,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_insomnia",
-      "lbl" : "insomnia",
+      "lbl" : "Insomnia data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2068,7 +2068,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_insurance",
-      "lbl" : "insurance",
+      "lbl" : "Insurance data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2080,7 +2080,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_iv_drug_use",
-      "lbl" : "iv_drug_use",
+      "lbl" : "Intravenous drug use data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2092,7 +2092,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol",
-      "lbl" : "lifetime_use_alcohol",
+      "lbl" : "Lifetime alcohol use data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2110,7 +2110,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_liver_disease",
-      "lbl" : "liver_disease",
+      "lbl" : "Liver disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2122,7 +2122,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_lupus",
-      "lbl" : "lupus",
+      "lbl" : "Lupus data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2134,7 +2134,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_memory",
-      "lbl" : "memory",
+      "lbl" : "Memory data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2161,7 +2161,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_mental_health_disorder",
-      "lbl" : "mental_health_disorder",
+      "lbl" : "Mental health disorder data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2173,7 +2173,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_migraines",
-      "lbl" : "migraines",
+      "lbl" : "Migraines data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2185,7 +2185,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ms",
-      "lbl" : "ms",
+      "lbl" : "Multiple sclerosis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2197,7 +2197,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_muscle_ache",
-      "lbl" : "muscle_ache",
+      "lbl" : "Muscle ache data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2209,7 +2209,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea",
-      "lbl" : "nausea_vomiting_diarrhea",
+      "lbl" : "Nausea/vomiting/diarrhea data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2227,7 +2227,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_neuro_shakes",
-      "lbl" : "neuro_shakes",
+      "lbl" : "Shaking data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2239,7 +2239,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_neurodegenerative",
-      "lbl" : "neurodegenerative",
+      "lbl" : "Neurodegenerative disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2251,7 +2251,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_neurological_condition",
-      "lbl" : "neurological_condition",
+      "lbl" : "Neurological condition data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2263,7 +2263,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_nicotine_yn",
-      "lbl" : "nicotine_yn",
+      "lbl" : "Nicotine data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2281,7 +2281,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_no_chronic_condition",
-      "lbl" : "no_chronic_condition",
+      "lbl" : "No chronic condition data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -2290,7 +2290,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_no_sympt",
-      "lbl" : "no_sympt",
+      "lbl" : "No symptoms data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -2299,7 +2299,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_numb_extremities",
-      "lbl" : "numb_extremities",
+      "lbl" : "Numb extremities data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2311,7 +2311,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_obesity",
-      "lbl" : "obesity",
+      "lbl" : "Obesity data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2323,7 +2323,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_olfactory",
-      "lbl" : "olfactory",
+      "lbl" : "Loss of taste or smell data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2335,7 +2335,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_osteoporosis",
-      "lbl" : "osteoporosis",
+      "lbl" : "Osteoporosis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2347,7 +2347,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_other_chronic_cond",
-      "lbl" : "other_chronic_cond",
+      "lbl" : "Other chronic condition data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2359,7 +2359,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_other_symp",
-      "lbl" : "other_symp",
+      "lbl" : "Other symptoms data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2371,7 +2371,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_othermh",
-      "lbl" : "othermh",
+      "lbl" : "Other mental health disorder data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2383,7 +2383,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_pcos",
-      "lbl" : "pcos",
+      "lbl" : "Polycystic ovary syndrome data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2395,7 +2395,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_pregnancy",
-      "lbl" : "pregnancy",
+      "lbl" : "Pregnancy data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2407,7 +2407,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_premature_birth",
-      "lbl" : "premature_birth",
+      "lbl" : "Premature birth data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -2416,7 +2416,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_psoriasis",
-      "lbl" : "psoriasis",
+      "lbl" : "Osoriasis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2428,7 +2428,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_ra",
-      "lbl" : "ra",
+      "lbl" : "Rheumatoid arthritis data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2440,7 +2440,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_race",
-      "lbl" : "race",
+      "lbl" : "Race data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -2449,7 +2449,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_rash_toes",
-      "lbl" : "rash_toes",
+      "lbl" : "Rash/toes data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2461,7 +2461,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_record_id",
-      "lbl" : "record_id",
+      "lbl" : "Record ID data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "https://schema.org/text",
@@ -2470,7 +2470,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_red_eyes",
-      "lbl" : "red_eyes",
+      "lbl" : "Red eyes data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2485,7 +2485,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_renal",
-      "lbl" : "renal",
+      "lbl" : "Renal disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2497,7 +2497,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_rls",
-      "lbl" : "rls",
+      "lbl" : "Restless leg data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2509,7 +2509,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_seasonal_allergies",
-      "lbl" : "seasonal_allergies",
+      "lbl" : "Seasonal allergies data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2521,7 +2521,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_seizures",
-      "lbl" : "seizures",
+      "lbl" : "Seizures data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2533,7 +2533,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_serious_mental_illness",
-      "lbl" : "serious_mental_illness",
+      "lbl" : "Serious mental illness data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2545,7 +2545,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sex",
-      "lbl" : "sex",
+      "lbl" : "Sex data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2557,7 +2557,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease",
-      "lbl" : "sickle_cell_disease",
+      "lbl" : "Sickle cell disease data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2569,7 +2569,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_skin_rash",
-      "lbl" : "skin_rash",
+      "lbl" : "Skin rash data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2581,7 +2581,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sleep_apnea",
-      "lbl" : "sleep_apnea",
+      "lbl" : "Sleep apnea data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2593,7 +2593,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_slurred_peech",
-      "lbl" : "slurred_peech",
+      "lbl" : "Slurred speech data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2605,7 +2605,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_smoking_yn",
-      "lbl" : "smoking_yn",
+      "lbl" : "Smoking data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2620,7 +2620,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_stroke",
-      "lbl" : "stroke",
+      "lbl" : "Stroke data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2635,7 +2635,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_substance_use",
-      "lbl" : "substance_use",
+      "lbl" : "Substance use data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2647,7 +2647,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_sweating",
-      "lbl" : "sweating",
+      "lbl" : "Sweating data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2659,7 +2659,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_t1d",
-      "lbl" : "t1d",
+      "lbl" : "Type 1 diabetes data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2671,7 +2671,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_t2dm",
-      "lbl" : "t2dm",
+      "lbl" : "Type 2 diabetes data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2683,7 +2683,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_thalassemia",
-      "lbl" : "thalassemia",
+      "lbl" : "Thalassemia data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2695,7 +2695,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose",
-      "lbl" : "throat_congestion_nose",
+      "lbl" : "Throat/congestion/nose data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2713,7 +2713,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_thyroid",
-      "lbl" : "thyroid",
+      "lbl" : "Thyroid data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2728,7 +2728,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_tobacco",
-      "lbl" : "tobacco",
+      "lbl" : "Tobacco use data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2743,7 +2743,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_vape_freq",
-      "lbl" : "vape_freq",
+      "lbl" : "Vape frequency data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2764,7 +2764,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_vaping_yn",
-      "lbl" : "vaping_yn",
+      "lbl" : "Vaping data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2779,7 +2779,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_walk_climb",
-      "lbl" : "walk_climb",
+      "lbl" : "Walk/Climb data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2794,7 +2794,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_weight",
-      "lbl" : "weight",
+      "lbl" : "Weight data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2806,7 +2806,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_weight_category",
-      "lbl" : "weight_category",
+      "lbl" : "Weight category data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2818,7 +2818,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_wheezing",
-      "lbl" : "wheezing",
+      "lbl" : "Wheezing data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
@@ -2830,7 +2830,7 @@
       }
     }, {
       "id" : "https://github.com/bmir-radx/gcbo/nih_zip",
-      "lbl" : "zip",
+      "lbl" : "ZIP code data element",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",

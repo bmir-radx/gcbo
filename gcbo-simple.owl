@@ -9,11 +9,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="https://schema.org/">
     <owl:Ontology rdf:about="https://github.com/bmir-radx/gbco/gcbo/gcbo-simple.owl">
-        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-17/gcbo-simple.owl"/>
+        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-23/gcbo-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Global Code Book Ontology</terms:title>
-        <owl:versionInfo>2024-04-17</owl:versionInfo>
+        <owl:versionInfo>2024-04-23</owl:versionInfo>
     </owl:Ontology>
     
 
