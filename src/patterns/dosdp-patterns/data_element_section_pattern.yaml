@@ -8,7 +8,7 @@ classes:
   data_element_section: BMIR:DataElementSection
 
 vars:
-  section: data_element_section
+  section: BMIR:DataElementSection
 
 name:
   text: '%s Section'
@@ -16,4 +16,6 @@ name:
   - section
 
 subClassOf:
-  text: "data_element_section"
+  text: "'data_element_section'"
+  vars:
+  - section
