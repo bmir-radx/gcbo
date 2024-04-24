@@ -8,6 +8,7 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<urn:unnamed:ontology#ont1>
 
+Declaration(Class(<http://purl.obolibrary.org/obo/BMIR_DataElement>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BMIR_DataElementSection>))
 Declaration(Class(<https://bmir-radx.github.io/patterns/data_element.yaml>))
 Declaration(Class(<https://bmir-radx.github.io/patterns/data_element_section.yaml>))
@@ -27,6 +28,7 @@ AnnotationAssertion(<http://purl.obolibrary.org/obo/SCHEMA_text> <https://bmir-r
 AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element.yaml> "data_element"^^xsd:string)
 AnnotationAssertion(<http://purl.org/dc/terms/title> <https://bmir-radx.github.io/patterns/data_element.yaml> "data_element_mapping"^^xsd:string)
 AnnotationAssertion(rdfs:label <https://bmir-radx.github.io/patterns/data_element.yaml> "'thing' data element"^^xsd:string)
+SubClassOf(<https://bmir-radx.github.io/patterns/data_element.yaml> <http://purl.obolibrary.org/obo/BMIR_DataElement>)
 SubClassOf(<https://bmir-radx.github.io/patterns/data_element.yaml> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BMIR_isAssociatedWith> owl:Thing))
 
 # Class: <https://bmir-radx.github.io/patterns/data_element_section.yaml> (http://purl.obolibrary.org/obo/BMIR_DataElementSection Section)

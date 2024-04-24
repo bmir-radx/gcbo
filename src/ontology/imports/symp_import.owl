@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://github.com/bmir-radx/gbco/gcbo/imports/symp_import.owl>
-<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-23/imports/symp_import.owl>
+<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-24/imports/symp_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/symp/releases/2024-02-09/symp.owl>)
-Annotation(owl:versionInfo "2024-04-23")
+Annotation(owl:versionInfo "2024-04-24")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0000019>))

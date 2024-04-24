@@ -7,10 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://github.com/bmir-radx/gbco/gcbo/patterns/definitions.owl>
-<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-23/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-04-23")
+<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-24/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-04-24")
 
-Declaration(Class(<http://purl.obolibrary.org/obo/HP_0000364>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000984>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001493>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001941>))
@@ -150,6 +149,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0019153>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0020004>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0020029>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/AgeSection>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/DataElement>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/DataElementSection>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/DisabilityStatusSection>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/DomicileSection>))
@@ -208,6 +208,7 @@ Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_deaf>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_depression>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_diabetes>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_diff_breath>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_disability>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_dress_bathe>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_education>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_education_yrs>))
@@ -220,6 +221,7 @@ Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_fibromyalgia>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_gerd>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_gestational_diabetes>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_headache>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_health_status>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_heart_attack>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_heart_condition>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_height>))
@@ -250,6 +252,8 @@ Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_neuro_shakes>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_neurodegenerative>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_neurological_condition>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_nicotine_yn>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_no_chronic_condition>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_no_sympt>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_numb_extremities>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_obesity>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_olfactory>))
@@ -259,9 +263,12 @@ Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_other_symp>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_othermh>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_pcos>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_pregnancy>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_premature_birth>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_psoriasis>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_ra>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_race>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_rash_toes>))
+Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_record_id>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_red_eyes>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_renal>))
 Declaration(Class(<https://github.com/bmir-radx/gcbo/nih_rls>))
@@ -376,6 +383,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_abdom_pain
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_abdom_pain> <http://purl.obolibrary.org/obo/SYMP_0000457>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_abdom_pain> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_abdom_pain> "Abdominal pain")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_abdom_pain> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_abdom_pain> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000457>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_af> (Atrial fibrillation data element)
@@ -384,6 +392,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_af> "Atria
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_af> <http://purl.obolibrary.org/obo/MONDO_0004981>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_af> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_af> "Atrial Fibrillation")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_af> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_af> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004981>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_age> (Age data element)
@@ -392,6 +401,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_age> "Age 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_age> <http://purl.obolibrary.org/obo/PATO_0000011>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_age> <https://github.com/bmir-radx/gcbo/AgeSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_age> "What is your age?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_age> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_age> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/PATO_0000011>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> (Alcohol substance abuse data element)
@@ -401,6 +411,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alc_sub_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> <http://purl.obolibrary.org/obo/MONDO_0021698>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> "Alcohol or substance use disorder")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0002494>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alc_sub_abuse> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0021698>))
 
@@ -412,6 +423,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alcohol_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> <http://purl.obolibrary.org/obo/NCIT_C81229>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> "How often did you have a drink containing alcohol ?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0000131>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C16273>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_frequency> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C81229>))
@@ -424,6 +436,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alcohol_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alcohol_yn> <http://purl.obolibrary.org/obo/NCIT_C81229>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_alcohol_yn> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_alcohol_yn> "Alcohol use (Yes or No)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yn> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0000131>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C16273>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C81229>))
@@ -436,6 +449,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alcohol_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> <http://purl.obolibrary.org/obo/NCIT_C81229>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> "How often did you have a drink containing alcohol in the past year?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0000131>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C16273>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alcohol_yrs> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C81229>))
@@ -446,6 +460,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_alz> "Alzh
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_alz> <http://purl.obolibrary.org/obo/MONDO_0004975>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_alz> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_alz> "Alzheimers")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alz> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_alz> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004975>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_anemia> (Anemia data element)
@@ -454,6 +469,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_anemia> "A
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_anemia> <http://purl.obolibrary.org/obo/MONDO_0002280>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_anemia> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_anemia> "Anemia or other blood disorder (do not include leukemia or lymphoma)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_anemia> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_anemia> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0002280>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_anxiety> (Anxiety data element)
@@ -462,6 +478,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_anxiety> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_anxiety> <http://purl.obolibrary.org/obo/MONDO_0011918>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_anxiety> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_anxiety> "Anxiety")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_anxiety> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_anxiety> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0011918>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_appetite> (Appetite data element)
@@ -471,6 +488,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_appetite
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_appetite> <http://purl.obolibrary.org/obo/SYMP_0000309>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_appetite> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_appetite> "Change in or loss of appetite")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_appetite> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_appetite> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000245>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_appetite> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000309>))
 
@@ -480,6 +498,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_arrhythmia
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_arrhythmia> <http://purl.obolibrary.org/obo/SYMP_0000287>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_arrhythmia> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_arrhythmia> "Arrhythmia")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_arrhythmia> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_arrhythmia> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000287>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_arthritis> (Arthritis data element)
@@ -488,6 +507,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_arthritis>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_arthritis> <http://purl.obolibrary.org/obo/MONDO_0008383>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_arthritis> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_arthritis> "Arthritis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_arthritis> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_arthritis> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0008383>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_asthma> (Asthma data element)
@@ -496,6 +516,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_asthma> "A
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_asthma> <http://purl.obolibrary.org/obo/MONDO_0004979>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_asthma> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_asthma> "Asthma")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_asthma> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_asthma> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004979>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_autoimm> (Autoimmune disease data element)
@@ -504,6 +525,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_autoimm> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_autoimm> <http://purl.obolibrary.org/obo/MONDO_0007179>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_autoimm> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_autoimm> "Autoimmune disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_autoimm> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_autoimm> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0007179>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_balance> (Balance data element)
@@ -512,6 +534,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_balance> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_balance> <http://purl.obolibrary.org/obo/SYMP_0000318>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_balance> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_balance> "Loss of balance")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_balance> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_balance> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000318>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_blind> (Blind data element)
@@ -520,6 +543,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_blind> "Bl
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_blind> <http://purl.obolibrary.org/obo/MONDO_0001941>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_blind> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_blind> "Are you blind or do you have serious difficulty seeing, even when wearing glasses?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_blind> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_blind> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0001941>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_blue_lips> (Blue lips data element)
@@ -528,6 +552,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_blue_lips>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_blue_lips> <http://purl.obolibrary.org/obo/SYMP_0000537>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_blue_lips> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_blue_lips> "Bluish lips or face")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_blue_lips> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_blue_lips> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000537>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_cancer> (Cancer data element)
@@ -537,6 +562,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cancer> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cancer> <http://purl.obolibrary.org/obo/NCIT_C9305>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cancer> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cancer> "Cancer")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004992>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C9305>))
 
@@ -548,6 +574,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cancer_a
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> <http://purl.obolibrary.org/obo/NCIT_C9305>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> "Cancer (including leukemia or lymphoma) undergoing active treatment?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004992>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C19700>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer_active_treatment> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C9305>))
@@ -558,6 +585,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_cancer_pas
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cancer_past_yr> <http://purl.obolibrary.org/obo/MONDO_0004992>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cancer_past_yr> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cancer_past_yr> "Cancer diagnosis and/or treatment within the past 12 months")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer_past_yr> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cancer_past_yr> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004992>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease> (Cardiovascular disease data element)
@@ -566,6 +594,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_cardiovasc
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease> <http://purl.obolibrary.org/obo/MONDO_0004995>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease> "Cardiovascular disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cardiovascular_disease> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004995>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_cf> (Cystic fibrosis data element)
@@ -574,6 +603,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_cf> "Cysti
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cf> <http://purl.obolibrary.org/obo/MONDO_0009061>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cf> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cf> "Cystic Fibrosis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cf> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cf> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0009061>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chd> (Chronic heart disease data element)
@@ -582,6 +612,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chd> "Chro
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chd> <http://purl.obolibrary.org/obo/MONDO_0001493>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chd> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chd> "Chronic Heart Disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chd> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chd> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0001493>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chf> (Congestive heart failure data element)
@@ -590,6 +621,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chf> "Cong
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chf> <http://purl.obolibrary.org/obo/MONDO_0005009>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chf> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chf> "Congestive Heart failure (CHF, Heart Failure)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chf> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chf> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005009>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_cholesterol> (Cholesterol data element)
@@ -598,6 +630,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_cholestero
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cholesterol> <http://purl.obolibrary.org/obo/NCIT_C37967>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cholesterol> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cholesterol> "High Cholesterol")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cholesterol> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cholesterol> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C37967>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease> (Chronic kidney disease data element)
@@ -606,6 +639,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chronic_ki
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease> <http://purl.obolibrary.org/obo/MONDO_0005300>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease> "Chronic kidney disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005300>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment> (Chronic kidney disease treatment data element)
@@ -614,6 +648,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chronic_ki
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment> <http://purl.obolibrary.org/obo/MONDO_0005300>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment> "Chronic kidney disease treatment")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_kidney_disease_treatment> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005300>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chronic_lung> (Chronic lung disease data element)
@@ -622,6 +657,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chronic_lu
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chronic_lung> <http://purl.obolibrary.org/obo/MONDO_0005275>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chronic_lung> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chronic_lung> "Other chronic lung disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_lung> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_lung> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005275>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease> (Chronic lung disease data element)
@@ -630,6 +666,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chronic_lu
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease> <http://purl.obolibrary.org/obo/MONDO_0005275>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease> "Chronic lung disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_lung_disease> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005275>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_chronic_pain> (Chronic pain data element)
@@ -638,6 +675,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_chronic_pa
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_chronic_pain> <http://purl.obolibrary.org/obo/NCIT_C26940>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_chronic_pain> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_chronic_pain> "Chronic Pain")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_pain> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_chronic_pain> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C26940>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> (Cigarettes smoke frequency data element)
@@ -648,6 +686,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cig_smok
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> <http://purl.obolibrary.org/obo/NCIT_C68751>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> "http://purl.obolibrary.org/obo/Nicotine Frequency_ Do you now smoke cigarettes?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C173060>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C19796>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cig_smoke_freq> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C68751>))
@@ -658,6 +697,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_cld_bpd> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cld_bpd> <http://purl.obolibrary.org/obo/MONDO_0019091>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cld_bpd> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cld_bpd> "Chronic Lung Disease Bronchopulmonary Dysplasia (CLD BPD)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cld_bpd> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cld_bpd> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0019091>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_confusion> (Confusion data element)
@@ -666,6 +706,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_confusion>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_confusion> <http://purl.obolibrary.org/obo/SYMP_0000016>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_confusion> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_confusion> "New confusion")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_confusion> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_confusion> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000016>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_conjunctivitis> (Conjunctivitis data element)
@@ -674,6 +715,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_conjunctiv
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_conjunctivitis> <http://purl.obolibrary.org/obo/MONDO_0003799>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_conjunctivitis> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_conjunctivitis> "Conjunctivitis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_conjunctivitis> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_conjunctivitis> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0003799>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_copd> (Chronic obstructive pulmonary disease data element)
@@ -682,6 +724,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_copd> "Chr
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_copd> <http://purl.obolibrary.org/obo/MONDO_0005002>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_copd> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_copd> "Chronic obstructive pulmonary disease (COPD)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_copd> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_copd> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005002>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_copd_plus> (Chronic obstructive pulmonary disease data element)
@@ -690,6 +733,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_copd_plus>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_copd_plus> <http://purl.obolibrary.org/obo/MONDO_0005002>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_copd_plus> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_copd_plus> "Chronic obstructive pulmonary disease (COPD) including emphysema, chronic bronchitis, obstructive pulmonary disease?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_copd_plus> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_copd_plus> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005002>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease> (Coronary artery disease data element)
@@ -698,6 +742,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_coronary_a
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease> <http://purl.obolibrary.org/obo/MONDO_0005010>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease> "Coronary artery disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005010>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina> (Coronary artery disease angina data element)
@@ -706,6 +751,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_coronary_a
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina> <http://purl.obolibrary.org/obo/MONDO_0005010>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina> "Coronary artery disease (blockages in your heart vessels) or angina (chest pain)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_coronary_artery_disease_angina> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005010>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_cough> (Cough data element)
@@ -714,16 +760,16 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_cough> "Co
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_cough> <http://purl.obolibrary.org/obo/SYMP_0000614>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_cough> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_cough> "Cough")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cough> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_cough> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000614>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_deaf> (Deaf data element)
 
 AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_deaf> "Deaf data element")
-AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_deaf> <http://purl.obolibrary.org/obo/HP_0000364>)
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_deaf> <http://purl.obolibrary.org/obo/SYMP_0000019>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_deaf> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_deaf> "Are you deaf or do you have serious difficulty hearing?")
-SubClassOf(<https://github.com/bmir-radx/gcbo/nih_deaf> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/HP_0000364>))
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_deaf> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_deaf> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000019>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_depression> (Depression data element)
@@ -732,6 +778,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_depression
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_depression> <http://purl.obolibrary.org/obo/MONDO_0002050>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_depression> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_depression> "Depression")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_depression> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_depression> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0002050>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_diabetes> (Diabetes data element)
@@ -740,6 +787,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_diabetes> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_diabetes> <http://purl.obolibrary.org/obo/MONDO_0005015>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_diabetes> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_diabetes> "Diabetes")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_diabetes> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_diabetes> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005015>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_diff_breath> (Difficulty breathing data element)
@@ -748,7 +796,15 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_diff_breat
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_diff_breath> <http://purl.obolibrary.org/obo/SYMP_0019153>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_diff_breath> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_diff_breath> "Shortness of breath or difficulty breathing")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_diff_breath> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_diff_breath> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0019153>))
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_disability> (Disability data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_disability> "Disability data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_disability> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_disability> "Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_disability> <https://github.com/bmir-radx/gcbo/DataElement>)
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_dress_bathe> (Dress/Bathe data element)
 
@@ -757,6 +813,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_dress_ba
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_dress_bathe> <http://purl.obolibrary.org/obo/NCIT_C95544>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_dress_bathe> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_dress_bathe> "Do you have difficulty dressing or bathing?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_dress_bathe> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_dress_bathe> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C131923>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_dress_bathe> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C95544>))
 
@@ -766,6 +823,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_education>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_education> <http://purl.obolibrary.org/obo/NCIT_C17953>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_education> <https://github.com/bmir-radx/gcbo/EducationLevelSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_education> "What is the highest level of education you have achieved outside or in the United States?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_education> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_education> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C17953>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_education_yrs> (Education years data element)
@@ -774,6 +832,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_education_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_education_yrs> <http://purl.obolibrary.org/obo/NCIT_C122393>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_education_yrs> <https://github.com/bmir-radx/gcbo/EducationYearsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_education_yrs> "How many years of education have you completed?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_education_yrs> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_education_yrs> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C122393>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_employment> (Employment data element)
@@ -783,6 +842,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_employme
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_employment> <http://purl.obolibrary.org/obo/NCIT_C25172>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_employment> <https://github.com/bmir-radx/gcbo/EmploymentSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_employment> "Please specify your employment status.")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_employment> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_employment> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C179143>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_employment> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C25172>))
 
@@ -793,6 +853,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_errand> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_errand> <http://purl.obolibrary.org/obo/NCIT_C95549>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_errand> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_errand> "Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or shopping?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_errand> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_errand> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C121690>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_errand> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C95549>))
 
@@ -802,6 +863,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_ethnicity>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_ethnicity> <http://purl.obolibrary.org/obo/NCIT_C16564>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_ethnicity> <https://github.com/bmir-radx/gcbo/EthnicitySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_ethnicity> "Are you of Hispanic or Latino origin? May include Spanish origin.")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ethnicity> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ethnicity> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C16564>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_fatigue> (Fatigue data element)
@@ -810,6 +872,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_fatigue> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_fatigue> <http://purl.obolibrary.org/obo/SYMP_0000280>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_fatigue> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_fatigue> "Excessive fatigue")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_fatigue> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_fatigue> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000280>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_fever_chills> (Fever chills data element)
@@ -818,6 +881,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_fever_chil
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_fever_chills> <http://purl.obolibrary.org/obo/SYMP_0000613>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_fever_chills> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_fever_chills> "Fever or Chills")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_fever_chills> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_fever_chills> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000613>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_fibromyalgia> (Fibromyalgia data element)
@@ -826,6 +890,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_fibromyalg
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_fibromyalgia> <http://purl.obolibrary.org/obo/MONDO_0005546>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_fibromyalgia> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_fibromyalgia> "Fibromyalgia")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_fibromyalgia> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_fibromyalgia> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005546>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_gerd> (Gastroesophageal reflux disease data element)
@@ -834,6 +899,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_gerd> "Gas
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_gerd> <http://purl.obolibrary.org/obo/MONDO_0007186>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_gerd> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_gerd> "Gastroesophageal reflux disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_gerd> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_gerd> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0007186>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_gestational_diabetes> (Gestational diabetes data element)
@@ -842,6 +908,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_gestationa
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_gestational_diabetes> <http://purl.obolibrary.org/obo/MONDO_0005406>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_gestational_diabetes> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_gestational_diabetes> "Gestational Diabetes")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_gestational_diabetes> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_gestational_diabetes> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005406>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_headache> (Headache data element)
@@ -850,7 +917,15 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_headache> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_headache> <http://purl.obolibrary.org/obo/SYMP_0000504>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_headache> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_headache> "Headache")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_headache> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_headache> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000504>))
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_health_status> (Health status data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_health_status> "Health status data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_health_status> <https://github.com/bmir-radx/gcbo/HealthStatusSection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_health_status> "Would you say that (your) health in general is excellent, very good, good, fair, or poor?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_health_status> <https://github.com/bmir-radx/gcbo/DataElement>)
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_heart_attack> (Heart attack data element)
 
@@ -858,6 +933,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_heart_atta
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_heart_attack> <http://purl.obolibrary.org/obo/MONDO_0005068>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_heart_attack> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_heart_attack> "A heart attack (myocardial infarction)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_heart_attack> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_heart_attack> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005068>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_heart_condition> (Heart condition data element)
@@ -866,6 +942,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_heart_cond
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_heart_condition> <http://purl.obolibrary.org/obo/MONDO_0005267>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_heart_condition> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_heart_condition> "Serious heart condition (heart failure, CAD, cardiomyopathies)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_heart_condition> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_heart_condition> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005267>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_height> (Height data element)
@@ -874,6 +951,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_height> "H
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_height> <http://purl.obolibrary.org/obo/PATO_0000119>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_height> <https://github.com/bmir-radx/gcbo/HealthStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_height> "What is your height in inches?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_height> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_height> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/PATO_0000119>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_height_category> (Height category data element)
@@ -882,6 +960,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_height_cat
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_height_category> <http://purl.obolibrary.org/obo/PATO_0000119>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_height_category> <https://github.com/bmir-radx/gcbo/HealthStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_height_category> "Approximately what is your height?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_height_category> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_height_category> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/PATO_0000119>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_high_temp> (High temperature data element)
@@ -890,6 +969,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_high_temp>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_high_temp> <http://purl.obolibrary.org/obo/SYMP_0000613>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_high_temp> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_high_temp> "A temperature greater than 100.4 °F")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_high_temp> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_high_temp> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000613>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_history_smoking> (Smoking history data element)
@@ -898,6 +978,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_history_sm
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_history_smoking> <http://purl.obolibrary.org/obo/NBO_0015005>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_history_smoking> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_history_smoking> "History of Smoking")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_history_smoking> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_history_smoking> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0015005>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_hiv> (HIV data element)
@@ -906,6 +987,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_hiv> "HIV 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_hiv> <http://purl.obolibrary.org/obo/MONDO_0005109>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_hiv> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_hiv> "Chronic HIV infection?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_hiv> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_hiv> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005109>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_hypertension> (Hypertension data element)
@@ -914,6 +996,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_hypertensi
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_hypertension> <http://purl.obolibrary.org/obo/MONDO_0005044>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_hypertension> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_hypertension> "Hypertension")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_hypertension> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_hypertension> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005044>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_ibd> (Inflammatory bowel disease data element)
@@ -922,6 +1005,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_ibd> "Infl
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_ibd> <http://purl.obolibrary.org/obo/MONDO_0005265>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_ibd> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_ibd> "Inflammatory Bowel Disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ibd> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ibd> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005265>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_ibs> (Irritable bowel syndrome data element)
@@ -930,6 +1014,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_ibs> "Irri
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_ibs> <http://purl.obolibrary.org/obo/MONDO_0005052>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_ibs> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_ibs> "Irritable bowel syndrome")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ibs> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ibs> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005052>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> (Immuno compromised solid organ data element)
@@ -939,6 +1024,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_immuno_c
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> <http://purl.obolibrary.org/obo/NCIT_C14139>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> "immunocompromised from solid organ transplant")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C130200>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immuno_compromised_solid_organ> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C14139>))
 
@@ -948,6 +1034,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_immunocomp
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_immunocompromised> <http://purl.obolibrary.org/obo/NCIT_C14139>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_immunocompromised> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_immunocompromised> "Immunocompromised condition")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immunocompromised> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immunocompromised> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C14139>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_immunodeficiency> (Immunodeficiency data element)
@@ -956,6 +1043,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_immunodefi
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_immunodeficiency> <http://purl.obolibrary.org/obo/MONDO_0021094>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_immunodeficiency> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_immunodeficiency> "Immunodeficiency (NOT including HIV)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immunodeficiency> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immunodeficiency> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0021094>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition> (Immunosuppressive condition data element)
@@ -964,6 +1052,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_immunosupp
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition> <http://purl.obolibrary.org/obo/NCIT_C178942>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition> "Immunosuppressive condition")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_immunosuppressive_condition> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C178942>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_insomnia> (Insomnia data element)
@@ -972,6 +1061,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_insomnia> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_insomnia> <http://purl.obolibrary.org/obo/MONDO_0013600>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_insomnia> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_insomnia> "Insomnia")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_insomnia> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_insomnia> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0013600>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_insurance> (Insurance data element)
@@ -980,6 +1070,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_insurance>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_insurance> <http://purl.obolibrary.org/obo/NCIT_C157356>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_insurance> <https://github.com/bmir-radx/gcbo/InsuranceStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_insurance> "What kind of health insurance do you have?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_insurance> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_insurance> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C157356>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_iv_drug_use> (Intravenous drug use data element)
@@ -988,6 +1079,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_iv_drug_us
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_iv_drug_use> <http://purl.obolibrary.org/obo/NCIT_C84367>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_iv_drug_use> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_iv_drug_use> "Intravenous drug use")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_iv_drug_use> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_iv_drug_use> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C84367>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> (Lifetime alcohol use data element)
@@ -998,6 +1090,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_lifetime
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> <http://purl.obolibrary.org/obo/NCIT_C81229>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> "In your entire life, have you had at least 1 drink of any kind of alcohol, not counting small tastes or sips? (Yes or No)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0000131>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C16273>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_lifetime_use_alcohol> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C81229>))
@@ -1008,6 +1101,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_liver_dise
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_liver_disease> <http://purl.obolibrary.org/obo/MONDO_0005154>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_liver_disease> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_liver_disease> "Liver disease (cirrhosis, hepB, hepC)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_liver_disease> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_liver_disease> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005154>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_lupus> (Lupus data element)
@@ -1016,6 +1110,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_lupus> "Lu
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_lupus> <http://purl.obolibrary.org/obo/MONDO_0004670>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_lupus> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_lupus> "Lupus")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_lupus> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_lupus> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004670>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_memory> (Memory data element)
@@ -1029,6 +1124,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_memory> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_memory> <http://purl.obolibrary.org/obo/SYMP_0020029>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_memory> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_memory> "Because of a physical, mental, or emotional condition, do you have serious difficulty concentrating, remembering, or making decisions?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_memory> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_memory> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0002039>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_memory> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000233>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_memory> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000543>))
@@ -1042,6 +1138,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_mental_hea
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_mental_health_disorder> <http://purl.obolibrary.org/obo/MONDO_0005084>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_mental_health_disorder> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_mental_health_disorder> "Mental health disorder")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_mental_health_disorder> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_mental_health_disorder> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005084>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_migraines> (Migraines data element)
@@ -1050,6 +1147,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_migraines>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_migraines> <http://purl.obolibrary.org/obo/MONDO_0005277>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_migraines> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_migraines> "Migraines")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_migraines> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_migraines> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005277>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_ms> (Multiple sclerosis data element)
@@ -1058,6 +1156,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_ms> "Multi
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_ms> <http://purl.obolibrary.org/obo/MONDO_0005301>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_ms> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_ms> "Multiple Sclerosis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ms> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ms> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005301>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_muscle_ache> (Muscle ache data element)
@@ -1066,6 +1165,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_muscle_ach
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_muscle_ache> <http://purl.obolibrary.org/obo/SYMP_0000626>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_muscle_ache> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_muscle_ache> "Muscle ache")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_muscle_ache> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_muscle_ache> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000626>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> (Nausea/vomiting/diarrhea data element)
@@ -1076,6 +1176,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_nausea_v
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> <http://purl.obolibrary.org/obo/SYMP_0019145>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> "Nausea, vomiting, or diarrhea")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000458>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000570>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nausea_vomiting_diarrhea> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0019145>))
@@ -1086,6 +1187,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_neuro_shak
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_neuro_shakes> <http://purl.obolibrary.org/obo/SYMP_0000662>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_neuro_shakes> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_neuro_shakes> "Unusual shivering or shaking")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_neuro_shakes> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_neuro_shakes> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000662>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_neurodegenerative> (Neurodegenerative disease data element)
@@ -1094,6 +1196,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_neurodegen
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_neurodegenerative> <http://purl.obolibrary.org/obo/MONDO_0005559>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_neurodegenerative> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_neurodegenerative> "Neurodegenerative disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_neurodegenerative> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_neurodegenerative> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005559>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_neurological_condition> (Neurological condition data element)
@@ -1102,6 +1205,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_neurologic
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_neurological_condition> <http://purl.obolibrary.org/obo/MONDO_0005071>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_neurological_condition> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_neurological_condition> "Neurological Condition")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_neurological_condition> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_neurological_condition> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005071>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_nicotine_yn> (Nicotine data element)
@@ -1112,9 +1216,24 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_nicotine
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_nicotine_yn> <http://purl.obolibrary.org/obo/NCIT_C691>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_nicotine_yn> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_nicotine_yn> "Nicotine use (Yes or No)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nicotine_yn> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nicotine_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C173060>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nicotine_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C68751>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_nicotine_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C691>))
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> (No chronic condition data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> "No chronic condition data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> "No chronic condition")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> <https://github.com/bmir-radx/gcbo/DataElement>)
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_no_sympt> (No symptoms data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_no_sympt> "No symptoms data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_no_sympt> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_no_sympt> "None of the above")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_no_sympt> <https://github.com/bmir-radx/gcbo/DataElement>)
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_numb_extremities> (Numb extremities data element)
 
@@ -1122,6 +1241,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_numb_extre
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_numb_extremities> <http://purl.obolibrary.org/obo/SYMP_0000834>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_numb_extremities> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_numb_extremities> "Tingling or numbness or swelling of hands and feet")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_numb_extremities> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_numb_extremities> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000834>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_obesity> (Obesity data element)
@@ -1130,6 +1250,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_obesity> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_obesity> <http://purl.obolibrary.org/obo/MONDO_0011122>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_obesity> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_obesity> "Obesity (BMI >= 30)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_obesity> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_obesity> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0011122>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_olfactory> (Loss of taste or smell data element)
@@ -1138,6 +1259,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_olfactory>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_olfactory> <http://purl.obolibrary.org/obo/SYMP_0020004>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_olfactory> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_olfactory> "New loss of taste or smell")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_olfactory> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_olfactory> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0020004>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_osteoporosis> (Osteoporosis data element)
@@ -1146,6 +1268,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_osteoporos
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_osteoporosis> <http://purl.obolibrary.org/obo/MONDO_0005298>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_osteoporosis> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_osteoporosis> "Osteoporosis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_osteoporosis> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_osteoporosis> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005298>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_other_chronic_cond> (Other chronic condition data element)
@@ -1154,6 +1277,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_other_chro
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_other_chronic_cond> <http://purl.obolibrary.org/obo/NCIT_C165593>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_other_chronic_cond> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_other_chronic_cond> "Other chronic condition")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_other_chronic_cond> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_other_chronic_cond> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C165593>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_other_symp> (Other symptoms data element)
@@ -1162,6 +1286,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_other_symp
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_other_symp> <http://purl.obolibrary.org/obo/SYMP_0000462>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_other_symp> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_other_symp> "Other")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_other_symp> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_other_symp> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000462>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_othermh> (Other mental health disorder data element)
@@ -1170,6 +1295,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_othermh> "
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_othermh> <http://purl.obolibrary.org/obo/MONDO_0002025>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_othermh> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_othermh> "Other mental health disorder")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_othermh> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_othermh> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0002025>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_pcos> (Polycystic ovary syndrome data element)
@@ -1178,6 +1304,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_pcos> "Pol
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_pcos> <http://purl.obolibrary.org/obo/MONDO_0008487>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_pcos> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_pcos> "Polycystic ovary syndrome")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_pcos> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_pcos> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0008487>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_pregnancy> (Pregnancy data element)
@@ -1186,7 +1313,15 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_pregnancy>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_pregnancy> <http://purl.obolibrary.org/obo/NCIT_C69218>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_pregnancy> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_pregnancy> "Pregnancy status")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_pregnancy> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_pregnancy> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C69218>))
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_premature_birth> (Premature birth data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_premature_birth> "Premature birth data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_premature_birth> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_premature_birth> "History of premature birth (being born before 37 weeks of pregnancy)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_premature_birth> <https://github.com/bmir-radx/gcbo/DataElement>)
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_psoriasis> (Osoriasis data element)
 
@@ -1194,6 +1329,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_psoriasis>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_psoriasis> <http://purl.obolibrary.org/obo/MONDO_0005083>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_psoriasis> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_psoriasis> "Psoriasis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_psoriasis> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_psoriasis> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005083>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_ra> (Rheumatoid arthritis data element)
@@ -1202,7 +1338,15 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_ra> "Rheum
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_ra> <http://purl.obolibrary.org/obo/MONDO_0008383>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_ra> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_ra> "Rheumatoid Arthritis")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ra> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ra> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0008383>))
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_race> (Race data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_race> "Race data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_race> <https://github.com/bmir-radx/gcbo/RaceSection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_race> "What is your race?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_race> <https://github.com/bmir-radx/gcbo/DataElement>)
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_rash_toes> (Rash/toes data element)
 
@@ -1210,7 +1354,15 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_rash_toes>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_rash_toes> <http://purl.obolibrary.org/obo/NCIT_C2962>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_rash_toes> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_rash_toes> "Red or purple rash or lesions on toes")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_rash_toes> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_rash_toes> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C2962>))
+
+# Class: <https://github.com/bmir-radx/gcbo/nih_record_id> (Record ID data element)
+
+AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_record_id> "Record ID data element")
+AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_record_id> <https://github.com/bmir-radx/gcbo/IdentitySection>)
+AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_record_id> "User ID")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_record_id> <https://github.com/bmir-radx/gcbo/DataElement>)
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_red_eyes> (Red eyes data element)
 
@@ -1219,6 +1371,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_red_eyes
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_red_eyes> <http://purl.obolibrary.org/obo/SYMP_0000828>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_red_eyes> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_red_eyes> "Red or painful eyes")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_red_eyes> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_red_eyes> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000446>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_red_eyes> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000828>))
 
@@ -1228,6 +1381,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_renal> "Re
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_renal> <http://purl.obolibrary.org/obo/MONDO_0005240>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_renal> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_renal> "Renal disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_renal> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_renal> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005240>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_rls> (Restless leg data element)
@@ -1236,6 +1390,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_rls> "Rest
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_rls> <http://purl.obolibrary.org/obo/MONDO_0005391>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_rls> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_rls> "Restless leg")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_rls> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_rls> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005391>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_seasonal_allergies> (Seasonal allergies data element)
@@ -1244,6 +1399,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_seasonal_a
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_seasonal_allergies> <http://purl.obolibrary.org/obo/MONDO_0005324>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_seasonal_allergies> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_seasonal_allergies> "Seasonal Allergies")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_seasonal_allergies> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_seasonal_allergies> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005324>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_seizures> (Seizures data element)
@@ -1252,6 +1408,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_seizures> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_seizures> <http://purl.obolibrary.org/obo/SYMP_0000124>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_seizures> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_seizures> "Seizures")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_seizures> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_seizures> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000124>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_serious_mental_illness> (Serious mental illness data element)
@@ -1260,6 +1417,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_serious_me
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_serious_mental_illness> <http://purl.obolibrary.org/obo/MONDO_0005084>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_serious_mental_illness> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_serious_mental_illness> "Serious mental illness")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_serious_mental_illness> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_serious_mental_illness> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005084>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_sex> (Sex data element)
@@ -1268,6 +1426,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_sex> "Sex 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_sex> <http://purl.obolibrary.org/obo/PATO_0000047>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_sex> <https://github.com/bmir-radx/gcbo/SexSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_sex> "What is your biological sex assigned at birth?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sex> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sex> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/PATO_0000047>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease> (Sickle cell disease data element)
@@ -1276,6 +1435,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_sickle_cel
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease> <http://purl.obolibrary.org/obo/MONDO_0017146>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease> "Sickle cell disease")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sickle_cell_disease> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0017146>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_skin_rash> (Skin rash data element)
@@ -1284,6 +1444,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_skin_rash>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_skin_rash> <http://purl.obolibrary.org/obo/SYMP_0000487>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_skin_rash> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_skin_rash> "Skin rash")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_skin_rash> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_skin_rash> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000487>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_sleep_apnea> (Sleep apnea data element)
@@ -1292,6 +1453,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_sleep_apne
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_sleep_apnea> <http://purl.obolibrary.org/obo/MONDO_0005296>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_sleep_apnea> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_sleep_apnea> "Sleep Apnea")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sleep_apnea> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sleep_apnea> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005296>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_slurred_peech> (Slurred speech data element)
@@ -1300,6 +1462,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_slurred_pe
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_slurred_peech> <http://purl.obolibrary.org/obo/SYMP_0000342>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_slurred_peech> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_slurred_peech> "Slurred speech")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_slurred_peech> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_slurred_peech> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000342>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_smoking_yn> (Smoking data element)
@@ -1309,6 +1472,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_smoking_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_smoking_yn> <http://purl.obolibrary.org/obo/NCIT_C17934>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_smoking_yn> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_smoking_yn> "Do you use any tobacco/nicotine products (including cigarettes, cigars, e-cigarettes, etc)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_smoking_yn> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_smoking_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0045002>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_smoking_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C17934>))
 
@@ -1319,6 +1483,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_stroke> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_stroke> <http://purl.obolibrary.org/obo/MONDO_0005264>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_stroke> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_stroke> "Stroke or TIA (Transient Ischemic Attack or Mini-Stroke)?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_stroke> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_stroke> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005098>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_stroke> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005264>))
 
@@ -1328,6 +1493,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_substance_
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_substance_use> <http://purl.obolibrary.org/obo/NCIT_C18272>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_substance_use> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_substance_use> "Substance use")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_substance_use> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_substance_use> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C18272>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_sweating> (Sweating data element)
@@ -1336,6 +1502,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_sweating> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_sweating> <http://purl.obolibrary.org/obo/SYMP_0019152>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_sweating> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_sweating> "Excessive sweating")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sweating> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_sweating> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0019152>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_t1d> (Type 1 diabetes data element)
@@ -1344,6 +1511,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_t1d> "Type
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_t1d> <http://purl.obolibrary.org/obo/MONDO_0005147>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_t1d> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_t1d> "Type 1 Diabetes")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_t1d> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_t1d> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005147>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_t2dm> (Type 2 diabetes data element)
@@ -1352,6 +1520,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_t2dm> "Typ
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_t2dm> <http://purl.obolibrary.org/obo/MONDO_0005148>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_t2dm> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_t2dm> "Type 2 Diabetes")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_t2dm> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_t2dm> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005148>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_thalassemia> (Thalassemia data element)
@@ -1360,6 +1529,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_thalassemi
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_thalassemia> <http://purl.obolibrary.org/obo/MONDO_0000984>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_thalassemia> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_thalassemia> "Thalassemia")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_thalassemia> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_thalassemia> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0000984>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> (Throat/congestion/nose data element)
@@ -1370,6 +1540,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_throat_c
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> <http://purl.obolibrary.org/obo/SYMP_0000505>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> "Sore throat, congestion or runny nose")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000237>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000372>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_throat_congestion_nose> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000505>))
@@ -1381,6 +1552,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_thyroid>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_thyroid> <http://purl.obolibrary.org/obo/MONDO_0005420>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_thyroid> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_thyroid> "Hypo/Hyper Thyroidism")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_thyroid> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_thyroid> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0004425>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_thyroid> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/MONDO_0005420>))
 
@@ -1391,6 +1563,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_tobacco>
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_tobacco> <http://purl.obolibrary.org/obo/NCIT_C154329>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_tobacco> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_tobacco> "Tobacco Use")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_tobacco> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_tobacco> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NBO_0045002>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_tobacco> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C154329>))
 
@@ -1403,6 +1576,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_vape_fre
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_vape_freq> <http://purl.obolibrary.org/obo/NCIT_C68751>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_vape_freq> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_vape_freq> "http://purl.obolibrary.org/obo/Vaping Frequency_ Do you now use electronic cigarettes every day, some days, rarely, or not at all?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vape_freq> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vape_freq> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C120482>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vape_freq> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C173060>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vape_freq> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C173621>))
@@ -1415,6 +1589,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_vaping_y
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_vaping_yn> <http://purl.obolibrary.org/obo/NCIT_C68751>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_vaping_yn> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_vaping_yn> "Vaping use (Yes or No)")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vaping_yn> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vaping_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C173621>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_vaping_yn> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C68751>))
 
@@ -1425,6 +1600,7 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_walk_cli
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_walk_climb> <http://purl.obolibrary.org/obo/NCIT_C175910>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_walk_climb> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_walk_climb> "Do you have serious difficulty walking or climbing stairs?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_walk_climb> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_walk_climb> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C111629>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_walk_climb> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C175910>))
 
@@ -1434,6 +1610,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_weight> "W
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_weight> <http://purl.obolibrary.org/obo/PATO_0000125>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_weight> <https://github.com/bmir-radx/gcbo/HealthStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_weight> "What is your weight in pounds?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_weight> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_weight> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/PATO_0000125>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_weight_category> (Weight category data element)
@@ -1442,6 +1619,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_weight_cat
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_weight_category> <http://purl.obolibrary.org/obo/PATO_0000125>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_weight_category> <https://github.com/bmir-radx/gcbo/HealthStatusSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_weight_category> "Approximately what is your weight?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_weight_category> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_weight_category> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/PATO_0000125>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_wheezing> (Wheezing data element)
@@ -1450,6 +1628,7 @@ AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_wheezing> 
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_wheezing> <http://purl.obolibrary.org/obo/SYMP_0000604>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_wheezing> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_wheezing> "Wheezing")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_wheezing> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_wheezing> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/SYMP_0000604>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_zip> (ZIP code data element)
@@ -1459,29 +1638,9 @@ AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_zip> <ht
 AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_zip> <http://purl.obolibrary.org/obo/NCIT_C25720>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_zip> <https://github.com/bmir-radx/gcbo/DomicileSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_zip> "What is your zip code?")
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_zip> <https://github.com/bmir-radx/gcbo/DataElement>)
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_zip> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C25621>))
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_zip> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C25720>))
 
 
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_disability> "Disability data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_disability> <https://github.com/bmir-radx/gcbo/DisabilityStatusSection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_disability> "Do you have a disability, including serious physical or mental conditions, that interfere with your ability to carry out daily activities?")
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_health_status> "Health status data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_health_status> <https://github.com/bmir-radx/gcbo/HealthStatusSection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_health_status> "Would you say that (your) health in general is excellent, very good, good, fair, or poor?")
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> "No chronic condition data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_no_chronic_condition> "No chronic condition")
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_no_sympt> "No symptoms data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_no_sympt> <https://github.com/bmir-radx/gcbo/SymptomsSection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_no_sympt> "None of the above")
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_premature_birth> "Premature birth data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_premature_birth> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_premature_birth> "History of premature birth (being born before 37 weeks of pregnancy)")
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_race> "Race data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_race> <https://github.com/bmir-radx/gcbo/RaceSection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_race> "What is your race?")
-AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_record_id> "Record ID data element")
-AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_record_id> <https://github.com/bmir-radx/gcbo/IdentitySection>)
-AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_record_id> "User ID")
 )

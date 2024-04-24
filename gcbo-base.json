@@ -16,9 +16,9 @@
         "val" : "Global Code Book Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-04-23"
+        "val" : "2024-04-24"
       } ],
-      "version" : "https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-23/gcbo-base.json"
+      "version" : "https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-24/gcbo-base.json"
     }
   } ]
 }

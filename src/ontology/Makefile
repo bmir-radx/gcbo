@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                f9839a3f36bbe3dabe5f047933ec6472ab1aca7aa95d4dd660ed95f7c2bec321
+CONFIG_HASH=                6104b1946933ac730934d10fb19766a81202c01448823d72879e6a6610533441
 
 
 # ----------------------------------------
@@ -165,7 +165,7 @@ all_main: $(MAIN_FILES)
 # ----------------------------------------
 
 
-IMPORTS =  hp mondo nbo ncit pato symp
+IMPORTS =  mondo nbo ncit pato symp
 
 IMPORT_ROOTS = $(patsubst %, $(IMPORTDIR)/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -410,14 +410,6 @@ MIR=true # Global parameter to bypass mirror generation
 IMP_LARGE=true # Global parameter to bypass handling of large imports
 
 ifeq ($(strip $(MIR)),true)
-
-
-## ONTOLOGY: hp
-.PHONY: mirror-hp
-.PRECIOUS: $(MIRRORDIR)/hp.owl
-mirror-hp: | $(TMPDIR)
-	curl -L $(OBOBASE)/hp.owl --create-dirs -o $(TMPDIR)/hp-download.owl --retry 4 --max-time 200 && \
-	$(ROBOT) convert -i $(TMPDIR)/hp-download.owl -o $(TMPDIR)/$@.owl
 
 
 ## ONTOLOGY: mondo

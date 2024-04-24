@@ -8,13 +8,14 @@
      xmlns:gcbo="https://github.com/bmir-radx/gcbo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:schema="https://schema.org/">
+     xmlns:schema="https://schema.org/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://github.com/bmir-radx/gbco/gcbo/gcbo-simple.owl">
-        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-23/gcbo-simple.owl"/>
+        <owl:versionIRI rdf:resource="https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-24/gcbo-simple.owl"/>
         <terms:description>None</terms:description>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Global Code Book Ontology</terms:title>
-        <owl:versionInfo>2024-04-23</owl:versionInfo>
+        <owl:versionInfo>2024-04-24</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -51,6 +52,18 @@
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title">
         <rdfs:label>title</rdfs:label>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SynonymTypeProperty"/>
     
 
 
