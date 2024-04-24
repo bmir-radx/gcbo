@@ -26,3 +26,8 @@ annotations:
   text: '%s'
   vars:
   - data_element_text
+
+subClassOf:
+  text: "'data element'"
+  vars:
+  - data_element_name
