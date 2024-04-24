@@ -11,7 +11,6 @@ BMIR:nih_employment	NCIT:C179143
 BMIR:nih_employment	NCIT:C25172
 BMIR:nih_insurance	NCIT:C157356
 BMIR:nih_deaf	SYMP:0000019
-BMIR:nih_deaf	HP:0000364
 BMIR:nih_blind	MONDO:0001941
 BMIR:nih_memory	SYMP:0000719
 BMIR:nih_memory	SYMP:0000543

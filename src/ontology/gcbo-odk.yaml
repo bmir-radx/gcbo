@@ -18,7 +18,6 @@ export_formats:
   - json
 import_group:
   products: 
-    - id: hp
     - id: mondo
     - id: nbo
     - id: ncit

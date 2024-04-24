@@ -4,7 +4,6 @@
 
   
   
-  <uri name="https://github.com/bmir-radx/gcbo/gcbo/imports/hp_import.owl" uri="imports/hp_import.owl"/>
   <uri name="https://github.com/bmir-radx/gcbo/gcbo/imports/mondo_import.owl" uri="imports/mondo_import.owl"/>
   <uri name="https://github.com/bmir-radx/gcbo/gcbo/imports/nbo_import.owl" uri="imports/nbo_import.owl"/>
   <uri name="https://github.com/bmir-radx/gcbo/gcbo/imports/ncit_import.owl" uri="imports/ncit_import.owl"/>

@@ -12,7 +12,6 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 Ontology(<https://github.com/bmir-radx/gcbo/gcbo.owl>
 
 
-Import(<https://github.com/bmir-radx/gcbo/gcbo/imports/hp_import.owl>)
 Import(<https://github.com/bmir-radx/gcbo/gcbo/imports/mondo_import.owl>)
 Import(<https://github.com/bmir-radx/gcbo/gcbo/imports/nbo_import.owl>)
 Import(<https://github.com/bmir-radx/gcbo/gcbo/imports/pato_import.owl>)
