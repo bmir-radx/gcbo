@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://github.com/bmir-radx/gbco/gcbo/patterns/definitions.owl>
-<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-24/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-04-24")
+<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-30/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-04-30")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000984>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001493>))
