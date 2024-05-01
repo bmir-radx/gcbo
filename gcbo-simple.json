@@ -1,6 +1,6 @@
 {
   "graphs" : [ {
-    "id" : "https://github.com/bmir-radx/gbco/gcbo/gcbo-simple.json",
+    "id" : "https://github.com/bmir-radx/gcbo/gcbo-simple.json",
     "meta" : {
       "basicPropertyValues" : [ {
         "pred" : "http://purl.org/dc/terms/description",
@@ -13,9 +13,9 @@
         "val" : "Global Code Book Ontology"
       }, {
         "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
-        "val" : "2024-04-30"
+        "val" : "2024-05-01"
       } ],
-      "version" : "https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-30/gcbo-simple.json"
+      "version" : "https://github.com/bmir-radx/gcbo/releases/2024-05-01/gcbo-simple.json"
     },
     "nodes" : [ {
       "id" : "http://purl.org/dc/terms/description",

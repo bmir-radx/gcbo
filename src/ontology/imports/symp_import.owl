@@ -1,4 +1,4 @@
-Prefix(:=<https://github.com/bmir-radx/gbco/gcbo/imports/symp_import.owl#>)
+Prefix(:=<https://github.com/bmir-radx/gcbo/imports/symp_import.owl#>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
@@ -6,10 +6,10 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<https://github.com/bmir-radx/gbco/gcbo/imports/symp_import.owl>
-<https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-30/imports/symp_import.owl>
+Ontology(<https://github.com/bmir-radx/gcbo/imports/symp_import.owl>
+<https://github.com/bmir-radx/gcbo/releases/2024-05-01/imports/symp_import.owl>
 Annotation(<http://purl.org/dc/elements/1.1/source> <http://purl.obolibrary.org/obo/symp/releases/2024-02-09/symp.owl>)
-Annotation(owl:versionInfo "2024-04-30")
+Annotation(owl:versionInfo "2024-05-01")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0000016>))
 Declaration(Class(<http://purl.obolibrary.org/obo/SYMP_0000019>))

@@ -1,1 +1,152 @@
 Level	Rule Name	Subject	Property	Value
+ERROR	duplicate_label	Chronic obstructive pulmonary disease data element	rdfs:label	Chronic obstructive pulmonary disease data element
+ERROR	duplicate_label	Chronic obstructive pulmonary disease data element	rdfs:label	Chronic obstructive pulmonary disease data element
+ERROR	duplicate_label	Chronic lung disease data element	rdfs:label	Chronic lung disease data element
+ERROR	duplicate_label	Chronic lung disease data element	rdfs:label	Chronic lung disease data element
+WARN	missing_definition	Age Section	IAO:0000115	
+WARN	missing_definition	Disability Status Section	IAO:0000115	
+WARN	missing_definition	Domicile Section	IAO:0000115	
+WARN	missing_definition	Education Level Section	IAO:0000115	
+WARN	missing_definition	Education Years Section	IAO:0000115	
+WARN	missing_definition	Employment Section	IAO:0000115	
+WARN	missing_definition	Ethnicity Section	IAO:0000115	
+WARN	missing_definition	Health Status Section	IAO:0000115	
+WARN	missing_definition	Identity Section	IAO:0000115	
+WARN	missing_definition	Insurance Status Section	IAO:0000115	
+WARN	missing_definition	Medical History Section	IAO:0000115	
+WARN	missing_definition	Race Section	IAO:0000115	
+WARN	missing_definition	Sex Section	IAO:0000115	
+WARN	missing_definition	Symptoms Section	IAO:0000115	
+WARN	missing_definition	Abdom pain data element	IAO:0000115	
+WARN	missing_definition	Atrial fibrillation data element	IAO:0000115	
+WARN	missing_definition	Age data element	IAO:0000115	
+WARN	missing_definition	Alcohol substance abuse data element	IAO:0000115	
+WARN	missing_definition	Alcohol frequency data element	IAO:0000115	
+WARN	missing_definition	Alcohol use data element	IAO:0000115	
+WARN	missing_definition	Alcohol past year data element	IAO:0000115	
+WARN	missing_definition	Alzheimers data element	IAO:0000115	
+WARN	missing_definition	Anemia data element	IAO:0000115	
+WARN	missing_definition	Anxiety data element	IAO:0000115	
+WARN	missing_definition	Appetite data element	IAO:0000115	
+WARN	missing_definition	Arrhythmia data element	IAO:0000115	
+WARN	missing_definition	Arthritis data element	IAO:0000115	
+WARN	missing_definition	Asthma data element	IAO:0000115	
+WARN	missing_definition	Autoimmune disease data element	IAO:0000115	
+WARN	missing_definition	Balance data element	IAO:0000115	
+WARN	missing_definition	Blind data element	IAO:0000115	
+WARN	missing_definition	Blue lips data element	IAO:0000115	
+WARN	missing_definition	Cancer data element	IAO:0000115	
+WARN	missing_definition	Active cancer treatment data element	IAO:0000115	
+WARN	missing_definition	Cancer diagnosis past year data element	IAO:0000115	
+WARN	missing_definition	Cardiovascular disease data element	IAO:0000115	
+WARN	missing_definition	Cystic fibrosis data element	IAO:0000115	
+WARN	missing_definition	Chronic heart disease data element	IAO:0000115	
+WARN	missing_definition	Congestive heart failure data element	IAO:0000115	
+WARN	missing_definition	Cholesterol data element	IAO:0000115	
+WARN	missing_definition	Chronic kidney disease data element	IAO:0000115	
+WARN	missing_definition	Chronic kidney disease treatment data element	IAO:0000115	
+WARN	missing_definition	Chronic lung disease data element	IAO:0000115	
+WARN	missing_definition	Chronic lung disease data element	IAO:0000115	
+WARN	missing_definition	Chronic pain data element	IAO:0000115	
+WARN	missing_definition	Cigarettes smoke frequency data element	IAO:0000115	
+WARN	missing_definition	Chronic lung disease bronchopulmonary dysplasia data element	IAO:0000115	
+WARN	missing_definition	Confusion data element	IAO:0000115	
+WARN	missing_definition	Conjunctivitis data element	IAO:0000115	
+WARN	missing_definition	Chronic obstructive pulmonary disease data element	IAO:0000115	
+WARN	missing_definition	Chronic obstructive pulmonary disease data element	IAO:0000115	
+WARN	missing_definition	Coronary artery disease data element	IAO:0000115	
+WARN	missing_definition	Coronary artery disease angina data element	IAO:0000115	
+WARN	missing_definition	Cough data element	IAO:0000115	
+WARN	missing_definition	Deaf data element	IAO:0000115	
+WARN	missing_definition	Depression data element	IAO:0000115	
+WARN	missing_definition	Diabetes data element	IAO:0000115	
+WARN	missing_definition	Difficulty breathing data element	IAO:0000115	
+WARN	missing_definition	Disability data element	IAO:0000115	
+WARN	missing_definition	Dress/Bathe data element	IAO:0000115	
+WARN	missing_definition	Education data element	IAO:0000115	
+WARN	missing_definition	Education years data element	IAO:0000115	
+WARN	missing_definition	Employment data element	IAO:0000115	
+WARN	missing_definition	Errand data element	IAO:0000115	
+WARN	missing_definition	Ethnicity data element	IAO:0000115	
+WARN	missing_definition	Fatigue data element	IAO:0000115	
+WARN	missing_definition	Fever chills data element	IAO:0000115	
+WARN	missing_definition	Fibromyalgia data element	IAO:0000115	
+WARN	missing_definition	Gastroesophageal reflux disease data element	IAO:0000115	
+WARN	missing_definition	Gestational diabetes data element	IAO:0000115	
+WARN	missing_definition	Headache data element	IAO:0000115	
+WARN	missing_definition	Health status data element	IAO:0000115	
+WARN	missing_definition	Heart attack data element	IAO:0000115	
+WARN	missing_definition	Heart condition data element	IAO:0000115	
+WARN	missing_definition	Height data element	IAO:0000115	
+WARN	missing_definition	Height category data element	IAO:0000115	
+WARN	missing_definition	High temperature data element	IAO:0000115	
+WARN	missing_definition	Smoking history data element	IAO:0000115	
+WARN	missing_definition	HIV data element	IAO:0000115	
+WARN	missing_definition	Hypertension data element	IAO:0000115	
+WARN	missing_definition	Inflammatory bowel disease data element	IAO:0000115	
+WARN	missing_definition	Irritable bowel syndrome data element	IAO:0000115	
+WARN	missing_definition	Immuno compromised solid organ data element	IAO:0000115	
+WARN	missing_definition	Immunocompromised data element	IAO:0000115	
+WARN	missing_definition	Immunodeficiency data element	IAO:0000115	
+WARN	missing_definition	Immunosuppressive condition data element	IAO:0000115	
+WARN	missing_definition	Insomnia data element	IAO:0000115	
+WARN	missing_definition	Insurance data element	IAO:0000115	
+WARN	missing_definition	Intravenous drug use data element	IAO:0000115	
+WARN	missing_definition	Lifetime alcohol use data element	IAO:0000115	
+WARN	missing_definition	Liver disease data element	IAO:0000115	
+WARN	missing_definition	Lupus data element	IAO:0000115	
+WARN	missing_definition	Memory data element	IAO:0000115	
+WARN	missing_definition	Mental health disorder data element	IAO:0000115	
+WARN	missing_definition	Migraines data element	IAO:0000115	
+WARN	missing_definition	Multiple sclerosis data element	IAO:0000115	
+WARN	missing_definition	Muscle ache data element	IAO:0000115	
+WARN	missing_definition	Nausea/vomiting/diarrhea data element	IAO:0000115	
+WARN	missing_definition	Shaking data element	IAO:0000115	
+WARN	missing_definition	Neurodegenerative disease data element	IAO:0000115	
+WARN	missing_definition	Neurological condition data element	IAO:0000115	
+WARN	missing_definition	Nicotine data element	IAO:0000115	
+WARN	missing_definition	No chronic condition data element	IAO:0000115	
+WARN	missing_definition	No symptoms data element	IAO:0000115	
+WARN	missing_definition	Numb extremities data element	IAO:0000115	
+WARN	missing_definition	Obesity data element	IAO:0000115	
+WARN	missing_definition	Loss of taste or smell data element	IAO:0000115	
+WARN	missing_definition	Osteoporosis data element	IAO:0000115	
+WARN	missing_definition	Other chronic condition data element	IAO:0000115	
+WARN	missing_definition	Other symptoms data element	IAO:0000115	
+WARN	missing_definition	Other mental health disorder data element	IAO:0000115	
+WARN	missing_definition	Polycystic ovary syndrome data element	IAO:0000115	
+WARN	missing_definition	Pregnancy data element	IAO:0000115	
+WARN	missing_definition	Premature birth data element	IAO:0000115	
+WARN	missing_definition	Osoriasis data element	IAO:0000115	
+WARN	missing_definition	Rheumatoid arthritis data element	IAO:0000115	
+WARN	missing_definition	Race data element	IAO:0000115	
+WARN	missing_definition	Rash/toes data element	IAO:0000115	
+WARN	missing_definition	Record ID data element	IAO:0000115	
+WARN	missing_definition	Red eyes data element	IAO:0000115	
+WARN	missing_definition	Renal disease data element	IAO:0000115	
+WARN	missing_definition	Restless leg data element	IAO:0000115	
+WARN	missing_definition	Seasonal allergies data element	IAO:0000115	
+WARN	missing_definition	Seizures data element	IAO:0000115	
+WARN	missing_definition	Serious mental illness data element	IAO:0000115	
+WARN	missing_definition	Sex data element	IAO:0000115	
+WARN	missing_definition	Sickle cell disease data element	IAO:0000115	
+WARN	missing_definition	Skin rash data element	IAO:0000115	
+WARN	missing_definition	Sleep apnea data element	IAO:0000115	
+WARN	missing_definition	Slurred speech data element	IAO:0000115	
+WARN	missing_definition	Smoking data element	IAO:0000115	
+WARN	missing_definition	Stroke data element	IAO:0000115	
+WARN	missing_definition	Substance use data element	IAO:0000115	
+WARN	missing_definition	Sweating data element	IAO:0000115	
+WARN	missing_definition	Type 1 diabetes data element	IAO:0000115	
+WARN	missing_definition	Type 2 diabetes data element	IAO:0000115	
+WARN	missing_definition	Thalassemia data element	IAO:0000115	
+WARN	missing_definition	Throat/congestion/nose data element	IAO:0000115	
+WARN	missing_definition	Thyroid data element	IAO:0000115	
+WARN	missing_definition	Tobacco use data element	IAO:0000115	
+WARN	missing_definition	Vape frequency data element	IAO:0000115	
+WARN	missing_definition	Vaping data element	IAO:0000115	
+WARN	missing_definition	Walk/Climb data element	IAO:0000115	
+WARN	missing_definition	Weight data element	IAO:0000115	
+WARN	missing_definition	Weight category data element	IAO:0000115	
+WARN	missing_definition	Wheezing data element	IAO:0000115	
+WARN	missing_definition	ZIP code data element	IAO:0000115	

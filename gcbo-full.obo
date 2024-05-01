@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-30/gcbo-full.owl
+data-version: https://github.com/bmir-radx/gcbo/releases/2024-05-01/gcbo-full.owl
 subsetdef: attribute_slim ""
 subsetdef: clingen ""
 subsetdef: disease_grouping ""
@@ -200,11 +200,11 @@ synonymtypedef: CLINGEN_LABEL ""
 synonymtypedef: DEPRECATED ""
 synonymtypedef: DUBIOUS ""
 synonymtypedef: OMO:0003005 ""
-ontology: https://github.com/bmir-radx/gbco/gcbo/gcbo-full.owl
+ontology: https://github.com/bmir-radx/gcbo/gcbo-full.owl
 property_value: http://purl.org/dc/terms/description "None" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "Global Code Book Ontology" xsd:string
-property_value: owl:versionInfo "2024-04-30" xsd:string
+property_value: owl:versionInfo "2024-05-01" xsd:string
 
 [Term]
 id: BFO:0000001
@@ -33450,8 +33450,8 @@ subset: NCIT:C157711
 subset: NCIT:C177537
 synonym: "Smoking" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 synonym: "Smoking" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
-synonym: "Smoking" EXACT [] {NCIT:P384="CTRP", NCIT:P383="DN"}
 synonym: "Smoking" EXACT [] {NCIT:P383="PT", NCIT:P384="CPTAC"}
+synonym: "Smoking" EXACT [] {NCIT:P384="CTRP", NCIT:P383="DN"}
 synonym: "Smoking" EXACT [] {NCIT:P383="PT", NCIT:P384="GDC"}
 is_a: NCIT:C19683 ! Personal Behavior
 property_value: NCIT:A32 NCIT:C16457
@@ -34063,8 +34063,8 @@ synonym: "Education" EXACT [] {NCIT:P384="SeroNet", NCIT:P383="PT"}
 synonym: "Education" EXACT [] {NCIT:P386="PCC", NCIT:P383="PT", NCIT:P384="ACC/AHA"}
 synonym: "Education Level" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 synonym: "Education Level" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
-synonym: "Education Level" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
 synonym: "Education Level" EXACT [] {NCIT:P383="PT", NCIT:P384="OORO", NCIT:P386="PC"}
+synonym: "Education Level" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
 synonym: "education level" EXACT [] {NCIT:P383="SY", NCIT:P385="VAR", NCIT:P384="GDC"}
 synonym: "Education Level Completed" EXACT [] {NCIT:P383="SY", NCIT:P384="NCI"}
 synonym: "education_level" EXACT [] {NCIT:P383="PT", NCIT:P385="VAR", NCIT:P384="GDC"}
@@ -38839,8 +38839,8 @@ id: NCIT:C20189
 name: Property or Attribute
 def: "A distinguishing quality or prominent aspect of a person, object, action, process, or substance." [] {NCIT:P378="NCI"}
 subset: NCIT:C90259
-synonym: "Property or Attribute" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 synonym: "Property or Attribute" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
+synonym: "Property or Attribute" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 disjoint_from: NCIT:C43431 ! Activity
 disjoint_from: NCIT:C7057 ! Disease, Disorder or Finding
 disjoint_from: NCIT:C97325 ! Manufactured Object
@@ -38907,11 +38907,11 @@ subset: NCIT:C97181
 subset: NCIT:C97185
 synonym: "CODE" EXACT [] {NCIT:P385="CDISC-OBSCLS", NCIT:P383="PT", NCIT:P384="CDISC"}
 synonym: "Code" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
-synonym: "Code" EXACT [] {NCIT:P383="PT", NCIT:P384="CDISC", NCIT:P385="DDF-DDF Entities"}
 synonym: "Code" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
+synonym: "Code" EXACT [] {NCIT:P383="PT", NCIT:P384="CDISC", NCIT:P385="DDF-DDF Entities"}
 synonym: "Code" EXACT [] {NCIT:P383="PT", NCIT:P384="CDISC", NCIT:P385="DDF-Attr Response Code"}
-synonym: "code" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "code" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 3.0.3"}
+synonym: "code" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "code" EXACT [] {NCIT:P383="PT", NCIT:P384="PCDC"}
 synonym: "Code Name" EXACT [] {NCIT:P386="eCTD", NCIT:P383="PT", NCIT:P384="FDA"}
 synonym: "Coding System" EXACT [] {NCIT:P383="SY", NCIT:P384="NCI"}
@@ -38957,8 +38957,8 @@ subset: NCIT:C89506
 subset: NCIT:C90259
 synonym: "Individual" EXACT [] {NCIT:P383="SY", NCIT:P384="NCI"}
 synonym: "Person" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
-synonym: "Person" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "Person" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 3.0.3"}
+synonym: "Person" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "Person" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
 synonym: "Person" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
 is_a: NCIT:C20181 ! Conceptual Entity
@@ -39003,8 +39003,8 @@ synonym: "Intervention or Procedure" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 synonym: "Intervention Strategies" EXACT [] {NCIT:P383="SY", NCIT:P384="NCI"}
 synonym: "Interventional" EXACT [] {NCIT:P383="AD", NCIT:P384="NCI"}
 synonym: "Interventional Procedure Type" EXACT [] {NCIT:P383="PT", NCIT:P384="OORO", NCIT:P386="PC"}
-synonym: "interventionDescription" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "interventionDescription" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 3.0.3"}
+synonym: "interventionDescription" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "Procedure" EXACT [] {NCIT:P383="SY", NCIT:P384="NICHD"}
 synonym: "Procedure" EXACT [] {NCIT:P383="SY", NCIT:P384="NCI"}
 synonym: "procedure" EXACT [] {NCIT:P383="PT", NCIT:P386="ICDC", NCIT:P384="ICDC"}
@@ -39592,8 +39592,8 @@ synonym: "Immune disorder, NOS" EXACT [] {NCIT:P383="PT", NCIT:P384="CTEP", NCIT
 synonym: "Immune Disorders" EXACT [] {NCIT:P383="SY", NCIT:P384="CPTAC"}
 synonym: "Immune Dysfunction" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
 synonym: "Immune System Disorder" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
-synonym: "Immune System Disorder" EXACT [] {NCIT:P384="CTRP", NCIT:P383="DN"}
 synonym: "Immune System Disorder" EXACT [] {NCIT:P383="PT", NCIT:P384="CPTAC"}
+synonym: "Immune System Disorder" EXACT [] {NCIT:P384="CTRP", NCIT:P383="DN"}
 synonym: "Immune System Disorder" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 synonym: "Immune System Disorder" EXACT [] {NCIT:P383="PT", NCIT:P384="Cellosaurus"}
 synonym: "Immunologic Disorder" EXACT [] {NCIT:P383="PT", NCIT:P384="PCDC", NCIT:P386="HL"}
@@ -39959,8 +39959,8 @@ subset: NCIT:C159501
 subset: NCIT:C159503
 synonym: "Activity" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
 synonym: "Activity" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
-synonym: "Activity" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "Activity" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 3.0.3"}
+synonym: "Activity" EXACT [] {NCIT:P383="PT", NCIT:P384="BRIDG 5.3"}
 synonym: "General activity" EXACT [] {NCIT:P383="SY", NCIT:P384="caDSR"}
 disjoint_from: NCIT:C7057 ! Disease, Disorder or Finding
 disjoint_from: NCIT:C97325 ! Manufactured Object
@@ -40138,8 +40138,8 @@ subset: NCIT:C124325
 subset: NCIT:C61410
 subset: NCIT:C69186
 subset: NCIT:C77526
-synonym: "Pregnancy Status" EXACT [] {NCIT:P383="SY", NCIT:P384="CDISC"}
 synonym: "Pregnancy Status" EXACT [] {NCIT:P385="SEND-PYTEST", NCIT:P383="PT", NCIT:P384="CDISC"}
+synonym: "Pregnancy Status" EXACT [] {NCIT:P383="SY", NCIT:P384="CDISC"}
 synonym: "Pregnancy Status" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
 synonym: "Pregnancy Status" EXACT [] {NCIT:P383="PT", NCIT:P384="DICOM"}
 synonym: "PREGSTAT" EXACT [] {NCIT:P383="PT", NCIT:P384="CDISC", NCIT:P385="SEND-PYTESTCD"}
@@ -40336,8 +40336,8 @@ id: NCIT:C92720
 name: Pregnancy Finding
 def: "Symptoms, signs, diagnostic examinations or a test results in a pregnant mother." [] {NCIT:P378="NCI"}
 subset: NCIT:C90259
-synonym: "Pregnancy Finding" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
 synonym: "Pregnancy Finding" EXACT [] {NCIT:P383="PT", NCIT:P384="NCI"}
+synonym: "Pregnancy Finding" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
 is_a: NCIT:C117720 ! Female Reproductive System Finding
 property_value: NCIT:NHC0 "C92720" xsd:string
 property_value: NCIT:P106 "Finding" xsd:string
@@ -40384,8 +40384,8 @@ synonym: "Cancer" EXACT [] {NCIT:P383="SY", NCIT:P384="NCI"}
 synonym: "Cancer" EXACT [] {NCIT:P384="SeroNet", NCIT:P383="PT"}
 synonym: "Cancer" EXACT [] {NCIT:P383="PT", NCIT:P385="3262", NCIT:P386="CDRH", NCIT:P384="FDA"}
 synonym: "Cancer" EXACT [] {NCIT:P383="SY", NCIT:P384="CDISC"}
-synonym: "Cancer" EXACT [] {NCIT:P383="SY", NCIT:P384="GDC"}
 synonym: "Cancer" EXACT [] {NCIT:P383="PT", NCIT:P384="NICHD"}
+synonym: "Cancer" EXACT [] {NCIT:P383="SY", NCIT:P384="GDC"}
 synonym: "cancer" EXACT [] {NCIT:P383="PT", NCIT:P385="CDR0000045333", NCIT:P384="NCI-GLOSS"}
 synonym: "Malignancy" EXACT [] {NCIT:P383="SY", NCIT:P384="CDISC"}
 synonym: "Malignancy" EXACT [] {NCIT:P383="SY", NCIT:P384="GDC"}
@@ -51112,7 +51112,7 @@ def: "A relation that holds between the disease and a process where the physical
 comment: Editor note: TODO property chain: disease_has_location <- dhbido o occurs_in
 xref: RO:0004021
 range: BFO:0000015 ! process
-is_a: disease_disrupts ! disease disrupts
+is_a: disease_disrupts ! disease causes disruption of
 is_a: RO:0004019 ! disease has basis in
 transitive_over: part_of ! part_of
 

@@ -1,9 +1,9 @@
 format-version: 1.2
-data-version: https://github.com/bmir-radx/gbco/gcbo/releases/2024-04-30/gcbo-base.owl
-ontology: https://github.com/bmir-radx/gbco/gcbo/gcbo-base.owl
+data-version: https://github.com/bmir-radx/gcbo/releases/2024-05-01/gcbo-base.owl
+ontology: https://github.com/bmir-radx/gcbo/gcbo-base.owl
 property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/description "None" xsd:string
 property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
 property_value: http://purl.org/dc/terms/title "Global Code Book Ontology" xsd:string
-property_value: owl:versionInfo "2024-04-30" xsd:string
+property_value: owl:versionInfo "2024-05-01" xsd:string
 
