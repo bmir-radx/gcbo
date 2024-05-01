@@ -1,5 +1,5 @@
 
-![Build Status](https://github.com/ckindermann/gbco/actions/workflows/qc.yml/badge.svg)
+![Build Status](https://github.com/bmir-radx/gcbo/actions/workflows/qc.yml/badge.svg)
 # Global Code Book Ontology
 
 Description: None
@@ -22,7 +22,7 @@ Editors of this ontology should use the edit version, [src/ontology/gcbo-edit.ow
 
 ## Contact
 
-Please use this GitHub repository's [Issue tracker](https://github.com/ckindermann/gbco/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Please use this GitHub repository's [Issue tracker](https://github.com/bmir-radx/gcbo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
 ## Acknowledgements
 

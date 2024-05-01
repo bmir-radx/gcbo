@@ -18,8 +18,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
-site_url: https://ckindermann.github.io/gbco/
-repo_url: https://github.com/ckindermann/gbco/
+site_url: https://bmir-radx.github.io/gbco/
+repo_url: https://github.com/bmir-radx/gcbo
 
 nav:
   - Getting started: index.md

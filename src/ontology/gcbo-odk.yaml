@@ -1,6 +1,6 @@
 id: gcbo
 title: "Global Code Book Ontology"
-github_org: ckindermann
+github_org: bmir-radx
 repo: gbco
 use_dosdps: true
 dosdp_tools_options: "--obo-prefixes=true --prefixes=config/prefixes.yaml"
