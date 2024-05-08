@@ -2,9 +2,15 @@
 ![Build Status](https://github.com/bmir-radx/gcbo/actions/workflows/qc.yml/badge.svg)
 # Global Code Book Ontology
 
-Description: None
+Description: An initial version of the Global Code Book Ontology. The ontology represents information specified in the RADx Global Codebook. See the [RADx Data Hub Global Instruction Manual](https://tools.niehs.nih.gov/dr2/files/radx_data_hub_global_instruction_manual_508.pdf) for more information.
 
 More information can be found at http://obofoundry.org/ontology/gcbo
+
+## Documentation
+
+Documentation for GCBO can be found [here](https://bmir-radx.github.io/gcbo/).
+
+Standard workflows for ontology editors, curators, and maintainers to contribute to the ontology are described [here](https://bmir-radx.github.io/gcbo/odk-workflows/).
 
 ## Versions
 
