@@ -4,8 +4,6 @@
 
 Description: An initial version of the Global Code Book Ontology. The ontology represents information specified in the RADx Global Codebook. See the [RADx Data Hub Global Instruction Manual](https://tools.niehs.nih.gov/dr2/files/radx_data_hub_global_instruction_manual_508.pdf) for more information.
 
-More information can be found at http://obofoundry.org/ontology/gcbo
-
 ## Documentation
 
 Documentation for GCBO can be found [here](https://bmir-radx.github.io/gcbo/).
