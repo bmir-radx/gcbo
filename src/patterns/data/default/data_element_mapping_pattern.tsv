@@ -167,3 +167,5 @@ BMIR:nih_height	PATO:0000119
 BMIR:nih_weight	PATO:0000125
 BMIR:nih_height_category	PATO:0000119
 BMIR:nih_weight_category	PATO:0000125
+BMIR:nih_race	NCIT:C17049
+BMIR:nih_premature_birth	NCIT:C92861
