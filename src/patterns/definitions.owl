@@ -7,8 +7,8 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://github.com/bmir-radx/gcbo/patterns/definitions.owl>
-<https://github.com/bmir-radx/gcbo/releases/2024-05-01/patterns/definitions.owl>
-Annotation(owl:versionInfo "2024-05-01")
+<https://github.com/bmir-radx/gcbo/releases/2024-10-03/patterns/definitions.owl>
+Annotation(owl:versionInfo "2024-10-03")
 
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0000984>))
 Declaration(Class(<http://purl.obolibrary.org/obo/MONDO_0001493>))
@@ -84,6 +84,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C157356>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C16273>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C165593>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C16564>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C17049>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C173060>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C173621>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C175910>))
@@ -105,6 +106,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C691>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C69218>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C81229>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C84367>))
+Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C92861>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C9305>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C95544>))
 Declaration(Class(<http://purl.obolibrary.org/obo/NCIT_C95549>))
@@ -1319,9 +1321,11 @@ SubClassOf(<https://github.com/bmir-radx/gcbo/nih_pregnancy> ObjectSomeValuesFro
 # Class: <https://github.com/bmir-radx/gcbo/nih_premature_birth> (Premature birth data element)
 
 AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_premature_birth> "Premature birth data element")
+AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_premature_birth> <http://purl.obolibrary.org/obo/NCIT_C92861>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_premature_birth> <https://github.com/bmir-radx/gcbo/MedicalHistorySection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_premature_birth> "History of premature birth (being born before 37 weeks of pregnancy)")
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_premature_birth> <https://github.com/bmir-radx/gcbo/DataElement>)
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_premature_birth> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C92861>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_psoriasis> (Osoriasis data element)
 
@@ -1344,9 +1348,11 @@ SubClassOf(<https://github.com/bmir-radx/gcbo/nih_ra> ObjectSomeValuesFrom(<http
 # Class: <https://github.com/bmir-radx/gcbo/nih_race> (Race data element)
 
 AnnotationAssertion(rdfs:label <https://github.com/bmir-radx/gcbo/nih_race> "Race data element")
+AnnotationAssertion(rdfs:seeAlso <https://github.com/bmir-radx/gcbo/nih_race> <http://purl.obolibrary.org/obo/NCIT_C17049>)
 AnnotationAssertion(<https://github.com/bmir-radx/gcbo/isInSection> <https://github.com/bmir-radx/gcbo/nih_race> <https://github.com/bmir-radx/gcbo/RaceSection>)
 AnnotationAssertion(<https://schema.org/text> <https://github.com/bmir-radx/gcbo/nih_race> "What is your race?")
 SubClassOf(<https://github.com/bmir-radx/gcbo/nih_race> <https://github.com/bmir-radx/gcbo/DataElement>)
+SubClassOf(<https://github.com/bmir-radx/gcbo/nih_race> ObjectSomeValuesFrom(<https://github.com/bmir-radx/gcbo/isAssociatedWith> <http://purl.obolibrary.org/obo/NCIT_C17049>))
 
 # Class: <https://github.com/bmir-radx/gcbo/nih_rash_toes> (Rash/toes data element)
 
